@@ -1,8 +1,0 @@
-question:
-  - '(?)'
-
-bug:
-  - '(bug|issue|problem)'
-
-enhancement:
-  - '(enhancement|feature)'
