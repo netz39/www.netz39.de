@@ -2,7 +2,7 @@
 layout: page
 title: Impressum
 permalink: /impressum/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/pexels-karol-d-841228.jpg"
 tags: [Page]
 ---
 
@@ -10,29 +10,26 @@ tags: [Page]
 
 ## Angaben gemäß § 5 TMG:
 
-> Netz39 e.V.
-> Leibnizstraße 32
-> 39104 Magdeburg
+    Netz39 e.V.
+    Leibnizstraße 32
+    39104 Magdeburg
 
     Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: Maximilian Grau
 
 ## Vertreten durch:
 
-- Maximilian Grau [Link ins Wiki](https://www.netz39.de/wiki/user:mg-95)
-- Timo Herrmann [Link ins Wiki](https://www.netz39.de/wiki/user:timo)
+- Maximilian Grau ([Link ins Wiki](https://www.netz39.de/wiki/user:mg-95))
+- Timo Herrmann ([Link ins Wiki](https://www.netz39.de/wiki/user:timo))
 
 ## Kontakt
 
-### Telefon
-
-- +49 391 58245281
 ### E-Mail
 
 - kontakt (at) netz39 (dot) de
 
 ## Spenden
 
-Spenden sind willkommen. Wir können auf Wunsch auch Spendenquittungen ausstellen (Gemeinnützigkeit des Vereins wurde durch das Finanzamt festgestellt). Die Kontoverbindung gibt es auf Anfrage.
+Spenden sind willkommen. Die Gemeinnützigkeit des Vereins wurde durch das Finanzamt festgestellt, aus dem Grund können wir auf Wunsch auch Spendenquittungen ausstellen. Die Kontoverbindung gibt es auf Anfrage.
 
 ## Registergericht
 
@@ -59,6 +56,6 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 
-Weiterführende Informationen insbesondere im Sinne der EU-Datenschutzgrundverordnung (DSGVO) finden Sie unter http://www.netz39.de/datenschutz/
+Weiterführende Informationen insbesondere im Sinne der EU-Datenschutzgrundverordnung (DSGVO) finden Sie unter https://www.netz39.de/datenschutz/
 
 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
