@@ -32,7 +32,8 @@ mail:
   pre: "mailto:"
   icon: "fas fa-envelope"
 map:
-  pre: "https://www.openstreetmap.org/#map=15/"
+  pre: "https://www.openstreetmap.org/"
+  pos: "&zoom=19"
   icon: "fas fa-map-marked"
 mastodon:
   pre: "https://"

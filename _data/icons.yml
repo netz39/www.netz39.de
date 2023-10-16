@@ -3,19 +3,20 @@
 behance:
 bitbucket:
 calendly:
+discord: https://discord.com/invite/8FcDvAf
 dribbble:
-facebook:
+facebook: Netz39
 flickr:
-github: sylhare
+github: Netz39
 gitlab:
 google-scholar:   # e.g. "WXAAOb0AAAAJ"
 instagram:
 hacker-news:
 keybase:
 linkedin:
-mail:             # e.g. "sam@mail.com"
-map:              # e.g. "34.0886/-118.3191"
-mastodon:         # e.g. "fostodon.org/@sam"
+mail: kontakt@netz39.de # e.g. "sam@mail.com"
+map: ?mlat=52.1195724&mlon=11.6291814 #52.1195724/11.6291814 # e.g. "34.0886/-118.3191"
+mastodon: machteburch.social/@netz39 # e.g. "fostodon.org/@sam"
 matrix:           # e.g. "@sam:matrix.org"
 medium:
 patreon:
@@ -30,8 +31,9 @@ steam:
 telegram:
 tumblr:
 twitch:
-twitter:
+twitter: Netz39
 vimeo:
 vk:
+wikipedia-w: https://wiki.netz39.de
 wordpress:
 youtube:          # e.g. "UCqECaJ8Gagnn7YCbPEzWH6g"
