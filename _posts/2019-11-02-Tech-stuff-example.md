@@ -1,4 +1,5 @@
 ---
+author: dkdent
 layout: post
 title: Tech Stuff example
 color: rgb(250, 50, 50)
