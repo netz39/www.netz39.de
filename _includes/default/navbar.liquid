@@ -12,19 +12,11 @@
 		</a>
 	</div>
 
-    <!-- Spacestatus -->
-    <div class="spacestatus">
-        <a href="https://www.netz39.de/status/" style="padding-left: 2px;">
-            <img alt="status" src="https://spaceapi.n39.eu/state.png" target="_blank" width="200" height="40">
-        </a>
-	</div>
-
     <!-- Toggle menu -->
     <nav class="clear">
     <a aria-label="pull" id="pull" class="toggle" href="#">
     <i class="fas fa-bars fa-lg"></i>
     </a>
-
     
     <!-- Menu -->
     <ul class="hide">
@@ -47,7 +39,8 @@
         <li class="separator"> | </li>
         <li><a id="theme-toggle" title="{{ page.title }} " aria-label="{{ page.title }}" onclick="themeToggle()"></a></li>
         {% endif %}
+        <!-- Spacestatus -->
+        <li><a href="https://www.netz39.de/status/"><img alt="status" src="https://spaceapi.n39.eu/state.png" width="200" height="40"></a></li>
     </ul>
-
 	</nav>
 </header>
