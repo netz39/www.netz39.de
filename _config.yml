@@ -3,7 +3,7 @@ baseurl: "/"
 url: "https://www.netz39.de"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Netz39 e.V                                       # site's title
+title: Netz39 e.V.                                      # site's title
 description: "Magdeburger Hackerspace"                  # used by search engines
 avatar: assets/img/logo/netz39-logo-final.svg           # Empty for no avatar in navbar
 favicon: assets/img/logo/netz39-logo-icon.svg           # Icon displayed in the tab
