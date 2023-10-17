@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Linux-Stammtisch im Oktober verschoben"
 date: "2018-10-01"

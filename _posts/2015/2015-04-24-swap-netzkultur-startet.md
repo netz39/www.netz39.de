@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "Swap Netzkultur startet"
 date: "2015-04-24"
@@ -8,6 +9,8 @@ tags:
   - "netzkultur"
   - "netzpolitik"
   - "swap"
+feature-img: "assets/img/post-img/2015/swap-nk-logo.png"
+thumbnail: "assets/img/post-img/2015/swap-nk-logo.png"
 ---
 
 Auch dieses Jahr unterstützen wir den Swap der Landeszentrale für Politische Bildung. Die Veranstaltung beginnt heute im Halle (Saale). Das Programm findet ihr [hier](http://www.swap-netzkultur.de).

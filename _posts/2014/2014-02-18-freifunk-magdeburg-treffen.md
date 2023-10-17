@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "Freifunk Magdeburg Treffen"
 date: "2014-02-18"
@@ -18,4 +19,4 @@ Auf der aktuellen Tagesordnung (21.02.2014) sind die Entwickelung der Infrastruk
 
 Interessierte sind herzlich eingeladen :-)
 
-weitere Infos gibt es unter [http://md.freifunk.net/](http://md.freifunk.net/)
+weitere Infos gibt es unter [https://md.freifunk.net/](https://md.freifunk.net/)

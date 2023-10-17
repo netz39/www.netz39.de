@@ -1,7 +1,10 @@
 ---
+author: franz
 layout: post
 title: "Fotografie-Workshop - Makrofotografie"
 date: "2018-08-19"
+feature-img: "assets/img/post-img/2018/led_resized.jpg"
+thumbnail: "assets/img/post-img/2018/led_resized.jpg"
 ---
 
 Am Samstag, den 18.08.2018 haben sich interessierte Hobbyfotografen getroffen, um das Thema Makrofotografie näher _(sehr, sehr nah!)_ zu beleuchten. Zuerst wurde die Theorie hinter der Makrofotografie etwas erläutert. Ein wesentlicher Punkt ist dabei das Spiel mit der Abbildungsgleichung:
@@ -12,4 +15,4 @@ Einfach gesagt: Packt man das Objektiv mit Zwischenringen weiter von der Kamera 
 
 Nach den theoretischen Erläuterungen wurden dann die Kameras gezückt. Durch den Austausch von Equipment kamen dabei einige von uns in den Genuss neues bzw. bisher unbekanntes Fotografiezubehör zu benutzen. Am Abend sind wir dann noch die Fotos des Tages durchgegangen und haben bei einigen Aufnahmen gerätselt, um welche Objekte es sich handelt.
 
-![](images/chip_resized-400x266.jpg) ![](images/led_resized-400x266.jpg)
+![](/assets/img/post-img/2018/chip_resized.jpg) | ![](/assets/img/post-img/2018/led_resized.jpg)

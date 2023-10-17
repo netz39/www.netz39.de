@@ -1,4 +1,5 @@
 ---
+author: zwobot
 layout: post
 title: "TechTalk: Was tut der Verfassungsschutz im Netz und wieso?"
 date: "2017-04-20"

@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "TechTalk: Usability von digitalen Produkten"
 date: "2016-02-16"
@@ -9,7 +10,7 @@ tags:
   - "usability"
 ---
 
-Für den [Vortrag im Februar](http://www.netz39.de/events/event/techtalk-usability-von-digitalen-produkten/) konnten wir Nadine von [UCD+](https://ucdplus.com/) gewinnen, die uns spannende Dinge über Usability erzählen wird:
+Für den [Vortrag im Februar](https://www.netz39.de/events/event/techtalk-usability-von-digitalen-produkten/) konnten wir Nadine von [UCD+](https://ucdplus.com/) gewinnen, die uns spannende Dinge über Usability erzählen wird:
 
 Was genau ist Usability eigentlich? Mit welchen Methoden kann ich die Usability meiner Software/App/Website verbessern?
 

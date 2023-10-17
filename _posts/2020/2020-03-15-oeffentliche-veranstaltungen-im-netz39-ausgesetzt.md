@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Öffentliche Veranstaltungen im Netz39 ausgesetzt"
 date: "2020-03-15"

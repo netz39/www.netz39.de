@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "Weihnachsworkshopwochen im Space"
 date: "2013-11-12"
@@ -7,6 +8,8 @@ categories:
 tags: 
   - "weihnachten"
   - "workshop"
+feature-img: "assets/img/post-img/2013/netz39-feature01.jpg"
+thumbnail: "assets/img/post-img/2013/netz39-feature01.jpg"
 ---
 
 Wir wollen die Vorweihnachtszeit nutzen, um den Space bekannter zu machen, an Geschenken zu arbeiten und natürlich neue Dinge zu lernen.

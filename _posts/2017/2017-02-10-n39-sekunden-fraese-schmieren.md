@@ -12,4 +12,4 @@ tags:
 
 In diesem kurzen Clip erklärt Peter wie einfach die Stepcraft 840 Fräse im Hackerspace neu geschmiert werden kann.
 
-https://www.youtube.com/watch?v=meZG8agCek4&feature=youtu.be
+[![](https://img.youtube.com/vi/meZG8agCek4/0.jpg)](https://www.youtube.com/watch?v=meZG8agCek4)

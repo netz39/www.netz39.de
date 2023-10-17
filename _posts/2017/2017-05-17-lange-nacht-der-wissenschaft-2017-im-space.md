@@ -1,4 +1,5 @@
 ---
+author: franz
 layout: post
 title: "Lange Nacht der Wissenschaft 2017 im Space"
 date: "2017-05-17"

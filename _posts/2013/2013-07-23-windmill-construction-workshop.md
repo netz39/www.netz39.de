@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "Windmill construction workshop"
 date: "2013-07-23"
@@ -10,7 +11,7 @@ tags:
 
 # Windmill construction workshop
 
-![image](images/windmill-construction-workshop.jpg)
+![image](/assets/img/post-img/2013/windmill-construction-workshop.jpg)
 
 **Details**
 

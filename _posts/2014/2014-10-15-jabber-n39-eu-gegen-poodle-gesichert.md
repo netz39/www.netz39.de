@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "jabber.n39.eu gegen poodle gesichert"
 date: "2014-10-15"

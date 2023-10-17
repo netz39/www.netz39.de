@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "ATtiny85 with 16MHz"
 date: "2014-01-03"
@@ -14,12 +15,12 @@ Der AVR kann noch mit anderen Taktraten laufen, laut Datenblatt mit bis zu 20 MH
 
 Laut Datenblatt will man CKSEL zu 0001 haben statt der 0010, die default eingestellt sind und den internen RC-Oscillator auswählen. Mit Hilfe des [Fuse Calculator](http://www.engbedded.com/fusecalc) bekommt man raus, dass die low fuse von default `0x62` auf `0x61` gesetzt werden muss, wenn man vom default ausgeht und nur CKSEL ändern will. Mit avrdude geht das so:
 
-avrdude -p t85 -P usb -c usbtiny -U lfuse:w:0x61:m
+    avrdude -p t85 -P usb -c usbtiny -U lfuse:w:0x61:m
 
 Damit läuft das Ding mit 16 MHz und eine grobe Überschlagsrechnung zeigt, dass die LED dann eine »Framerate« von etwas über 30 Hz hat und das sieht flackerfrei aus und schön smooth … :-)
 
 Zurücksetzen auf default wäre dann übrigens so:
 
-avrdude -p t85 -P usb -c usbtiny -U lfuse:w:0x62:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+    avrdude -p t85 -P usb -c usbtiny -U lfuse:w:0x62:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
 Da werden dann auch die anderen beiden Fuses gesetzt.

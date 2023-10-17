@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Erfolgreicher Linux Presentation Day 2019.2"
 date: "2019-11-16"

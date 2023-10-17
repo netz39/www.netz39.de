@@ -1,4 +1,5 @@
 ---
+author: zwobot
 layout: post
 title: "TechTalk im Januar: Heike Diebler zu Gast zum Thema Energieeffizienz in der Industrie"
 date: "2015-01-28"

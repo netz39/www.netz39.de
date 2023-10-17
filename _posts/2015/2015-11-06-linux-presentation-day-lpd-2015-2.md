@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Linux Presentation Day (LPD) 2015.2"
 date: "2015-11-06"

@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Netz39 bei den Magdeburger Gesprächen"
 date: "2015-10-12"

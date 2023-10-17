@@ -12,4 +12,4 @@ Uwe von Premium Cola hat uns angesprochen und angeboten mit/bei uns einen Worksh
 
 Termin ist für **2014-10-16 19:30 Uhr** festgelegt, das ist ein Donnerstag. Was genau passieren wird, hängt ein bisschen davon ab, wieviel Leute kommen. Die Anzahl der Teilnehmer\*innen ist auf 39 begrenzt. Wir bitten daher um formlose, vorherige **Anmeldung per E-Mail** an [alex@netz39.de](mailto:alex@netz39.de).
 
-Nachtrag: [die Folien](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/09/netz39-workshop-konsensdemokratie.pdf).
+Nachtrag: [die Folien](/assets/pdf/2014/netz39-workshop-konsensdemokratie.pdf).
