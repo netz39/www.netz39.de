@@ -17,4 +17,4 @@ Freunde festlich geformten Sperrholzes sind auch dieses Jahr wieder so richtig a
 
 Sollte jetzt jemand so richtig angefräst sein: Das Processing3-Script für den persönlichen Sternenhimmel ist [hier zu finden](https://github.com/benjaminht/xmasishHexagonalPattern).
 
-\[caption id="attachment\_2751" align="alignnone" width="400"\][![](images/stern-400x255.jpg)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2018/12/stern.jpg) Ein Exemplar in freier Wildbahn\[/caption\]
+[caption id="attachment_2751" align="alignnone" width="400"][![](images/stern-400x255.jpg)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2018/12/stern.jpg) Ein Exemplar in freier Wildbahn[/caption]

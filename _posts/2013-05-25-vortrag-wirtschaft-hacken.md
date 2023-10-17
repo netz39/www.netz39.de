@@ -9,6 +9,8 @@ tags:
   - "wirtschaft-hacken"
 ---
 
+# Vortrag: Wirtschaft hacken
+
 Vortrag von [Uwe Lübbermann](https://twitter.com/luebbermann) von [Premium Cola](http://www.premium-cola.de/) über alternatives Wirtschaften in Deutschland.
 
 Wirtschaft muss wachsen. Gewinne machen. Professionell geführt werden. Immer effizienter arbeiten. Werbung betreiben.

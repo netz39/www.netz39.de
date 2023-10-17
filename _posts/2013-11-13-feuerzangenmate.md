@@ -11,7 +11,7 @@ tags:
 
 Im Rahmen unserer [Social Soljanka](http://www.netz39.de/events/termine/) -(zweiwöchentliche gemütliche Runde zum Nölen, Spielen und Schnacken) haben findige Hacker des Netz39 die extrem leckere Feuerzangen-Mate entwickelt. Dazu passen Keksen aus selbstgedruckten Plätzchenausstechern.
 
-\[nggallery id=13\]
+[nggallery id=13]
 
 ## Materialen
 

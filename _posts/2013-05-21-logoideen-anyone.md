@@ -8,6 +8,8 @@ tags:
   - "logo"
 ---
 
+# Logoideen anyone?
+
 Mit wachsender Bekanntheit in der Stadt und darüber hinaus wächst der Bedarf nach einem Signet zur einfachen visuellen Wiedererkennung unseres Vereins aka einem Logo. Wir haben seit langem eine Seite dazu im Wiki und es gab online wie offline schon hitzige Diskussionen über das wer, wann, wie, warum und wieviele.
 
 Fakt ist: wir wollen eins und wir wollen es bald und so gab es auf dem letzten Stammtisch den Entschluss, noch bis zum Ende dieses Monats Ideen zu sammeln und dann eine Abstimmung zu machen, welche Idee dann zu unserem offiziellen Logo werden wird.

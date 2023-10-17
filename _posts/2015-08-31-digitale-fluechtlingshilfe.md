@@ -11,11 +11,11 @@ tags:
   - "refugees"
 ---
 
-_Zusammenfassung_: Ehrenamtliche Initiativen aus Sachsen-Anhalt stellen für die Bewohner\_Innen von Flüchtlingsunterkünften im Land Sachsen-Anhalt einen kostenlosen Internetzugang via WLAN bereit. Es gibt weitere bereits Planungen für die Ausweitung des Vorhabens auf weitere Flüchtlingsunterkünfte, dafür werden noch Unterstützer gesucht.
+_Zusammenfassung_: Ehrenamtliche Initiativen aus Sachsen-Anhalt stellen für die Bewohner_Innen von Flüchtlingsunterkünften im Land Sachsen-Anhalt einen kostenlosen Internetzugang via WLAN bereit. Es gibt weitere bereits Planungen für die Ausweitung des Vorhabens auf weitere Flüchtlingsunterkünfte, dafür werden noch Unterstützer gesucht.
 
 _Pressmitteilung der Freifunk Gruppen in Sachsen-Anhalt_ **Freifunk möchte freies WLAN für alle Menschen in Sachsen-Anhalt ermöglichen. / Digitale Flüchtlingshilfe in Sachsen-Anhalt**
 
-Digitale Kommunikation spielt in unserer Gesellschaft eine immer wichtigere Rolle. So ist es uns ein Anliegen, Menschen zu helfen, welche in eben jener eingeschränkt sind. Als einen wichtigen Schritt konnten Freifunker Mitte Juli ein erstes Projekt zur Versorgung mit freiem Internet für Flüchtlinge in Magdeburg realisieren. Durch die Zusammenarbeit engagierter Bürger\_Innen, versierten Flüchtlingen, lokaler Wirtschaft und dem Engagement von der InitiativeFreifunk Magdeburg konnte das Projekt schnell realisiert werden.
+Digitale Kommunikation spielt in unserer Gesellschaft eine immer wichtigere Rolle. So ist es uns ein Anliegen, Menschen zu helfen, welche in eben jener eingeschränkt sind. Als einen wichtigen Schritt konnten Freifunker Mitte Juli ein erstes Projekt zur Versorgung mit freiem Internet für Flüchtlinge in Magdeburg realisieren. Durch die Zusammenarbeit engagierter Bürger_Innen, versierten Flüchtlingen, lokaler Wirtschaft und dem Engagement von der InitiativeFreifunk Magdeburg konnte das Projekt schnell realisiert werden.
 
 „_Wenige Tage nach Einschalten des ersten Zugangspunktes waren regelmäßig um die 20 Gäste im Netz_", so Michel Vorsprach von Freifunk Magdeburg. "_Seit dem 21.8. haben wir dann die Anzahl der Zugangspunkte verdoppelt. Über das Internet können Flüchtlinge Kontakt zur Familie halten, sich über die Lage in ihrem Heimatland informieren, wichtige Informationen zum Asylantrag finden und mit Beratern und Anwälten per E-Mail Kontakt halten. Leider ist von offizieller Seite bislang in keiner einzigen\* Flüchtlingsunterkünften in Sachsen-Anhalt freies WLAN verfügbar_“.(Parmalentarische Anfrage Drucksache 6/4056).
 

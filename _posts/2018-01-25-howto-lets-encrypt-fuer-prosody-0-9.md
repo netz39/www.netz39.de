@@ -28,8 +28,8 @@ VirtualHost "jabber.n39.eu"
                 key = "/etc/prosody/certs/jabber.n39.eu.key";
                 certificate = "/etc/prosody/certs/jabber.n39.eu.pem";
                 dhparam = "/etc/prosody/certs/dh-2048.pem";
-                -- TODO for post 0.10 see http://prosody.im/doc/advanced\_ssl\_config again
-                options = { "no\_sslv2", "no\_sslv3", "no\_ticket", "no\_compression", "cipher\_server\_preference", "single\_dh\_use", "single\_ecdh\_use" };
+                -- TODO for post 0.10 see http://prosody.im/doc/advanced_ssl_config again
+                options = { "no_sslv2", "no_sslv3", "no_ticket", "no_compression", "cipher_server_preference", "single_dh_use", "single_ecdh_use" };
         }
 
 Das dient hier im wesentlichen zu zeigen, wo bei uns Key und Zertifikat liegen. Die Zertifikatsdatei muss auch Root-Zertifikat und Intermediate-Zertifikate in der richtigen Reihenfolge enthalten. Details dazu gibt es in der Doku zu prosody ([Certificates](https://prosody.im/doc/certificates)), aber wir bekommen das später fertig von dehydrated.
@@ -71,13 +71,13 @@ Interessanter möglicherweise `/etc/dehydrated/config` – hier haben wir die Va
 # /usr/share/doc/dehydrated/README.Debian                   #
 #############################################################
 
-CONFIG\_D=/etc/dehydrated/conf.d
+CONFIG_D=/etc/dehydrated/conf.d
 BASEDIR=/var/lib/dehydrated
 #WELLKNOWN="${BASEDIR}/acme-challenges"
 WELLKNOWN="/var/www/dehydrated"
-DOMAINS\_TXT="/etc/dehydrated/domains.txt"
+DOMAINS_TXT="/etc/dehydrated/domains.txt"
 
-CONTACT\_EMAIL="admin@netz39.de"
+CONTACT_EMAIL="admin@netz39.de"
 LICENSE="https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf"
 #CA="https://acme-staging.api.letsencrypt.org/directory"
 
@@ -107,7 +107,7 @@ HOOK="${CERTDIR}/jabber.n39.eu/hook.sh"
 
 Ins selbe Verzeichnis haben wir dann `hook.sh` aus `/usr/share/doc/dehydrated/examples` kopiert und angepasst. (Für alle Nicht-Debian-Nutzer gibt es das komplette Skript (ohne Anpassungen) auch upstream: [hook.sh](https://github.com/lukas2511/dehydrated/blob/master/docs/examples/hook.sh))
 
-function deploy\_cert {
+function deploy_cert {
     local DOMAIN="${1}" KEYFILE="${2}" CERTFILE="${3}" FULLCHAINFILE="${4}" CHAINFILE="${5}" TIMESTAMP="${6}"
 
     # This hook is called once for each certificate that has been
@@ -129,9 +129,9 @@ function deploy\_cert {
     # - TIMESTAMP
     #   Timestamp when the specified certificate was created.
 
-        PROSODY\_CERT\_DIR='/etc/prosody/certs'
+        PROSODY_CERT_DIR='/etc/prosody/certs'
         service prosody stop
-        pushd ${PROSODY\_CERT\_DIR}
+        pushd ${PROSODY_CERT_DIR}
         mv "${DOMAIN}.key" "${DOMAIN}.$(date --iso-8601).key"
         cp "${KEYFILE}" "${DOMAIN}.key"
         chmod 600 "${DOMAIN}.key"
@@ -149,7 +149,7 @@ function deploy\_cert {
 Wie man leicht sieht, tun wir hier folgendes:
 
 - eine Variable mit dem Pfad für die certs von prosody anlegen
-- prosody stoppen (hier nutzen wir aus den [Prosody Community Modules](https://modules.prosody.im/) übrigens [mod\_graceful\_shutdown](https://modules.prosody.im/mod_graceful_shutdown.html))
+- prosody stoppen (hier nutzen wir aus den [Prosody Community Modules](https://modules.prosody.im/) übrigens [mod_graceful_shutdown](https://modules.prosody.im/mod_graceful_shutdown.html))
 - alten Key sichern
 - neuen Key hinkopieren
 - Rechte setzen

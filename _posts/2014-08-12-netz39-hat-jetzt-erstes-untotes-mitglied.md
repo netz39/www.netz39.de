@@ -19,4 +19,4 @@ Weils mein erstes Strick-"Kuscheltier" war, hab ichs relativ streng nach Anleitu
 
 **Kosten:** Kann ich gar nicht genau sagen, da man viele unterschiedliche Garnfarben und Zeugs braucht; es bleibt aber von allem massig übrig. Bzw. andersherum: Der Zombie könnte ein klassischer Resteverwerter sein, wenn man sie denn hat. Ich hatte die nicht und habe für ca. 70 Euro alles neu gekauft und hab jetzt noch Material für eine Zombiegroßfamilie.
 
-\[gallery ids="1488,1487,1489"\]
+[gallery ids="1488,1487,1489"]

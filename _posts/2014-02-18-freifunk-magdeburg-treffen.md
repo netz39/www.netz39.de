@@ -12,7 +12,7 @@ tags:
 
 Jede gerade Kalenderwoche (gKW) Freitags ab 19:00h trifft sich die Magdeburger Freifunk-Community im Netz39 in der Leibnizstraße 32, 39104 Magdeburg (Nahe Haltestelle Hasselbachplatz).
 
-Hier kannst du alles lernen was du für Freifunk brauchst - vom Antennenbau bis zur Access-Point-Konfiguration. Möglichkeiten mitzumachen bei Freifunk gibt es viele: als Netzwerker\_in, Software-Entwickler\_in, Autor\_in, Designer\_in oder Ideenpromoter\_in ...
+Hier kannst du alles lernen was du für Freifunk brauchst - vom Antennenbau bis zur Access-Point-Konfiguration. Möglichkeiten mitzumachen bei Freifunk gibt es viele: als Netzwerker_in, Software-Entwickler_in, Autor_in, Designer_in oder Ideenpromoter_in ...
 
 Auf der aktuellen Tagesordnung (21.02.2014) sind die Entwickelung der Infrastruktur (Firmware, Website, Wiki) sowie der Ausbau des Netzes.
 

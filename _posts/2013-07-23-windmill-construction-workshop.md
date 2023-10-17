@@ -8,6 +8,8 @@ tags:
   - "workshop"
 ---
 
+# Windmill construction workshop
+
 ![image](images/windmill-construction-workshop.jpg)
 
 **Details**
@@ -17,9 +19,9 @@ tags:
 - Costs: [Contact for more info and prices!](http://www.heinrichshorst.com/contact), 10 Euro/day drinks+sandwiches (if ordered)
 - Please register until July 28th!
 - Learn how to build your own windmill in just 5 days!!
-    
+
 - International windmill construction specialist [Hugh Piggott](http://scoraigwind.co.uk) from North West Scotland is coming to Schloss Heinrichshorst to teach you how to build a fully operational windmill.
-    
+
 
 This is a hands-on workshop, so not just theory!!
 

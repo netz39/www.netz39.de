@@ -10,6 +10,8 @@ tags:
   - "usv"
 ---
 
+# Network UPS Tools (NUT) unter Debian Wheezy mit einer MGE Ellipse 600
+
 Uninterrupted Power Supply (UPS) oder zu deutsch Unterbrechungsfreie Stromversorgung (USV) ist das, was man am Server haben will um sich gegen kurze oder längere Stromausfälle zu schützen, genauer um seine Hardware vor den Auswirkungen derselben zu schützen. Dicker Akku, bisschen Elektronik und schon läuft der Server weiter, wenn mal kurz der Strom weg ist. Zutaten für das Rezept heute: [Dell PowerEdge 1750](http://www.netz39.de/wiki/internal:inventory:computer:kant) mit installiertem [Debian](http://www.debian.org/) 7.0 aka Wheezy und eine gespendete [MGE Ellipse 600](http://powerquality.eaton.de/Products-services/Backup-Power-UPS/Ellipse-MAX.aspx). Als Software werden wir NUT installieren, das ist laut Internet wohl Weapon of Choice.
 
 Warum noch ein HowTo: nun ja, neue Version des Betriebssystems, Doku passt nicht, bisschen Rumbasteln nötig, Ihr kennt das.
@@ -36,14 +38,14 @@ For USB devices, permissions are automatically set by the
 Aber die Datei gibt's gar nicht, dafür gibt es `/lib/udev/rules.d/52-nut-usbups.rules` und die enthält:
 
 \# This file is generated and installed by the Network UPS Tools package.
-ACTION!="add|change", GOTO="nut-usbups\_rules\_end"
-SUBSYSTEM=="usb\_device", GOTO="nut-usbups\_rules\_real"
-SUBSYSTEM=="usb", GOTO="nut-usbups\_rules\_real"
-SUBSYSTEM!="usb", GOTO="nut-usbups\_rules\_end"
-LABEL="nut-usbups\_rules\_real"
+ACTION!="add|change", GOTO="nut-usbups_rules_end"
+SUBSYSTEM=="usb_device", GOTO="nut-usbups_rules_real"
+SUBSYSTEM=="usb", GOTO="nut-usbups_rules_real"
+SUBSYSTEM!="usb", GOTO="nut-usbups_rules_end"
+LABEL="nut-usbups_rules_real"
 #  various models  - usbhid-ups
 ATTR{idVendor}=="0463", ATTR{idProduct}=="ffff", MODE="664", GROUP="nut"
-LABEL="nut-usbups\_rules\_end"
+LABEL="nut-usbups_rules_end"
 
 Ah da haben wir ja Vendor- und Produkt-ID und das stimmt auch mit der Ausgabe von `lsusb` überein, wird nur irgendwie von udev noch nicht automatisch geladen. :-/ Es gibt dazu diverse Bugreports ((bspw. [660072](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=660072))) in Debian, alle geschlossen, obwohl es nicht auf Anhieb tut – naja sagen wir, obwohl es falsch oder unverständlich beschrieben ist. Jedenfalls dann nach `/etc/udev/rules.d` gehen und
 
@@ -59,7 +61,7 @@ MODE=standalone
 
 In `/etc/nut/ups.conf` konfigurieren wir dann den Treiber bzw. machen der Software bekannt, was wir für eine USV angeschlossen haben, indem wir einen Abschnitt hinzufügen:
 
-\[MGE\_something\]
+[MGE_something]
       driver = usbhid-ups
       port = auto
 
@@ -69,7 +71,7 @@ Ganz einfach, wenn man den USB-Teil mit udev vorher klar hat. Theoretisch kann m
 
 Zeit unser Gerät zu testen und zwar mit
 
-upsc MGE\_something@localhost | less
+upsc MGE_something@localhost | less
 
 was dann ungefähr folgendes ausgibt:
 
@@ -117,22 +119,22 @@ was dann ungefähr folgendes ausgibt:
 
 Gleich geschafft, nur noch zwei Dateien editieren. Erstmal `/etc/nut/upsd.users`
 
-\[admin\]
+[admin]
       password = 12345
       actions = set
       actions = fsd
       instcmds = all
 
-\[monmaster\]
+[monmaster]
       password = 12345
       upsmon master
 
- \[monslave\]
+ [monslave]
       password = 12345
       upsmon slave
 
 Die Erklärungen dafür kann man ausführlich in der Doku nachlesen. In kurz: wir haben verschiedene Nutzer, die verschiedene Dinge dürfen mit der USV und setzen da Berechtigungen und Passwörter ((Sichere Passwörter siehe [YouTube](https://www.youtube.com/watch?v=_JNGI1dI-e8))) und daher. Ja und zu guter letzt, warum wir den ganzen Kram hier eigentlich machen, wird dann in `/etc/nut/upsmon.conf` aktiviert, nämlich dass der Server auch sauber runterfährt, wenn der Strom zu lang weg bleibt. Da gibt's viele Erklärungen in der Datei, die defaults erschienen mir sinnvoll, so dass ich an passender Stelle nur eine Zeile hinzugefügt habe:
 
-MONITOR MGE\_something@localhost 1 monmaster 12345 master
+MONITOR MGE_something@localhost 1 monmaster 12345 master
 
 Damit läuft das erstmal so, dass der Rechner automatisch runterfährt nach ungefähr 10 Minuten. Weitere Überwachung mit munin oder nagios oder oder oder ist dann advanced topic. Für einfach nur mal eben schnell USV zum Laufen kriegen ist das HowTo hier ja auch lang genug. ;-)

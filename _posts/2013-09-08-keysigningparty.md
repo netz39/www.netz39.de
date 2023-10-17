@@ -10,6 +10,8 @@ tags:
   - "pgp"
 ---
 
+# Keysigningparty
+
 ## Pretty Good Privacy – Verschlüsselung für E-Mail und mehr
 
 In den letzten Wochen ist aus Vermutungen, dass das Internet umfassend überwacht wird, traurige Gewissheit geworden. Die Geheimdienste von Großbritannien und den U.S.A. schnorcheln alle Daten ab, derer sie habhaft werden können. Einen technischen Schutz der eigenen Privatsphäre kann Verschlüsselung bieten. Wie man E-Mails zwischen Empfänger und Absender verschlüsseln kann und warum das überhaupt sicher ist, wird Stefan Schumacher vom Magdeburger Institut für Sicherheitsforschung am Mittwoch, dem 9. Oktober in einem Einführungsvortrag im Netz39 e.V. erzählen. Beginn ist 19:00 Uhr in den Räumen in der Leibnizstraße 32.

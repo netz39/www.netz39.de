@@ -12,4 +12,4 @@ Machen wir bestimmt wieder! Bis zum nächsten festen Termin könnt ihr mit euren
 
 Wenn ihr ein spezielles Problem habt und Hilfe braucht: Mail an [kontakt@netz39.de](mailto:kontakt@netz39.de) (wir leiten an unsere Mitglieder-Mailingliste weiter) oder unsere Mailing-Liste direkt abonnieren (das geht [hier](https://www.netz39.de/lists/listinfo/netz39-list)) und dort um Hilfe bitten. Da findet sich im Zweifel jemand und ihr macht einen persönlichen Termin aus.
 
-\[gallery ids="2519,2525,2524,2523,2522,2521,2520"\]
+[gallery ids="2519,2525,2524,2523,2522,2521,2520"]

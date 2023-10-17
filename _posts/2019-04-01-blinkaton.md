@@ -11,11 +11,11 @@ Am Wochenende gab's was auf die Netzhaut! Zum Blinkaton wurde so einiges mehr od
 
 Hier eine Auswahl aus den Projekten:
 
-\[caption id="attachment\_2880" align="alignnone" width="400"\]![](images/Spotty2-400x300.jpeg) Spotty\[/caption\]
+[caption id="attachment_2880" align="alignnone" width="400"]![](images/Spotty2-400x300.jpeg) Spotty[/caption]
 
-\[caption id="attachment\_2879" align="alignnone" width="400"\]![](images/Spotty1-400x300.jpeg) noch mal Spotty\[/caption\]
+[caption id="attachment_2879" align="alignnone" width="400"]![](images/Spotty1-400x300.jpeg) noch mal Spotty[/caption]
 
-\[video width="640" height="360" mp4="http://www.netz39.de/wp\_Jq37/wp-content/uploads/2019/04/Lichtorgel.mp4"\]\[/video\]
+[video width="640" height="360" mp4="http://www.netz39.de/wp_Jq37/wp-content/uploads/2019/04/Lichtorgel.mp4"][/video]
 
 Hier gibts die Anleitungen/Projektseiten:
 

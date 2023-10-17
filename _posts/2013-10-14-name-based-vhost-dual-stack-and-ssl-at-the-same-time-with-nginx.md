@@ -21,11 +21,11 @@ Lange Rede kurzer Sinn, hier die entscheidenden Zeilen der Config, den Rest bitt
 Für den default host:
 
 server {
-        listen   80 default\_server;
-        listen   \[::\]:80 default\_server ipv6only=on;
+        listen   80 default_server;
+        listen   [::]:80 default_server ipv6only=on;
 }
 server {
-        listen   \[::\]:443 default\_server;
+        listen   [::]:443 default_server;
         ssl on;
 }
 
@@ -33,10 +33,10 @@ Und dann für alle virtual hosts jeweils:
 
 server {
         listen  80;
-        listen  \[::\]:80;
+        listen  [::]:80;
 }
 server {
-        listen  \[::\]:443;
+        listen  [::]:443;
         ssl on;
 }
 

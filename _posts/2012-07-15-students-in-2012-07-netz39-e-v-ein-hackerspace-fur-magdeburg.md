@@ -8,9 +8,9 @@ tags:
   - "students-in"
 ---
 
-### Presse Artikel: Students-in 2012-07: Netz39 e.V. -- Ein Hackerspace für Magdeburg
+# Presse Artikel: Students-in 2012-07: Netz39 e.V. -- Ein Hackerspace für Magdeburg
 
-Wer auf der allwissenden Müllhalde nachschaut, findet folgende Definition : Ein [Hackerspace]((http://de.wikipedia.org/wiki/Hackerspace)) (von Hacker und Space, engl. für Raum) oder Hackspace ist ein physischer, häufig offener Raum, in dem sich Hacker und Interessierte treffen und austauschen können. Mitglieder mit Interessen an Wissenschaft, Technologie und digitaler Kunst organisieren sich meist in Vereinen. Typische Aktivitäten sind Do-It-Yourself-Bastelarbeiten und Workshops, Öffentlichkeitsarbeit durch Präsentationen, Vorführungen und Vorträge, soziale Aktivitäten wie das Teilen von Wissen und gemeinsames Lernen, und die Organisation von Partys und Spielen. Hackerspaces stellen hierfür eine Infrastruktur bereit, vor allem Strom, Internetzugänge, Netzwerkverbindungen, Getränke und Werkzeuge.
+Wer auf der allwissenden Müllhalde nachschaut, findet folgende Definition : Ein [Hackerspace](http://de.wikipedia.org/wiki/Hackerspace) (von Hacker und Space, engl. für Raum) oder Hackspace ist ein physischer, häufig offener Raum, in dem sich Hacker und Interessierte treffen und austauschen können. Mitglieder mit Interessen an Wissenschaft, Technologie und digitaler Kunst organisieren sich meist in Vereinen. Typische Aktivitäten sind Do-It-Yourself-Bastelarbeiten und Workshops, Öffentlichkeitsarbeit durch Präsentationen, Vorführungen und Vorträge, soziale Aktivitäten wie das Teilen von Wissen und gemeinsames Lernen, und die Organisation von Partys und Spielen. Hackerspaces stellen hierfür eine Infrastruktur bereit, vor allem Strom, Internetzugänge, Netzwerkverbindungen, Getränke und Werkzeuge.
 
 Nun auch in Magdeburg!
 

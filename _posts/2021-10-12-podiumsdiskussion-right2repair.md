@@ -8,9 +8,9 @@ tags:
   - "right2repair"
 ---
 
-Am 18.08.2020 fand in Zusammenarbeit mit den BÜNDNIS 90/DIE GRÜNEN \[1\], der MACHERBURG \[2\] und dem Netz39 eine öffentliche Diskussionsrunde rund um das Thema "Recht auf Reparatur" statt.
+Am 18.08.2020 fand in Zusammenarbeit mit den BÜNDNIS 90/DIE GRÜNEN [1], der MACHERBURG [2] und dem Netz39 eine öffentliche Diskussionsrunde rund um das Thema "Recht auf Reparatur" statt.
 
-Die GRÜNE Abgeordnete des Europäischen Parlaments für Sachsen-Anhalt Anna Cavazzini \[3\] stellte Ihre Arbeit im EU Parlament vor. Darunter Projekte wie "Right2Repair" oder einer "Kreislaufwirtschaft".  
+Die GRÜNE Abgeordnete des Europäischen Parlaments für Sachsen-Anhalt Anna Cavazzini [3] stellte Ihre Arbeit im EU Parlament vor. Darunter Projekte wie "Right2Repair" oder einer "Kreislaufwirtschaft".  
 Die Mitglieder vom Makerspace (MACHERBURG) und vom Hackerspace (Netz39) konnten zudem ihre Erfahrungen aus verschiedenen privaten Projekten so wie vergangenen Veranstaltungen (z.B. Repair-Cafés, Upcycling Events, ...) teilen.
 
 In der gemütlichen Runde konnten wir uns gegenseitig Fragen stellen und unsere Erfahrungen untereinander austauschen.  
@@ -30,6 +30,6 @@ Vielen Dank an alle Teilnehmer und der MACHERBURG für die Räumlichkeiten.
 - ![](images/photo_2021-09-01_08-59-18.jpg)
     
 
-\[1\] https://gruene-magdeburg.de/start/  
-\[2\] https://macherburg.de/  
-\[3\] https://www.annacavazzini.eu/
+[1] https://gruene-magdeburg.de/start/  
+[2] https://macherburg.de/  
+[3] https://www.annacavazzini.eu/

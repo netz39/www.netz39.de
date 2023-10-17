@@ -14,7 +14,7 @@ tags:
 
 Wir können selbst Platinen ätzen und wir haben eine CNC-Fräse. Letztere zum Ausschneiden und Bohren der selbst geätzten Platinen zu benutzen, liegt nahe. Im Detail ist das leider nicht so einfach wie man denkt. Man besehe sich dieses Bild:
 
-\[caption id="attachment\_1148" align="alignnone" width="400"\][![geätztes gefräst](images/eagle-eps-inkscape-dxf-fräse-400x300.jpg)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2013/12/eagle-eps-inkscape-dxf-fräse.jpg) geätztes gefräst\[/caption\]
+[caption id="attachment_1148" align="alignnone" width="400"][![geätztes gefräst](images/eagle-eps-inkscape-dxf-fräse-400x300.jpg)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2013/12/eagle-eps-inkscape-dxf-fräse.jpg) geätztes gefräst[/caption]
 
 Auffällig ist dass das kreisrund geätzte Logo nicht kreisrund ausgefräst wurde. Doch wie kam das? Um das zu verstehen, hier ein kurzer Überblick über die Prozesskette:
 

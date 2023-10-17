@@ -9,6 +9,8 @@ tags:
   - "presse"
 ---
 
+# FIN.log #27 2013-07: Veranstaltungen des Netz39 im Juli und August
+
 Netz 39
 
 In dieser FIN.log-Ausgabe möchten wir euch über ein paar interessante Ereignisse informieren, die im Juli und August anstehen.
@@ -19,7 +21,7 @@ DAS Hackergroßereignis dieses Jahres ist die OHM 2013. OHM steht für ”Observ
 
 ![geodätische Kugel](images/img_0178-geodesic-ball.jpg)
 
-Auf diesen Camps ist es Tradition, verschiedene Dörfer zu bilden, in denen sich gleichgesinnte Hacker zusammen finden können. Erstmals gibt es in diesem Jahr das Netz39-Dorf, in dem Netz39-Mitglieder und - Freunde gemeinsam campen werden. Dort bauen wir unter anderem einen geodätische Kuppel mit mehreren Metern Durchmesser (Foto1 zeigt zwei Modelle, die im Hackerspace gebaut wurden und dort betrachtet werden können) und entwickeln die Steuersoftware für ein \[Inverspendel\]( de.wikipedia.org/wiki/Inverses Pendel), das wir derzeit in unseren Räumen aufbauen. Falls ihr ebenfalls zur OHM fahrt und in unserem Dorf mitcampen wollt, lasst es uns am besten wissen oder tragt euch im OHM- Wiki als Dorfbewohner ein. Auch Nicht-Mitglieder sind bei uns immer gern gesehen!
+Auf diesen Camps ist es Tradition, verschiedene Dörfer zu bilden, in denen sich gleichgesinnte Hacker zusammen finden können. Erstmals gibt es in diesem Jahr das Netz39-Dorf, in dem Netz39-Mitglieder und - Freunde gemeinsam campen werden. Dort bauen wir unter anderem einen geodätische Kuppel mit mehreren Metern Durchmesser (Foto1 zeigt zwei Modelle, die im Hackerspace gebaut wurden und dort betrachtet werden können) und entwickeln die Steuersoftware für ein [Inverspendel]( de.wikipedia.org/wiki/Inverses Pendel), das wir derzeit in unseren Räumen aufbauen. Falls ihr ebenfalls zur OHM fahrt und in unserem Dorf mitcampen wollt, lasst es uns am besten wissen oder tragt euch im OHM- Wiki als Dorfbewohner ein. Auch Nicht-Mitglieder sind bei uns immer gern gesehen!
 
 ### Modellierung und Regelung von unbemannten Flugobjekten
 
