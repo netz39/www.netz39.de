@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "Logoideen anyone?"
 date: "2013-05-21"
@@ -6,6 +7,8 @@ categories:
   - "allgemein"
 tags: 
   - "logo"
+feature-img: "assets/img/post-img/2013/netz39_logo_v01.jpg"
+thumbnail: "assets/img/post-img/2013/netz39_logo_v01.jpg"
 ---
 
 # Logoideen anyone?

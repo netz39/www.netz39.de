@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Lightning Talks im Mai"
 date: "2017-05-09"
@@ -6,7 +7,10 @@ categories:
   - "vortrag"
 tags: 
   - "lightning-talk"
+thumbnail: "assets/img/post-img/2015/lightning_talks-1209x486.jpg"
 ---
+
+![](/assets/img/post-img/2015/lightning_talks-1209x486.jpg)
 
 Lange verschoben, aber jetzt fest geplant: wir machen wieder Lightning Talks. Am vierten Montag im Mai, also am 22.5. heißt es wieder »Fünf Minuten für Dein Thema«. Macht zwei oder drei Folien und stellt Euer Projekt vor, eine Idee oder irgendwas was nerdiges, das Ihr mit der Welt teilen wollt.
 

@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "Lange Nacht der Wissenschaft im Space"
 date: "2016-05-18"
@@ -8,9 +9,11 @@ categories:
 tags: 
   - "lndw"
   - "tdot"
+feature-img: "assets/img/post-img/2016/lndw.jpg"
+thumbnail: "assets/img/post-img/2016/lndw.jpg"
 ---
 
-Im in diesem Jahr  sind wir vom Netz39 e.V. erstmals auch bei der [Langen Nacht der Wissenschaft](http://lndw-md.de/institutionen-ubersicht/netz-39-ev/hackathon/) dabei. Zusammen mit anderen Organisationen wie z.B. die OvGU oder das Fraunhofer Institut Magdeburg zeigen wir euch viele spannende Dinge.
+In diesem Jahr  sind wir vom Netz39 e.V. erstmals auch bei der [Langen Nacht der Wissenschaft](http://lndw-md.de/institutionen-ubersicht/netz-39-ev/hackathon/) dabei. Zusammen mit anderen Organisationen wie z.B. die OvGU oder das Fraunhofer Institut Magdeburg zeigen wir euch viele spannende Dinge.
 
 Parkt euer Raumschiff vor dem Magdeburger Hackerspace Netz39 e.V. und schaut euch um
 

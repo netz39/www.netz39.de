@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Keysigningparty"
 date: "2014-04-10"
@@ -11,7 +12,7 @@ tags:
   - "pgp"
 ---
 
-Ein halbes Jahr ist vergangen seit der letzten [Keysigningparty](http://www.netz39.de/2013/keysigningparty/ "Keysigningparty") und wir machen einfach wieder eine. Termin ist **Dienstag, 22. April 2014** um **19:30 Uhr** und wir machen das in unseren Räumen in der Leibnizstraße 32 in Magdeburg.
+Ein halbes Jahr ist vergangen seit der letzten [Keysigningparty](https://www.netz39.de/2013/keysigningparty/ "Keysigningparty") und wir machen einfach wieder eine. Termin ist **Dienstag, 22. April 2014** um **19:30 Uhr** und wir machen das in unseren Räumen in der Leibnizstraße 32 in Magdeburg.
 
 _(Im Anschluss an das PGP-Keysigning machen wir noch eine CAcert-Assurance-Session. Es werden Leute da sein, die viele Punkte vergeben können.)_
 
@@ -21,7 +22,7 @@ PGP arbeitet mit asymmetrischer Verschlüsselung und Schlüsselpaaren. Da jeder 
 
 Um dieses Vertrauensnetzwerk aufzubauen, trifft man sich, prüft anhand eines Ausweisdokuments die Identität des Gegenübers und unterschreibt im Anschluss dessen Schlüssel. Das ist Keysigning.
 
-## Anmeldung
+## <span style="color:red">Anmeldung</span>
 
 Zur Keysigningparty ist eine **Anmeldung im Voraus** erforderlich. Dazu schicken interessierte bitte den Fingerabdruck ihres Schlüssels an [alex@netz39.de](mailto:alex@netz39.de) per E-Mail.
 

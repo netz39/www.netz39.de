@@ -1,10 +1,13 @@
 ---
+author: zwobot
 layout: post
 title: "TutOrial: Nähmaschine"
 date: "2017-12-09"
 categories: 
   - "veranstaltung"
   - "workshop"
+feature-img: "assets/img/post-img/2017/Naehmaschinen_Tutorial-1440x486.jpg"
+thumbnail: "assets/img/post-img/2017/Naehmaschinen_Tutorial-1440x486.jpg"
 ---
 
 Am 2017-12-09 führte Tatjana interessierte Hacker in die mystische Welt des Maschinennähens ein. Auf dem Programm stand alles, was man als unbedarfter Einsteiger so braucht:  

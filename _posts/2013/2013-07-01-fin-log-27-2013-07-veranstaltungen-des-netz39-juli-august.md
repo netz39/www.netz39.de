@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "FIN.log #27 2013-07: Veranstaltungen des Netz39 im Juli und August"
 date: "2013-07-01"
@@ -19,7 +20,7 @@ In dieser FIN.log-Ausgabe möchten wir euch über ein paar interessante Ereignis
 
 DAS Hackergroßereignis dieses Jahres ist die OHM 2013. OHM steht für ”Observe, Hack, Make“ und ist das Motto des diesjährigen Hackercamps, auf dem sich in diesem Jahr wieder 3000 Bastelbegeisterte im niederländischen Geestmerambacht treffen werden, um sich fünf Tage lang über Technik und Hintergründe auszutauschen. Wer diese besondere Atmosphäre und den Austausch mit anderen Bastelbeigeisterten nicht verpassen möchte, sollte sich Tickets sichern, solange es sie noch gibt! (Mehr Informationen dazu unter [ohm2013.org](ohm2013.org))
 
-![geodätische Kugel](images/img_0178-geodesic-ball.jpg)
+![geodätische Kugel](/assets/img/post-img/2013/img_0178-geodesic-ball.jpg)
 
 Auf diesen Camps ist es Tradition, verschiedene Dörfer zu bilden, in denen sich gleichgesinnte Hacker zusammen finden können. Erstmals gibt es in diesem Jahr das Netz39-Dorf, in dem Netz39-Mitglieder und - Freunde gemeinsam campen werden. Dort bauen wir unter anderem einen geodätische Kuppel mit mehreren Metern Durchmesser (Foto1 zeigt zwei Modelle, die im Hackerspace gebaut wurden und dort betrachtet werden können) und entwickeln die Steuersoftware für ein [Inverspendel]( de.wikipedia.org/wiki/Inverses Pendel), das wir derzeit in unseren Räumen aufbauen. Falls ihr ebenfalls zur OHM fahrt und in unserem Dorf mitcampen wollt, lasst es uns am besten wissen oder tragt euch im OHM- Wiki als Dorfbewohner ein. Auch Nicht-Mitglieder sind bei uns immer gern gesehen!
 

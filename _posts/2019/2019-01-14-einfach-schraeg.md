@@ -1,9 +1,12 @@
 ---
+author: zwobot
 layout: post
 title: "Einfach schräg."
 date: "2019-01-14"
 categories: 
   - "workshop"
+feature-img: "assets/img/post-img/2019/Moehrenklarinette_Einzelteile_horizontal-1440x486.jpg"
+thumbnail: "assets/img/post-img/2019/Moehrenklarinette_Einzelteile_horizontal-1440x486.jpg"
 ---
 
 Das war mal Hackathon at its best: Schräge bis schrägste Musikinstrumente haben wir am 12. und 13. Januar 2019 im Space gebaut und natürlich ausgiebig getestet. Aus der Zutatenliste: Bowdenzug, Möhren, Kühlkörper, Marmeladengläser, Floppy-Drives, Sperrholz, PLA-Filament, Platinen plus Hühnerfutter und und und.
@@ -28,4 +31,7 @@ Hier die Projekte noch mal in Gänze inklusive Anleitungen, soweit vorhanden:
 
 Und hier noch mal in Farbe und bunt:
 
-[ngg_images source="galleries" container_ids="16" display_type="photocrati-nextgen_basic_thumbnails" override_thumbnail_settings="0" thumbnail_width="100" thumbnail_height="75" thumbnail_crop="1" images_per_page="20" number_of_columns="0" ajax_pagination="1" show_all_in_lightbox="0" use_imagebrowser_effect="0" show_slideshow_link="0" slideshow_link_text="[Show as slideshow]" template="/var/www/netz39.de/www/wp_Jq37/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/view/gallery-caption.php" order_by="sortorder" order_direction="ASC" returns="included" maximum_entity_count="500"]
+![](/assets/img/post-img/2019/Sirene.jpg) | ![](/assets/img/post-img/2019/Floppyklavier_full.jpg) |
+![](/assets/img/post-img/2019/Thereminfamilie.jpeg) | ![](/assets/img/post-img/2019/Tretmine_inprogressPlatine.jpeg) |
+![](/assets/img/post-img/2019/Moehrenklarinette_Tag2.jpg) | ![](/assets/img/post-img/2019/Marmeladenglasophon.jpg)
+![](/assets/img/post-img/2019/Einseiter_gespielt.jpg) |

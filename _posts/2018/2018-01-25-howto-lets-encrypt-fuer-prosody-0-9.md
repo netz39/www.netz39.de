@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "HowTo: Let's Encrypt für prosody 0.9"
 date: "2018-01-25"
@@ -22,7 +23,7 @@ Auf der virtuellen Maschine läuft als XMPP-Server [prosody](https://prosody.im/
 
 Wir fahren hier eine Konfiguration, die sich an den Vorgaben vom Debian-Paket orientiert. Für den VirtualHost _jabber.n39.eu_ haben wir folgenden Ausschnitt aus der Konfiguration:
 
-VirtualHost "jabber.n39.eu"
+        VirtualHost "jabber.n39.eu"
 
         ssl = { 
                 key = "/etc/prosody/certs/jabber.n39.eu.key";
@@ -44,9 +45,9 @@ Hier haben wir uns eng an die Doku von dehydrated ([wellknown.md](https://github
 
 Auch dieser Pfad wird gleich bei der Konfiguration von dehydrated noch wichtig sein. Das Verzeichnis `/var/www/dehydrated` hatten wir zuvor angelegt und die Rechte passend für den Webserver gesetzt:
 
-mkdir -p /var/www/dehydrated
-chown -R www-data:www-data /var/www/dehydrated
-chmod 2775 /var/www/dehydrated
+        mkdir -p /var/www/dehydrated
+        chown -R www-data:www-data /var/www/dehydrated
+        chmod 2775 /var/www/dehydrated
 
 Wer hier noch gar keine Konfiguration hat, legt sich einen neuen virtual host in nginx an.
 
@@ -56,34 +57,34 @@ Wer hier noch gar keine Konfiguration hat, legt sich einen neuen virtual host in
 
 Hier fahren wir eine Mischung aus den Vorgaben von dehydrated und vom Debian-Paket, die Konfiguration ist aber sehr übersichtlich. Die Datei `/etc/dehydrated/domains.txt` wenig überraschend:
 
-jabber.n39.eu conference.jabber.n39.eu
+        jabber.n39.eu conference.jabber.n39.eu
 
 Interessanter möglicherweise `/etc/dehydrated/config` – hier haben wir die Variable `WELLKNOWN` angepasst und die Variablen `CONTACT_EMAIL` und `LICENSE` ergänzt. Letzteres ist notwendig, weil Let's Encrypt hier mittlerweile eine neuere Version abnicken lässt, als noch im alten Debian-Paket voreingestellt ist. Lässt man das auf default, wird der Aufruf von dehydrated aber fehlschlagen. Die passende URL bekommt man dann in der Ausgabe oder in einem Logfile (das weiß ich nicht mehr genau).
 
-#############################################################
-# This is the main config file for dehydrated               #
-#                                                           #
-# This is the default configuration for the Debian package. #
-# To see a more comprehensive example, see                  #
-# /usr/share/doc/dehydrated/examples/config                 #
-#                                                           #
-# For details please read:                                  #
-# /usr/share/doc/dehydrated/README.Debian                   #
-#############################################################
+        #############################################################
+        # This is the main config file for dehydrated               #
+        #                                                           #
+        # This is the default configuration for the Debian package. #
+        # To see a more comprehensive example, see                  #
+        # /usr/share/doc/dehydrated/examples/config                 #
+        #                                                           #
+        # For details please read:                                  #
+        # /usr/share/doc/dehydrated/README.Debian                   #
+        #############################################################
 
-CONFIG_D=/etc/dehydrated/conf.d
-BASEDIR=/var/lib/dehydrated
-#WELLKNOWN="${BASEDIR}/acme-challenges"
-WELLKNOWN="/var/www/dehydrated"
-DOMAINS_TXT="/etc/dehydrated/domains.txt"
+        CONFIG_D=/etc/dehydrated/conf.d
+        BASEDIR=/var/lib/dehydrated
+        #WELLKNOWN="${BASEDIR}/acme-challenges"
+        WELLKNOWN="/var/www/dehydrated"
+        DOMAINS_TXT="/etc/dehydrated/domains.txt"
 
-CONTACT_EMAIL="admin@netz39.de"
-LICENSE="https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf"
-#CA="https://acme-staging.api.letsencrypt.org/directory"
+        CONTACT_EMAIL="admin@netz39.de"
+        LICENSE="https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf"
+        #CA="https://acme-staging.api.letsencrypt.org/directory"
 
 Bevor wir die notwendigen Hooks erstellen, rufen wir dehydrated einmal auf:
 
-dehydrated -c
+        dehydrated -c
 
 Das sollte erfolgreich durchlaufen. Danach sind unterhalb von `/var/lib/dehydrated` allerlei neue Dateien zu finden, unter anderem auch unser Key und Zertifikat. Zum ersten Test hatte ich diese dann per Hand ins Verzeichnis von prosody geschoben und den neu gestartet. Funktionierte auf Anhieb. :-)
 
@@ -97,18 +98,18 @@ Da die von Let's Encrypt ausgegebenen Zertifikate nur eine Gültigkeitsdauer von
 
 Den ersten Punkt erschlagen dehydrated und cron. Man lässt cron einfach regelmäßig dehydrated aufrufen. Einmal `crontab -e` (als root) eintippern und folgende Zeile ergänzen:
 
-39 4 \* \* mon,thu dehydrated -c
+        39 4 \* \* mon,thu dehydrated -c
 
 Hier wird dehydrated jetzt also Montag und Donnerstag um 4:39 Uhr aufgerufen, sollte hoffentlich reichen um rechtzeitig vor Ablauf des Zertifikats ein neues zu bekommen.
 
 Fehlt noch der Teil »Zeug aus `/var/lib/dehydrated` nach `/etc/prosody/certs` bekommen«. Wir nutzen dazu [Config on per-certificate base](https://github.com/lukas2511/dehydrated/blob/master/docs/per-certificate-config.md) um ein nur für das Zertifikat des Jabber-Servers gültiges Hook-Skript nutzen zu können. Dazu wurde im Pfad `/var/lib/dehydrated/certs/jabber.n39.eu` die Datei `config` angelegt und wie folgt befüllt:
 
-HOOK="${CERTDIR}/jabber.n39.eu/hook.sh"
+        HOOK="${CERTDIR}/jabber.n39.eu/hook.sh"
 
 Ins selbe Verzeichnis haben wir dann `hook.sh` aus `/usr/share/doc/dehydrated/examples` kopiert und angepasst. (Für alle Nicht-Debian-Nutzer gibt es das komplette Skript (ohne Anpassungen) auch upstream: [hook.sh](https://github.com/lukas2511/dehydrated/blob/master/docs/examples/hook.sh))
 
-function deploy_cert {
-    local DOMAIN="${1}" KEYFILE="${2}" CERTFILE="${3}" FULLCHAINFILE="${4}" CHAINFILE="${5}" TIMESTAMP="${6}"
+        function deploy_cert {
+                local DOMAIN="${1}" KEYFILE="${2}" CERTFILE="${3}" FULLCHAINFILE="${4}" CHAINFILE="${5}" TIMESTAMP="${6}"
 
     # This hook is called once for each certificate that has been
     # produced. Here you might, for instance, copy your new certificates
@@ -144,7 +145,7 @@ function deploy_cert {
 
         popd
         service prosody start
-}
+        }
 
 Wie man leicht sieht, tun wir hier folgendes:
 

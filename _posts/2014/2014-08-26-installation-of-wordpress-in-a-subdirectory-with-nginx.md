@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Installation of WordPress in a subdirectory with nginx"
 date: "2014-08-26"
@@ -15,79 +16,79 @@ This covered not what I wanted. For a recent project we already had an URL like 
 
 Turned out configuration was harder than I thought, but that was probably due to my lack of knowledge on how nginx, php5-fpm and an application play together. The config I came up with is this:
 
-server {
-        listen 80;
-        listen [::]:80;
+        server {
+                listen 80;
+                listen [::]:80;
 
-        server_name foo.example.com;
-        root /usr/share/nginx/www;
+                server_name foo.example.com;
+                root /usr/share/nginx/www;
 
-        location ~ ^/$ {
-                return 302 http://$host/site/;
-        }
+                location ~ ^/$ {
+                        return 302 http://$host/site/;
+                }
 
-        location = /favicon.ico {
-                log_not_found off;
-                access_log off;
-        }
+                location = /favicon.ico {
+                        log_not_found off;
+                        access_log off;
+                }
 
-        location = /robots.txt {
-                log_not_found off;
-                access_log off;
-        }
+                location = /robots.txt {
+                        log_not_found off;
+                        access_log off;
+                }
 
-        # Redmine Config by someone else
+                # Redmine Config by someone else
 
-        client_max_body_size 100M;
+                client_max_body_size 100M;
 
-        location /redmine {
-                return 301 https://$host$request_uri;
-        }
+                location /redmine {
+                        return 301 https://$host$request_uri;
+                }
 
-        # Wordpress Config by me
+                # Wordpress Config by me
 
-        location /site {
-                alias /srv/wordpress;
-                index index.php;
-#               try_files and alias does not work, see http://trac.nginx.org/nginx/ticket/97
-#               instead we rewrite by ourselves almost like
-#               https://stackoverflow.com/questions/17805576/nginx-rewrite-in-subfolder
-#               try_files $uri $uri/ /site/index.php?$args;
+                location /site {
+                        alias /srv/wordpress;
+                        index index.php;
+        #               try_files and alias does not work, see http://trac.nginx.org/nginx/ticket/97
+        #               instead we rewrite by ourselves almost like
+        #               https://stackoverflow.com/questions/17805576/nginx-rewrite-in-subfolder
+        #               try_files $uri $uri/ /site/index.php?$args;
                 try_files $uri $uri/ @site_rewrite;
-        }
+                }
 
-        location @site_rewrite {
-                rewrite ^/site/(.\*)$ /site/index.php?$1;
-        }
+                location @site_rewrite {
+                        rewrite ^/site/(.\*)$ /site/index.php?$1;
+                }
 
-        location ~\* /site/(?:uploads|files)/.\*\\.php$ {
-                deny all;
-        }
+                location ~\* /site/(?:uploads|files)/.\*\\.php$ {
+                        deny all;
+                }
 
-        location ~ ^/site/(.+\\.php)$ {
-                alias                           /srv/wordpress/$1;
-                fastcgi_split_path_info         ^(.+\\.php)(/.\*)$;
+                location ~ ^/site/(.+\\.php)$ {
+                        alias                           /srv/wordpress/$1;
+                        fastcgi_split_path_info         ^(.+\\.php)(/.\*)$;
 
-                fastcgi_intercept_errors        on;
-                fastcgi_pass                    php;
-                fastcgi_index                   index.php;
-                include                         fastcgi_params;
-        }
+                        fastcgi_intercept_errors        on;
+                        fastcgi_pass                    php;
+                        fastcgi_index                   index.php;
+                        include                         fastcgi_params;
+                }
 
-        # phpsysinfo
-        location /phpsysinfo {
-                alias   /usr/share/phpsysinfo;
-                index   index.php;
-        }
+                # phpsysinfo
+                location /phpsysinfo {
+                        alias   /usr/share/phpsysinfo;
+                        index   index.php;
+                }
 
-        location ~ ^/phpsysinfo/(.+\\.php)$ {
-                alias                   /usr/share/phpsysinfo/$1;
-                fastcgi_split_path_info ^(.+\\.php)(/.+)$;
-                fastcgi_pass            php;
-                fastcgi_index           index.php;
-                include                 fastcgi_params;
+                location ~ ^/phpsysinfo/(.+\\.php)$ {
+                        alias                   /usr/share/phpsysinfo/$1;
+                        fastcgi_split_path_info ^(.+\\.php)(/.+)$;
+                        fastcgi_pass            php;
+                        fastcgi_index           index.php;
+                        include                 fastcgi_params;
+                }
         }
-}
 
 The trick is to get the `alias` and `fastcgi_split_path_info` statements right. What really helps here is reading the nginx documentation instead of copying just another config from some blog and trying until something succeeds. So **RTFM** guys!
 

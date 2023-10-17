@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "Digitale Flüchtlingshilfe in Sachsen-Anhalt"
 date: "2015-08-31"

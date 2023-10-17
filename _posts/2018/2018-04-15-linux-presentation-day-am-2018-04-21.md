@@ -1,4 +1,5 @@
 ---
+author: franz
 layout: post
 title: "Linux Presentation Day am 2018-04-21"
 date: "2018-04-15"
@@ -8,6 +9,8 @@ categories:
 tags: 
   - "linux"
   - "lpd"
+feature-img: "assets/img/post-img/2018/logo.1200x600.white_.png"
+thumbnail: "assets/img/post-img/2018/logo.1200x600.white_.png"
 ---
 
 Am 21.04. von 10 bis 20 Uhr findet in unseren Räumen der Linux Presentation Day (LPD) 2018.1 statt. Der LPD ist eine nichtkommerzielle Gemeinschaftsaktion der Linux-Community und soll nach außen einen guten Einblick in das freie Betriebssystem bieten. Bei uns gibt es Vorträge und Workshops sowohl für Anfänger, als auch Fortgeschrittene.

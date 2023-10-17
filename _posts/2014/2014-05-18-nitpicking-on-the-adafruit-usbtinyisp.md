@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Nitpicking on the adafruit USBtinyISP"
 date: "2014-05-18"
@@ -8,9 +9,11 @@ tags:
   - "eagle"
   - "rant"
   - "usbtinyisp"
+feature-img: "assets/img/post-img/2014/usbtiny_rant_brd_orig-1280x486.png"
+thumbnail: "assets/img/post-img/2014/usbtiny_rant_brd_orig-1280x486.png"
 ---
 
-We had some visitors from the U.S.A. for a great [soldering workshop](http://www.netz39.de/2014/loten-im-mai-ein-workshop-fur-anfanger-und-fortgeschrittene/ "Löten im Mai – Ein Workshop für Anfänger und Fortgeschrittene") yesterday last week. While [Jimmie P. Rodgers](http://jimmieprodgers.com/) and [Mitch Altman](https://twitter.com/maltman23) were showing the kits they brought to solder, they also showed the [USBtinyISP AVR Programmer](https://learn.adafruit.com/usbtinyisp) by adafruit, and I couldn't resist ranting about it. This blog post is elaborating on this rant and share what I found out, but let's start from the beginning.
+We had some visitors from the U.S.A. for a great [soldering workshop](https://www.netz39.de/2014/loten-im-mai-ein-workshop-fur-anfanger-und-fortgeschrittene/ "Löten im Mai – Ein Workshop für Anfänger und Fortgeschrittene") yesterday last week. While [Jimmie P. Rodgers](http://jimmieprodgers.com/) and [Mitch Altman](https://twitter.com/maltman23) were showing the kits they brought to solder, they also showed the [USBtinyISP AVR Programmer](https://learn.adafruit.com/usbtinyisp) by adafruit, and I couldn't resist ranting about it. This blog post is elaborating on this rant and share what I found out, but let's start from the beginning.
 
 At the OHM2013 camp I had a workshop [AVR 101](https://program.ohm2013.org/event/242.html) and being badly prepared I [bought three](https://twitter.com/LeSpocky/status/362674275133562881) of those programmers at the camp from Mitch for my workshop. Soldering them was not too hard, and we successfully used them for the workshop.
 
@@ -22,7 +25,9 @@ Being back home I started working on the next parts of what will eventually be a
 
 First we have a look on the schematic:
 
-[caption id="attachment_1356" align="aligncenter" width="400"][![Eagle Schematic USBtinyISP by adafruit](images/usbtiny_rant_sch_orig-400x346.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_sch_orig.png) Eagle Schematic USBtinyISP by adafruit[/caption]
+| ![](/assets/img/post-img/2014/usbtiny_rant_sch_orig.png) |
+|:--:|
+| Eagle Schematic USBtinyISP by adafruit |
 
 I made some blue numbers, there's one real mistake they made, this is number 6: the values of the series resistors R1 and R2 for USB. The ATtiny 2313 is running a software USB stack which is probably [V-USB](http://www.obdev.at/products/vusb/). According to their recommendations you should use 68 Ohm instead of the 27 Ohm in this schematic. What you see in the schematic at those resistors is the value was moved around. You can do this with Eagle to place it somewhere else, however I usually leave it at the default place and increase the distance between the parts in the schematic if I want to have them well readable. ((To move name or value away from a part you call _smash_ on the part and then move those labels. To have them back at the default positions call _unsmash_.)) Next thing, still with number 6, but also with most other parts is how the value is written. There are some non written rules in electrical engineering how to do this. The advantage of following those rules is making it easier for other engineers to read your schematics, keep it short, and avoid ambiguity. Decimal points for example tend to be unreadable in small or old or bad prints or prints on the circuit board. In case of resistors, you do it like this:
 
@@ -45,9 +50,9 @@ Another problem I have with 2 and also with 3 is crossing your parts with signal
 
 Left over are 7 and 8. With 7 this was probably due to laziness, the GND and VCC connectors of the 74ACH125 were not moved away from the device to be clearly to see. But what about 8? It's readable with enough space around. Here comes in a general rule of thumb you could have seen in all those descriptions above: make your schematic easily readable. This includes grouping things together which build logical units and in this case let the schematic help you following the signal flow. USB is the outside connector, signal comes in there, then is smoothed by the capacitor C2 and then goes through the resistors and into the ATtiny. Having the connector in between breaks up this signal flow making the circuit harder to read.
 
-See my derived version of the circuit: ((get the files on [GitHub](https://github.com/netz39/circuit_boards/tree/master/usbtinyisp)))
+See my derived version of the circuit: [GitHub](https://github.com/netz39/circuit_boards/tree/master/usbtinyisp)
 
-[![USBtinyISP schematics by alex](images/usbtiny_rant_sch_new-400x241.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_sch_new.png)
+![](/assets/img/post-img/2014/usbtiny_rant_sch_new.png) 
 
 I fixed all the things I criticized above but what else?
 
@@ -63,11 +68,15 @@ I fixed all the things I criticized above but what else?
 
 The original adafruit USBtinyISP is a double layer board, so for making a single layer one, I had to change it anyway. So what where my design decisions and what did I discover on the original board?
 
-[caption id="attachment_1376" align="aligncenter" width="400"][![the original USBtinyISP](images/tools_531946274_dcd8763cda_o-400x300.jpg)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/tools_531946274_dcd8763cda_o.jpg) the original USBtinyISP[/caption]
+| ![](/assets/img/post-img/2014/tools_531946274_dcd8763cda_o.jpg) |
+|:--:|
+| the original USBtinyISP |
 
-[caption id="attachment_1377" align="aligncenter" width="400"][![original board with annotations](images/usbtiny_rant_brd_orig_commented-400x246.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_brd_orig_commented.png) original board with annotations[/caption]
+| ![](/assets/img/post-img/2014/usbtiny_rant_brd_orig_commented.png) |
+|:--:|
+| original board with annotations |
 
-First thing I noticed: there are jumpers on the layout which are not accessible in the black case you get with the device. Those are the ones in the orange circles and those are the already mentioned JP4 and JP5. ((You have to turn one of the pictures above 180° in your head to spot this.))
+First thing I noticed: there are jumpers on the layout which are not accessible in the black case you get with the device. Those are the ones in the orange circles and those are the already mentioned JP4 and JP5. (You have to turn one of the pictures above 180° in your head to spot this.)
 
 Then there's no ground plane. You do not need one if you give your board away for producing, but if you're etching yourself you want to etch only the real necessary stuff to save chemicals and produce less waste with nasty copper ions.
 
@@ -79,7 +88,9 @@ So there are some annotation numbers left in the picture of the board. Near 1 is
 
 So see my new board:
 
-[caption id="attachment_1381" align="aligncenter" width="400"][![new usbtinyisp by alex](images/usbtiny_rant_brd_new-400x303.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_brd_new.png) new usbtinyisp by alex[/caption]
+| ![](/assets/img/post-img/2014/usbtiny_rant_brd_new.png) |
+|:--:|
+| new usbtinyisp by alex |
 
 You notice there are SMD parts, but with the right tutorial soldering a 0805 package is not that difficult. The board size is 36mm × 44mm, so it's not compatible to [Sick of Beige compatible cases](http://dangerousprototypes.com/docs/Sick_of_Beige_compatible_cases), but at least the screws have the same distances from the corners. ;-)
 

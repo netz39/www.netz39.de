@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Keysigningparty"
 date: "2013-09-08"
@@ -8,6 +9,8 @@ tags:
   - "gnupg"
   - "keysigning"
   - "pgp"
+feature-img: "assets/img/post-img/2013/netz39_001-1440x486.jpg"
+thumbnail: "assets/img/post-img/2013/netz39_001-1440x486.jpg"
 ---
 
 # Keysigningparty
@@ -24,7 +27,7 @@ PGP arbeitet mit asymmetrischer Verschlüsselung und Schlüsselpaaren. Da jeder 
 
 Um dieses Vertrauensnetzwerk aufzubauen, trifft man sich, prüft anhand eines Ausweisdokuments die Identität des Gegenübers und unterschreibt im Anschluss dessen Schlüssel. Das ist Keysigning.
 
-## Anmeldung
+## <span style="color:red">Anmeldung</span>
 
 Zur Keysigningparty ist eine Anmeldung im Voraus erforderlich. Dazu schicken interessierte bitte den Fingerabdruck ihres Schlüssels an [alex@netz39.de](mailto:alex@netz39.de) per E-Mail.
 

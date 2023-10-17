@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Linux-Veranstaltungen im November 2019"
 date: "2019-11-08"
@@ -6,6 +7,8 @@ categories:
   - "veranstaltung"
 tags: 
   - "linux"
+feature-img: "assets/img/post-img/2018/30100915_4a04840120_o.jpg"
+thumbnail: "assets/img/post-img/2018/30100915_4a04840120_o.jpg"
 ---
 
 In diesem Monat können wir gleich drei Veranstaltungen zum Thema [Linux](https://de.wikipedia.org/wiki/Linux) anbieten.

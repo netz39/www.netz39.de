@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Interview im Blog von O'Reilly Deutschland"
 date: "2014-03-13"

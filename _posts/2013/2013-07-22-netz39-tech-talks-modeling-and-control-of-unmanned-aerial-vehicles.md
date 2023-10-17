@@ -1,4 +1,5 @@
 ---
+author: michel
 layout: post
 title: "Netz39 Tech Talks: modeling and control of unmanned aerial vehicles"
 date: "2013-07-22"
@@ -9,6 +10,8 @@ tags:
   - "talk"
   - "tech-talk"
   - "vortrag"
+feature-img: "assets/img/post-img/2013/img_0171-copter-motoren-1024x682.jpg"
+thumbnail: "assets/img/post-img/2013/img_0171-copter-motoren-1024x682.jpg"
 ---
 
 # Netz39 Tech Talks: modeling and control of unmanned aerial vehicles

@@ -1,10 +1,13 @@
 ---
+author: zwobot
 layout: post
 title: "Repaircafé am Sonntag, 2018-03-25"
 date: "2018-02-12"
 categories: 
   - "veranstaltung"
   - "workshop"
+feature-img: "assets/img/post-img/2018/Werkzeug-1440x486.jpg"
+thumbnail: "assets/img/post-img/2018/Werkzeug-1440x486.jpg"
 ---
 
 Es passiert! Das schon lange geplante Repaircafé findet statt, und zwar am Sonntag, 2018-03-25 von 12 bis 17 Uhr. Nun, so ganz neu ist das nicht. Bei Netz39 helfen wir regelmäßig auch Besuchern bei ihren Reparaturproblemen, ganz zu schweigen von den vielen Dingen, die unsere Mitglieder in den letzten knapp sechs Jahren unseres Bestehens bei uns repariert haben. Nun aber auch mal im klassischen Repaircafé-Konzept, also mit offizieller Einladung der Öffentlichkeit und natürlich Kaffee. Und Kuchen! :)

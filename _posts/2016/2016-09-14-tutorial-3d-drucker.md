@@ -1,4 +1,5 @@
 ---
+author: franz
 layout: post
 title: "TutOrial: 3D-Drucker"
 date: "2016-09-14"
@@ -7,6 +8,8 @@ categories:
 tags: 
   - "tutorial"
   - "workshop"
+feature-img: "assets/img/post-img/2016/20160911_001-1440x486.jpg"
+thumbnail: "assets/img/post-img/2016/20160911_001-1440x486.jpg"
 ---
 
 Zum Auftakt der TutOrials-Serie wird gedruckt - in 3D und Farbe!
@@ -20,4 +23,4 @@ Dabei werden Grundlagen für das 3D-Drucken bei uns im Space vermittelt, inkl. H
 
 Los geht's am Donnerstag, den 15.09. um 19:30 Uhr.
 
-**Update:** Zum Nachlesen gibt es ab sofort [hier](http://www.netz39.de/wp_Jq37/wp-content/uploads/2016/09/n39_tutorial_3dprinter.pdf) (ca. 2MB) die Notizen zum Tutorial.
+**Update:** Zum Nachlesen gibt es ab sofort [hier](/assets/pdf/2016/n39_tutorial_3dprinter.pdf) (ca. 2MB) die Notizen zum Tutorial.

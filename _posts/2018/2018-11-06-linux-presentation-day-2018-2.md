@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Linux Presentation Day 2018.2"
 date: "2018-11-06"
@@ -7,6 +8,8 @@ categories:
 tags: 
   - "linux"
   - "volkshochschule"
+feature-img: "assets/img/post-img/2018/logo.1200x600.white_.png"
+thumbnail: "assets/img/post-img/2018/logo.1200x600.white_.png"
 ---
 
 Wir machen 2018 noch einen Linux-Presentation-Day, dieses mal wieder in Zusammenarbeit mit der [Städtischen Volkshochschule Magdeburg (VHS)](https://www.vhs.magdeburg.de/).

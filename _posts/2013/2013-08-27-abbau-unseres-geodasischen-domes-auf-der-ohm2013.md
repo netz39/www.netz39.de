@@ -7,8 +7,11 @@ tags:
   - "geodesic-dome"
   - "ohm2013"
   - "timelapse"
+feature-img: "assets/img/post-img/2013/IMG_0289-1440x486.jpg"
+thumbnail: "assets/img/post-img/2013/IMG_0289-1440x486.jpg"
 ---
 
 # Abbau unserer geodätischen Kuppel auf der OHM2013
 
-http://vimeo.com/71893375
+Vimeo:\
+[![](https://vumbnail.com/71893375.jpg)](http://vimeo.com/71893375)

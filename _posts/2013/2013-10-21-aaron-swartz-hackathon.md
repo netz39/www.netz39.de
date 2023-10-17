@@ -1,4 +1,5 @@
 ---
+author: lespocky
 layout: post
 title: "Aaron Swartz Hackathon"
 date: "2013-10-21"
@@ -7,6 +8,8 @@ categories:
 tags: 
   - "aaron-swartz"
   - "hackathon"
+feature-img: "assets/img/post-img/2013/hackathon_banner1.jpg"
+thumbnail: "assets/img/post-img/2013/hackathon_banner1.jpg"
 ---
 
 Die Idee für unseren ersten Hackathon entstand auf der [OHM2013](http://www.netz39.de/2013/ohm2013/ "Ohm2013") und gewidmet ist er dem Internet-Aktivisten Aaron Swartz. In seinem Sinne werden wir ein ganzes Wochenende lang programmieren, basteln und hacken, um freie Projekte voran zu bringen. Am Freitag, dem 8. November geht es los um 18:00 Uhr und dann durchgehend bis Sonntag nachmittag. Die Veranstaltung ist offen für Gäste und kostenlos für alle Teilnehmer. Alle Einzelheiten und Details zu den Projekten findet Ihr bei uns [im Wiki](http://www.netz39.de/wiki/projects:2013:as_hackathon).
