@@ -17,9 +17,9 @@ Turned out configuration was harder than I thought, but that was probably due to
 
 server {
         listen 80;
-        listen \[::\]:80;
+        listen [::]:80;
 
-        server\_name foo.example.com;
+        server_name foo.example.com;
         root /usr/share/nginx/www;
 
         location ~ ^/$ {
@@ -27,21 +27,21 @@ server {
         }
 
         location = /favicon.ico {
-                log\_not\_found off;
-                access\_log off;
+                log_not_found off;
+                access_log off;
         }
 
         location = /robots.txt {
-                log\_not\_found off;
-                access\_log off;
+                log_not_found off;
+                access_log off;
         }
 
         # Redmine Config by someone else
 
-        client\_max\_body\_size 100M;
+        client_max_body_size 100M;
 
         location /redmine {
-                return 301 https://$host$request\_uri;
+                return 301 https://$host$request_uri;
         }
 
         # Wordpress Config by me
@@ -49,14 +49,14 @@ server {
         location /site {
                 alias /srv/wordpress;
                 index index.php;
-#               try\_files and alias does not work, see http://trac.nginx.org/nginx/ticket/97
+#               try_files and alias does not work, see http://trac.nginx.org/nginx/ticket/97
 #               instead we rewrite by ourselves almost like
 #               https://stackoverflow.com/questions/17805576/nginx-rewrite-in-subfolder
-#               try\_files $uri $uri/ /site/index.php?$args;
-                try\_files $uri $uri/ @site\_rewrite;
+#               try_files $uri $uri/ /site/index.php?$args;
+                try_files $uri $uri/ @site_rewrite;
         }
 
-        location @site\_rewrite {
+        location @site_rewrite {
                 rewrite ^/site/(.\*)$ /site/index.php?$1;
         }
 
@@ -66,12 +66,12 @@ server {
 
         location ~ ^/site/(.+\\.php)$ {
                 alias                           /srv/wordpress/$1;
-                fastcgi\_split\_path\_info         ^(.+\\.php)(/.\*)$;
+                fastcgi_split_path_info         ^(.+\\.php)(/.\*)$;
 
-                fastcgi\_intercept\_errors        on;
-                fastcgi\_pass                    php;
-                fastcgi\_index                   index.php;
-                include                         fastcgi\_params;
+                fastcgi_intercept_errors        on;
+                fastcgi_pass                    php;
+                fastcgi_index                   index.php;
+                include                         fastcgi_params;
         }
 
         # phpsysinfo
@@ -82,10 +82,10 @@ server {
 
         location ~ ^/phpsysinfo/(.+\\.php)$ {
                 alias                   /usr/share/phpsysinfo/$1;
-                fastcgi\_split\_path\_info ^(.+\\.php)(/.+)$;
-                fastcgi\_pass            php;
-                fastcgi\_index           index.php;
-                include                 fastcgi\_params;
+                fastcgi_split_path_info ^(.+\\.php)(/.+)$;
+                fastcgi_pass            php;
+                fastcgi_index           index.php;
+                include                 fastcgi_params;
         }
 }
 

@@ -22,7 +22,7 @@ Being back home I started working on the next parts of what will eventually be a
 
 First we have a look on the schematic:
 
-\[caption id="attachment\_1356" align="aligncenter" width="400"\][![Eagle Schematic USBtinyISP by adafruit](images/usbtiny_rant_sch_orig-400x346.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_sch_orig.png) Eagle Schematic USBtinyISP by adafruit\[/caption\]
+[caption id="attachment_1356" align="aligncenter" width="400"][![Eagle Schematic USBtinyISP by adafruit](images/usbtiny_rant_sch_orig-400x346.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_sch_orig.png) Eagle Schematic USBtinyISP by adafruit[/caption]
 
 I made some blue numbers, there's one real mistake they made, this is number 6: the values of the series resistors R1 and R2 for USB. The ATtiny 2313 is running a software USB stack which is probably [V-USB](http://www.obdev.at/products/vusb/). According to their recommendations you should use 68 Ohm instead of the 27 Ohm in this schematic. What you see in the schematic at those resistors is the value was moved around. You can do this with Eagle to place it somewhere else, however I usually leave it at the default place and increase the distance between the parts in the schematic if I want to have them well readable. ((To move name or value away from a part you call _smash_ on the part and then move those labels. To have them back at the default positions call _unsmash_.)) Next thing, still with number 6, but also with most other parts is how the value is written. There are some non written rules in electrical engineering how to do this. The advantage of following those rules is making it easier for other engineers to read your schematics, keep it short, and avoid ambiguity. Decimal points for example tend to be unreadable in small or old or bad prints or prints on the circuit board. In case of resistors, you do it like this:
 
@@ -63,9 +63,9 @@ I fixed all the things I criticized above but what else?
 
 The original adafruit USBtinyISP is a double layer board, so for making a single layer one, I had to change it anyway. So what where my design decisions and what did I discover on the original board?
 
-\[caption id="attachment\_1376" align="aligncenter" width="400"\][![the original USBtinyISP](images/tools_531946274_dcd8763cda_o-400x300.jpg)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/tools_531946274_dcd8763cda_o.jpg) the original USBtinyISP\[/caption\]
+[caption id="attachment_1376" align="aligncenter" width="400"][![the original USBtinyISP](images/tools_531946274_dcd8763cda_o-400x300.jpg)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/tools_531946274_dcd8763cda_o.jpg) the original USBtinyISP[/caption]
 
-\[caption id="attachment\_1377" align="aligncenter" width="400"\][![original board with annotations](images/usbtiny_rant_brd_orig_commented-400x246.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_brd_orig_commented.png) original board with annotations\[/caption\]
+[caption id="attachment_1377" align="aligncenter" width="400"][![original board with annotations](images/usbtiny_rant_brd_orig_commented-400x246.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_brd_orig_commented.png) original board with annotations[/caption]
 
 First thing I noticed: there are jumpers on the layout which are not accessible in the black case you get with the device. Those are the ones in the orange circles and those are the already mentioned JP4 and JP5. ((You have to turn one of the pictures above 180° in your head to spot this.))
 
@@ -79,7 +79,7 @@ So there are some annotation numbers left in the picture of the board. Near 1 is
 
 So see my new board:
 
-\[caption id="attachment\_1381" align="aligncenter" width="400"\][![new usbtinyisp by alex](images/usbtiny_rant_brd_new-400x303.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_brd_new.png) new usbtinyisp by alex\[/caption\]
+[caption id="attachment_1381" align="aligncenter" width="400"][![new usbtinyisp by alex](images/usbtiny_rant_brd_new-400x303.png)](http://www.netz39.de/wp_Jq37/wp-content/uploads/2014/05/usbtiny_rant_brd_new.png) new usbtinyisp by alex[/caption]
 
 You notice there are SMD parts, but with the right tutorial soldering a 0805 package is not that difficult. The board size is 36mm × 44mm, so it's not compatible to [Sick of Beige compatible cases](http://dangerousprototypes.com/docs/Sick_of_Beige_compatible_cases), but at least the screws have the same distances from the corners. ;-)
 

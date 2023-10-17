@@ -9,7 +9,7 @@ tags:
   - "presse"
 ---
 
-Presseartikel aus dem FIN.log #24 2012-12: **Netz39 Up and Running**
+# Presseartikel aus dem FIN.log #24 2012-12: **Netz39 Up and Running**
 
 Nachdem wir im Juli unsere Räume bezogen und wohnlich gemacht haben, ist es Zeit, einen Fakt offiziell zu verkünden:
 
