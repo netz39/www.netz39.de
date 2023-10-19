@@ -1,10 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Verein
+permalink: /verein/
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Page]
-icon: "fa-home"
 ---
 
 Willkommen bei Netz39, dem Hotspot für den Austausch von Technologie, Gesellschaft und Kultur im Bereich der informationsverarbeitenden Technologien! Wir bieten nicht nur Räumlichkeiten und Werkzeuge, sondern auch eine inspirierende Community in Magdeburg und Umgebung.

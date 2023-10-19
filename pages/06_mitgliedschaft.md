@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Verein
-permalink: /verein/
-feature-img: "assets/img/pexels/computer.jpeg"
+title: Mitglied werden
+permalink: /mitgliedschaft/
+feature-img: "assets/img/pexels/pexels-pixabay-163064.jpg"
 tags: [Page]
 ---
-
-# Verein
 
 ## Mitgliedschaft
 
