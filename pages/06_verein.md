@@ -2,7 +2,7 @@
 layout: page
 title: Verein
 permalink: /verein/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Page]
 ---
 
