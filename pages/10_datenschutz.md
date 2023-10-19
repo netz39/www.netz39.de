@@ -2,7 +2,7 @@
 layout: page
 title: Datenschutz
 permalink: /datenschutz/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/pexels-karol-d-841228.jpg"
 tags: [Page]
 ---
 
