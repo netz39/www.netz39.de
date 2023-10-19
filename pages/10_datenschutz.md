@@ -83,7 +83,6 @@ Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder 
 
 E-Mail: kontakt-at-netz39.de
 
-Telefon: +49 391 58245281
 
 Netz39 e.V., Leibnizstraße 32, 39104 Magdeburg
 
