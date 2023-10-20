@@ -4,6 +4,7 @@ title: Kontakt
 permalink: /kontakt/
 feature-img: "assets/img/pexels/pexels-karol-d-841228.jpg"
 tags: [Page]
+show-in-footer: true
 ---
 
 ### Schnelles Feedback, Talk
