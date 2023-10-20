@@ -1,0 +1,28 @@
+---
+layout: calendar
+title: Events
+permalink: /events
+icon: "far fa-calendar"
+---
+
+<html lang='de'>
+  <head>
+    <meta charset='utf-8' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.9/locales/de.global.min.js'></script>
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth', height: "auto", locale: 'de', events: '/calendar-data'
+        });
+        calendar.render();
+      });
+
+    </script>
+  </head>
+  <body>
+    <div id='calendar' style="width:80%; margin: auto;"></div>
+  </body>
+</html>
