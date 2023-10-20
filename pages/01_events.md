@@ -1,9 +1,13 @@
 ---
-layout: calendar
+layout: default
 title: Events
 permalink: /events
 icon: "far fa-calendar"
 ---
+
+<center>
+<h2 class="title"> <i class="far fa-calendar"></i> Events </h2>
+</center>
 
 <html lang='de'>
   <head>
