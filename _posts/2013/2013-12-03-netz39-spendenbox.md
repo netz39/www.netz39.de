@@ -13,4 +13,4 @@ feature-img: "assets/img/post-img/2013/netz39-feature04.jpg"
 thumbnail: "assets/img/post-img/2013/netz39-feature04.jpg"
 ---
 
-[![](https://img.youtube.com/vi/jzsVqUGOSoc/0.jpg)](https://www.youtube.com/watch?v=jzsVqUGOSoc)
+[![](https://img.youtube.com/vi/jzsVqUGOSoc/maxresdefault.jpg)](https://www.youtube.com/watch?v=jzsVqUGOSoc)
