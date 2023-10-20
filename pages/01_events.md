@@ -12,8 +12,8 @@ icon: "far fa-calendar"
 <html lang='de'>
   <head>
     <meta charset='utf-8' />
-    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.9/locales/de.global.min.js'></script>
+    <script src='/assets/js/vendor/fullcalendar/index.global.min.js'></script>
+    <script src='/assets/js/vendor/fullcalendar/de.global.min.js'></script>
     <script>
 
       document.addEventListener('DOMContentLoaded', function() {
