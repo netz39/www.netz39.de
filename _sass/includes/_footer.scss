@@ -8,6 +8,8 @@
   font-size: 0.9em;
 
   .footer-icons {
+    margin-bottom: 1em;
+    
     ul {
       list-style: none;
       margin: 0;
@@ -24,6 +26,28 @@
         .fa-circle {
           filter: brightness(0.85);
         }
+      }
+    }
+  }
+
+  .footer-links {
+    
+    ul {
+      list-style: none;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        margin: 0 0.5em;
+
+        a {
+          color: var(--meta);
+        }
+  
+        a:hover {
+          color: var(--link);
+        }
+
       }
     }
   }
