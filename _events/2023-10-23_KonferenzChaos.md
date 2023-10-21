@@ -4,7 +4,7 @@ title: "Ein Jahr Konferenz Chaos - und was es mit mir gemacht hat"
 event_date: 2023-10-23
 ---
 
-**Wann: 19:30 Uhr**
+**Wann: 19:30 Uhr**\
 **Wo: Netz39 e.V.**
 
 Kleiner, sich nicht zu ernst nehmender Vortrag von Georg
