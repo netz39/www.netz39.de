@@ -22,7 +22,14 @@ icon: "far fa-calendar"
           initialView: 'dayGridMonth',
           height: "auto",
           locale: 'de',
-          events: '/calendar-data'
+          events: '/calendar-data',
+          weekNumbers: true,
+          headerToolbar:
+          {
+            left: 'today',
+            center: 'title',
+            right: 'prev,next'
+          }
         });
         calendar.render();
       });
