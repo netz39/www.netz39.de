@@ -61,6 +61,12 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
    Der Jekyll-Buildserver wird nun in einem Docker-Container gestartet und ist unter `http://localhost:4000` verfügbar. Du kannst Änderungen vornehmen, und sie werden automatisch in Echtzeit aktualisiert.
 3. Nach der Entwicklung den Container mit `docker-compose down` beenden.
 
+## git-lfs
+
+Dieses Repository nutzt zur Verwaltung von großen Binärdaten (Bilder und PDFs) [git-lfs](https://git-lfs.com/). Zur Installation folge bitte der [Installationsanleitung für dein Betriebssystem](https://github.com/git-lfs/git-lfs#installing).
+
+Die Arbeit mit den Dateien ändert sich durch die Verwendung von git-lfs nicht.
+
 ## License
 
 © Netz39 e.V
