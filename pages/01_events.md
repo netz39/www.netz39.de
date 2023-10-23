@@ -19,7 +19,17 @@ icon: "far fa-calendar"
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth', height: "auto", locale: 'de', events: '/calendar-data'
+          initialView: 'dayGridMonth',
+          height: "auto",
+          locale: 'de',
+          events: '/calendar-data',
+          weekNumbers: true,
+          headerToolbar:
+          {
+            left: 'today',
+            center: 'title',
+            right: 'prev,next'
+          }
         });
         calendar.render();
       });
