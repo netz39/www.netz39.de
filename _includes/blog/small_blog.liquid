@@ -32,4 +32,10 @@
       </span>
     </div>
     {% endfor %}
+    <center>
+		<a aria-label="{{ site.data.language.str_more_blog_entries | default: 'More blog entries' }}" href="/blog"
+		       {% unless site.posts %}style="visibility:hidden"{% endunless %} class="button">
+		        {{ site.data.language.str_more_blog_entries | default: 'More blog entries' }}
+		</a>
+    </center>
 </div>
