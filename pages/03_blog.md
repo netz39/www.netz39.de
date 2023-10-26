@@ -1,6 +1,6 @@
 ---
 layout: full_blog
 title: Blog
-permalink: /blog
+permalink: /blog/
 pagination: true
 ---
