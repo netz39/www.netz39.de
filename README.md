@@ -74,8 +74,9 @@ siehe [/assets/js/ReadMe.md](/assets/js/ReadMe.md)
 
 © Netz39 e.V
 
-- Uses [Type-on-strap](https://github.com/sylhare/Type-on-Strap) theme licensed under [The MIT License (MIT)](/LICENSE)
+- Uses [Type-on-strap](https://github.com/sylhare/Type-on-Strap) theme licensed under the MIT License
 - Uses Pictures from [Pexels](https://www.pexels.com/) licensed under Creative Commons Zero (CC0) license
-- Uses Fonts which are licensed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
-
-
+- Uses Fonts which are licensed under the SIL Open Font License (OFL)
+- Uses [jquery](https://jquery.com/) licensed under the MIT License
+- Uses [fullcalendar](https://fullcalendar.io) licensed under the MIT License
+- Uses [ICS file generator](https://github.com/nwcell/ics.js/) licensed under the MIT License
