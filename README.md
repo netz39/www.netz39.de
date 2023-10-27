@@ -67,6 +67,9 @@ Dieses Repository nutzt zur Verwaltung von großen Binärdaten (Bilder und PDFs)
 
 Die Arbeit mit den Dateien ändert sich durch die Verwendung von git-lfs nicht.
 
+## verwendete Javascripts
+siehe [/assets/js/ReadMe.md](/assets/js/ReadMe.md)
+
 ## License
 
 © Netz39 e.V
