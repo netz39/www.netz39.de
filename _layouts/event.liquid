@@ -24,7 +24,9 @@ layout: default
   </section>
 
   <!-- Social media shares -->
+  {% if site.share_buttons %}
   {% include social/share_buttons.liquid %}
+  {% endif %}
 
    <!-- Tag list -->
   {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
