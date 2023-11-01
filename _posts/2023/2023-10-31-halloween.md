@@ -21,5 +21,7 @@ Insgesamt ein super simples und schnelles Projekt, welches auch für Anfänger g
 Dateien zum 3D-Drucken und die Links zum Kaufen der Teile findet ihr [hier](https://github.com/timherrm/nOOds).
 
 ![](/assets/img/post-img/2023/nOOds-fledermaeuse.jpeg) | ![](/assets/img/post-img/2023/nOOds-render.png)
+
 ![](/assets/img/post-img/2023/nOOds-fledermaus.jpeg) | ![](/assets/img/post-img/2023/nOOds-geist.jpeg)
+
 ![](/assets/img/post-img/2023/nOOds-hexenhut.jpeg)
