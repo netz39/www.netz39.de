@@ -2,25 +2,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
 
-    <!-- Theme Mode -->
+    <!-- Theme Mode-->
     {% if site.color_theme == 'auto' %}
     <script>
         const isAutoTheme = true;
-        const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const storedTheme = localStorage.getItem('theme');
-
-        if (storedTheme) {
-            document.documentElement.setAttribute('data-theme', storedTheme);
-        } else if (prefersDarkMode) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        } else {
-            document.documentElement.setAttribute('data-theme', 'light');
-        }
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
     </script>
     {% else %}
     <script>
         const isAutoTheme = false;
-        document.documentElement.setAttribute('data-theme', "{{ site.color_theme | default: 'light' }}");
+        document.documentElement.setAttribute('data-theme', "{{ site.color_theme | default: 'light' }}")
     </script>
     {% endif %}
 
