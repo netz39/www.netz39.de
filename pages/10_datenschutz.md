@@ -42,8 +42,8 @@ Wir verarbeiten Ihre personenbezogenen Daten nur zu den in dieser Datenschutzerk
 - Sie Ihre ausdrückliche Einwilligung dazu erteilt haben,
 - die Verarbeitung zur Abwicklung eines Vertrags mit Ihnen erforderlich ist,
 - die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist,
-
-die Verarbeitung zur Wahrung berechtigter Interessen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe Ihrer Daten haben.
+- die Verarbeitung zur Wahrung berechtigter Interessen erforderlich ist und
+- kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe Ihrer Daten haben.
 
 ## Löschung bzw. Sperrung der Daten
 
