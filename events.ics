@@ -7,7 +7,7 @@ PRODID:{{ site.url }}
 METHOD:PUBLISH
 {% for event in site.events -%}
 {%- assign eventDate = event.event_date | date: "%Y%m%d" -%}
-{%- assign currentDate = 'now' | date: "%Y%m%d" -%}
+{%- assign currentDate = site.time | date: "%Y%m%d" -%}
 {%- if eventDate >= currentDate -%}
 BEGIN:VEVENT
 UID:{{ event.event_date | date: "%Y%m%d" }}@netz39.de
@@ -18,7 +18,7 @@ DESCRIPTION:More info at {{ event.url | absolute_url }}
 CLASS:PUBLIC
 DTSTART;VALUE=DATE:{{ event.event_date | date: "%Y%m%d" }}
 DTEND;VALUE=DATE:{{ event.event_date | date: "%Y%m%d" }}
-DTSTAMP:{{ event.event_date | date: "%Y%m%d" }}T170000Z
+DTSTAMP:{{ site.time | date: "%Y%m%d" }}T000000Z
 END:VEVENT
 {% endif -%}
 {%- endfor -%}
