@@ -90,6 +90,13 @@ nav {
   }
 }
 
+nav img.spacestatus {
+    border-radius: 5px;
+    padding: 0;
+    margin-left: 10px;
+    height: 30px;
+}
+
 /* ---- Responsive ---- */
 
 @media (min-width: $break) {
