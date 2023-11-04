@@ -1,5 +1,7 @@
 ---
 layout: null
+permalink: /feed/eo-events/events.ics
+hide: true
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
