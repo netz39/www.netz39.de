@@ -10,7 +10,7 @@ UID:{{ event.event_date | date: "%Y%m%d" }}@netz39.de
 ORGANIZER;CN="Netz39 Team":MAILTO:kontakt@netz39.de
 LOCATION:Netz39 e.V.\, Leibnizstraße 32\, 39104 Magdeburg
 SUMMARY:{{ event.title | remove: ',' | remove: ';' }}
-DESCRIPTION:Meetings start at 19:00PM Berlin time. More info at {{ site.url }}{{ event.url }}
+DESCRIPTION:Meetings start at 19:00PM Berlin time. More info at {{ event.url | absolute_url }}
 CLASS:PUBLIC
 DTSTART:{{ event.event_date | date: "%Y%m%d" }}T170000Z
 DTEND:{{ event.event_date | date: "%Y%m%d" }}T190000Z
