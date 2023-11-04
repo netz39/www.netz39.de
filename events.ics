@@ -4,16 +4,22 @@ layout: null
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:{{ site.url }}
-METHOD:PUBLISH{% for event in site.events %}
+METHOD:PUBLISH
+{% for event in site.events -%}
+{%- assign eventDate = event.event_date | date: "%Y%m%d" -%}
+{%- assign currentDate = 'now' | date: "%Y%m%d" -%}
+{%- if eventDate >= currentDate -%}
 BEGIN:VEVENT
 UID:{{ event.event_date | date: "%Y%m%d" }}@netz39.de
 ORGANIZER;CN="Netz39 Team":MAILTO:kontakt@netz39.de
 LOCATION:Netz39 e.V.\, Leibnizstraße 32\, 39104 Magdeburg
 SUMMARY:{{ event.title | remove: ',' | remove: ';' }}
-DESCRIPTION:Meetings start at 19:00PM Berlin time. More info at {{ event.url | absolute_url }}
+DESCRIPTION:More info at {{ event.url | absolute_url }}
 CLASS:PUBLIC
-DTSTART:{{ event.event_date | date: "%Y%m%d" }}T170000Z
-DTEND:{{ event.event_date | date: "%Y%m%d" }}T190000Z
+DTSTART;VALUE=DATE:{{ event.event_date | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ event.event_date | date: "%Y%m%d" }}
 DTSTAMP:{{ event.event_date | date: "%Y%m%d" }}T170000Z
-END:VEVENT{% endfor %}
+END:VEVENT
+{% endif -%}
+{%- endfor -%}
 END:VCALENDAR
