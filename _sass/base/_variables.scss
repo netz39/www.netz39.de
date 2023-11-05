@@ -115,6 +115,32 @@ html[data-theme="dark"] {
   --base0f: #ff66c2; // Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
 }
 
+// Fullcalendar light mode
+html, [data-theme="light"] {
+  --fc-page-bg-color: var(--background);
+  --fc-event-bg-color: var(--background);
+  --fc-event-text-color: var(--link);
+  --fc-event-border-color: var(--link);
+  --fc-button-bg-color: var(--background);
+  --fc-button-border-color: var(--link);
+  --fc-button-text-color: var(--link);
+  --fc-button-hover-bg-color: var(--meta);
+}
+
+// Fullcalendar dark mode
+html, [data-theme="dark"] {
+  --fc-page-bg-color: var(--background);
+  --fc-event-bg-color: var(--link);
+  --fc-event-border-color: var(--link);
+  --fc-event-border-color: var(--link);
+  --fc-today-bg-color: rgba(181, 125, 255, 0.15);
+  --fc-neutral-text-color: var(--fc-border-color);
+  --fc-button-bg-color: var(--background);
+  --fc-button-border-color: var(--link);
+  --fc-button-text-color: var(--link);
+  --fc-button-hover-bg-color: var(--meta);
+}
+
 // Monokai Theme
 //html[data-theme="dark"] {
 //  --base00: #272822; // Default Background

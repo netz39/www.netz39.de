@@ -37,6 +37,6 @@ icon: "far fa-calendar"
     </script>
   </head>
   <body>
-    <div id='calendar' style="width:80%; margin: auto;"></div>
+    <div id='calendar' style="width:95%; margin: auto;"></div>
   </body>
 </html>
