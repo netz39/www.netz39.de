@@ -16,7 +16,7 @@ event_date:   {year}-{month:02d}-{day:02d}
 Es ist wieder Vereins-Stammtisch! Wie immer in allen ganzzahlig durch drei teilbaren Kalenderwochen. Das Protokoll dieses Stammtisches findet ihr [hier](https://wiki.netz39.de/stammtisch:{year}:{year}-{month:02d}-{day:02d}).
 """
 
-    folder_path = "_events"
+    folder_path = f"../_events/{year}/"
     filename = f"{year}-{month:02d}-{day:02d}_n39_stammtisch.md"
     file_path = os.path.join(folder_path, filename)
 
