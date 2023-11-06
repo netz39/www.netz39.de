@@ -20,6 +20,9 @@ Es ist wieder Vereins-Stammtisch! Wie immer in allen ganzzahlig durch drei teilb
     filename = f"{year}-{month:02d}-{day:02d}_n39_stammtisch.md"
     file_path = os.path.join(folder_path, filename)
 
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
     with open(file_path, 'w') as file:
         file.write(markdown_content)
 
