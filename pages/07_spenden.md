@@ -10,17 +10,32 @@ tags: [Page]
 
 ### Überweisungen
 
-> Kontoinhaber: Netz39 e.V.
-> IBAN: DE64 4306 0967 4120 8043 00
-> BIC: GENODEM1GLS
-> Kreditinstitut: GLS Gemeinschaftsbank eG
+<table class="bankdata">
+  <tr>
+    <th>Kontoinhaber</th>
+    <td>Netz39 e.V.</td>
+  </tr>
+  <tr>
+    <th>IBAN</th>
+    <td>DE64 4306 0967 4120 8043 00</td>
+  </tr>
+  <tr>
+    <th>BIC</th>
+    <td>GENODEM1GLS</td>
+  </tr>
+  <tr>
+    <th>Kreditinstitut</th>
+    <td>GLS Gemeinschaftsbank eG</td>
+  </tr>
+</table>
+
 
 Wir sind gemeinnützig und können auf Wunsch Spendenquittungen ausstellen.
 
 ### Micropayments
 
 > PayPal: office@netz39.de
- 
+
 ## Sachspenden
 
 Wir nehmen auch gern Sachspenden entgegen, sofern diese unsere Werkstattausstattung bereichern. Es folgt eine nicht priorisierte Liste mit Dingen, die wir gebrauchen können:
