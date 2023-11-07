@@ -29,12 +29,15 @@ tags: [Page]
   </tr>
 </table>
 
-
-Wir sind gemeinnützig und können auf Wunsch Spendenquittungen ausstellen.
-
 ### Micropayments
 
 > PayPal: office@netz39.de
+
+### Spendenquittungen
+
+Wir sind gemeinnützig und können auf Wunsch Spendenquittungen ausstellen.
+Dazu müssen Kontaktdaten angegeben werden und der Begriff `Spende` im Betreff auftauchen.
+
 
 ## Sachspenden
 
