@@ -2,6 +2,15 @@
 baseurl: "/"
 url: "https://www.netz39.de"
 
+# BOARD MEMBERS
+board:
+  chair:
+    name: "Maximilian Grau"
+    wiki: "mg-95"
+  deputy:
+    name: "Timo Herrmann"
+    wiki: "timo"
+
 # THEME-SPECIFIC CONFIGURATION
 title: Netz39 e.V.                                      # site's title
 description: "Magdeburger Hackerspace"                  # used by search engines
