@@ -1,0 +1,18 @@
+table.bankdata {
+    width: auto;
+    border-left: 2px solid #9fd2e3;
+    margin: 1em 1em;
+    padding: 0.75em 1em;
+    background-color: var(--blockquote);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+
+
+    th,td {
+        border: none;
+        padding: 5px;
+    }
+
+    th {
+        padding-left: 1em;
+    }
+}
