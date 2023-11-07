@@ -17,7 +17,7 @@ Netz39 e.V.
 Leibnizstraße 32
 39104 Magdeburg
 Vertreten durch:
-den aktuellen Vorstand (siehe Impressum)
+{{ site.board.chair.name }}, {{ site.board.deputy.name }}
 ```
 
 ## Ihre Betroffenenrechte
