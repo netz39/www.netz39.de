@@ -20,8 +20,10 @@ show-in-footer: true
 
 ## Vertreten durch:
 
-- Maximilian Grau ([Link ins Wiki](https://www.netz39.de/wiki/user:mg-95))
-- Timo Herrmann ([Link ins Wiki](https://www.netz39.de/wiki/user:timo))
+
+
+- {{ site.board.chair.name }} {% if site.board.chair.wiki and site.board.chair.wiki != '' and site.board.chair.wiki != nil %}([Link ins Wiki](https://wiki.netz39.de/user:{{ site.board.chair.wiki }})){% endif %}
+- {{ site.board.deputy.name }} {% if site.board.deputy.wiki and site.board.deputy.wiki != '' and site.board.deputy.wiki != nil %}([Link ins Wiki](https://wiki.netz39.de/user:{{ site.board.deputy.wiki }})){% endif %}
 
 ## Kontakt
 
