@@ -30,8 +30,12 @@ tags: [Page]
 </table>
 
 ### Micropayments
-
-> PayPal: office@netz39.de
+<table class="bankdata">
+  <tr>
+    <th>PayPal:</th>
+    <td>office@netz39.de</td>
+  </tr>
+</table>
 
 ### Spendenquittungen
 
