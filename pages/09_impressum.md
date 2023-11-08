@@ -16,7 +16,7 @@ show-in-footer: true
     Leibnizstraße 32
     39104 Magdeburg
 
-    Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: Maximilian Grau
+    Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: {{ site.board.chair.name }}
 
 ## Vertreten durch:
 
