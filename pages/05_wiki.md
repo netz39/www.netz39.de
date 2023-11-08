@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wiki
-permalink: /redirect/
+permalink: /wiki/
 ---
 
 ### Redirecting to the Netz39 Wiki ...
