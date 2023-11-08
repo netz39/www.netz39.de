@@ -33,7 +33,7 @@ show-in-footer: true
 
 ## Spenden
 
-Spenden sind willkommen. Die Gemeinnützigkeit des Vereins wurde durch das Finanzamt festgestellt, aus dem Grund können wir auf Wunsch auch Spendenquittungen ausstellen. Die Kontoverbindung gibt es auf Anfrage.
+Spenden sind willkommen. Für weitere Infos, siehe [hier]({{site:url}}/spenden).
 
 ## Registergericht
 
