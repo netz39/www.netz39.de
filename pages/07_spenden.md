@@ -43,31 +43,31 @@ Dazu müssen Kontaktdaten angegeben werden und der Begriff `Spende` im Betreff a
 
 Wir nehmen auch gern Sachspenden entgegen, sofern diese unsere Werkstattausstattung bereichern. Es folgt eine nicht priorisierte Liste mit Dingen, die wir gebrauchen können:
 
-## Bastelmaterial
+### Bastelmaterial
 
 - Sack voll Mikrocontroller
 - Steckbretter
 - Drahtbrücken
 - ESP32
 
-## Einrichtung und Küche
+### Einrichtung und Küche
 
 - Schuko-Verteiler-Würfel
 - Plastikschüsseln mit Deckel
 - Küchenmaschine (Häckseln, Rühren,…)
 
-## Werkzeug
+### Werkzeug
 
 - Flex aka Trennschleifer
 - Holz-/Gummihammer
 - Deltaschleifer
 - Schlagbohrmaschine/Bohrer
 
-## Maschinen
+### Maschinen
 
 - Lasercutter
 - Schneidplotter
 
-## Messgeräte
+### Messgeräte
 
 - Logic-Analyzer
