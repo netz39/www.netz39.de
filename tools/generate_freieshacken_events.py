@@ -11,7 +11,7 @@ Jeden Mittwoch treffen wir uns zum Basteln, Reparieren, Kochen und Ideen austaus
 
 Bitte beachtet, dass jede dritte Woche unser Stammtisch ist, wo wir über vereinsinterne Sachen reden und erst anschließend zum gemütlichen Abend übergehen.
 """
-folder_path = "_events"
+folder_name = "_events"
 filename_prefix = "n39_freies_hacken"
 
 # Function to generate the markdown content for a specific date
@@ -24,13 +24,17 @@ event_date: {year}-{month:02d}-{day:02d}
 {event_description}
 """
 
+    folder_path = f"../{folder_name}/{year}/"
     filename = f"{year}-{month:02d}-{day:02d}_{filename_prefix}.md"
     file_path = os.path.join(folder_path, filename)
+
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
 
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(markdown_content)
 
-    print(f"Markdown file '{filename}' generated successfully in the {folder_path} folder!")
+    print(f"Markdown file '{filename}' generated successfully in the '{folder_path}' folder!")
 
 
 # Input year
