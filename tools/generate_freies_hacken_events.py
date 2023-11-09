@@ -40,8 +40,8 @@ event_date: {year}-{month:02d}-{day:02d}
 
 
 if len(sys.argv) < 2:
-        print(f"Usage: python3 {sys.argv[0]} <year>")
-        sys.exit()
+    print(f"Usage: python3 {sys.argv[0]} <year>")
+    sys.exit()
 
 # Get year from CLI
 year = int(sys.argv[1])
