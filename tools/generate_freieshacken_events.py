@@ -1,29 +1,36 @@
 import os
 import datetime
 
-
-# Function to generate the markdown content for a specific date
-def generate_markdown_file(year, month, day):
-    markdown_content = f"""---
-layout: event
-title:  "Freies Hacken"
-event_date:   {year}-{month:02d}-{day:02d}
----
+layout = "event"
+title = "Freies Hacken"
+event_description = f"""
 **Wann: 19:30 Uhr**\\
 **Wo: Netz39 e.V.**
+
 Jeden Mittwoch treffen wir uns zum Basteln, Reparieren, Kochen und Ideen austauschen. Gäste sind gerne willkommen
 
 Bitte beachtet, dass jede dritte Woche unser Stammtisch ist, wo wir über vereinsinterne Sachen reden und erst anschließend zum gemütlichen Abend übergehen.
 """
+folder_path = "_events"
+filename_prefix = "n39_freies_hacken"
 
-    folder_path = "_events"
-    filename = f"{year}-{month:02d}-{day:02d}_n39_freies_hacken.md"
+# Function to generate the markdown content for a specific date
+def generate_markdown_file(year, month, day):
+    markdown_content = f"""---
+layout: {layout}
+title: {title}
+event_date: {year}-{month:02d}-{day:02d}
+---
+{event_description}
+"""
+
+    filename = f"{year}-{month:02d}-{day:02d}_{filename_prefix}.md"
     file_path = os.path.join(folder_path, filename)
 
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(markdown_content)
 
-    print(f"Markdown file '{filename}' generated successfully in the _events folder!")
+    print(f"Markdown file '{filename}' generated successfully in the {folder_path} folder!")
 
 
 # Input year
