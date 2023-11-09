@@ -15,6 +15,7 @@ Bitte beachtet, dass jede dritte Woche unser Stammtisch ist, wo wir über verein
 folder_name = "_events"
 filename_prefix = "n39_freies_hacken"
 
+
 # Function to generate the markdown content for a specific date
 def generate_markdown_file(year, month, day):
     markdown_content = f"""---
@@ -42,7 +43,7 @@ if len(sys.argv) < 2:
         print(f"Usage: python3 {sys.argv[0]} <year>")
         sys.exit()
 
-# Input year
+# Get year from CLI
 year = int(sys.argv[1])
 
 # Calculate Wednesdays
