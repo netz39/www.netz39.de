@@ -29,7 +29,7 @@ Bitte beachtet, dass jede dritte Woche unser Stammtisch ist, wo wir über verein
 # Input year
 input_year = int(input("Enter the year: "))
 
-# Calculate Wednesdays in weeks divisible by three
+# Calculate Wednesdays
 for month in range(1, 13):
     for day in range(1, 32):
         try:
