@@ -1,5 +1,6 @@
 import os
 import datetime
+import sys
 
 layout = "event"
 title = "Freies Hacken"
@@ -37,19 +38,23 @@ event_date: {year}-{month:02d}-{day:02d}
     print(f"Markdown file '{filename}' generated successfully in the '{folder_path}' folder!")
 
 
+if len(sys.argv) < 2:
+        print(f"Usage: python3 {sys.argv[0]} <year>")
+        sys.exit()
+
 # Input year
-input_year = int(input("Enter the year: "))
+year = int(sys.argv[1])
 
 # Calculate Wednesdays
 for month in range(1, 13):
     for day in range(1, 32):
         try:
             # Generate a date object
-            current_date = datetime.date(input_year, month, day)
+            current_date = datetime.date(year, month, day)
 
             # Check if the date is a Wednesday
             if current_date.weekday() == 2:
-                generate_markdown_file(input_year, month, day)
+                generate_markdown_file(year, month, day)
 
         except ValueError:
             # If the day is out of range for the month, skip to the next month
