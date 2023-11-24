@@ -2,6 +2,7 @@
 layout: event
 title: "Softwerke-Stammtisch"
 event_date: 2023-11-03
+author: softwerke
 ---
 
 **Wann: ab 19:30 Uhr**\
