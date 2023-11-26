@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Softwerke-Stammtisch"
+title: "Softwerke-Adventstreffen"
 event_date: 2023-12-09
 author: softwerke
 ---
