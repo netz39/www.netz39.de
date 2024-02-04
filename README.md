@@ -67,6 +67,25 @@ Dieses Repository nutzt zur Verwaltung von großen Binärdaten (Bilder und PDFs)
 
 Die Arbeit mit den Dateien ändert sich durch die Verwendung von git-lfs nicht.
 
+## pre-commit
+
+Dieses Reoisitory nutzt [pre-commit](https://pre-commit.com/), um git pre-commit-hooks auszuführen.
+
+### [Installation](https://pre-commit.com/#installation)
+
+```bash
+# install package
+pip install pre-commit
+# install pre-commit-hooks in repo
+pre-commit install
+# run (new) hooks against all files in repo
+pre-commit run --all-files
+```
+
+### Genutzte hooks
+
+Siehe [.pre-commit-config.yaml](./.pre-commit-config.yaml)
+
 ## License
 
 © Netz39 e.V
