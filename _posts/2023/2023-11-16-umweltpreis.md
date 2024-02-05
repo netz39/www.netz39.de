@@ -1,5 +1,5 @@
 ---
-author: Jens
+author: jens
 layout: post
 title: "Magdeburger Umweltpreis 2023"
 date: "2023-11-16"
