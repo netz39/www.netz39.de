@@ -2,7 +2,7 @@
 layout: event
 title:  "Treffen des Open Knowledge Lab Magdeburg"
 event_date:   2024-03-22
-author: Jens
+author: jens
 ---
 
 **Wann: 19:00 Uhr**\
