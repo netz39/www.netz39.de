@@ -19,9 +19,9 @@ module Jekyll
         event.summary = title
         cal.add_event(event)
       end
-      site.pages << IcalPage.new(site, site.source, 'feed', "events.ics", cal)
+      site.pages << IcalPage.new(site, site.source, 'feed/eo-events', "events.ics", cal)
 
-      puts "Generated .ics page from #{events.length} events"
+      puts "Generated events.ics page from #{events.length} events"
     end
   end
 
