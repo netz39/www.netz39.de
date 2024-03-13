@@ -33,7 +33,7 @@ show-in-footer: true
 
 ## Spenden
 
-Spenden sind willkommen. Für weitere Infos, siehe [hier]({{site:url}}/spenden).
+Spenden sind willkommen. Für weitere Infos, siehe [hier]({{ site.url }}/spenden).
 
 ## Registergericht
 
