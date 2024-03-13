@@ -9,14 +9,17 @@ module Jekyll
 
     def generate(site)
       events = site.collections['events'].docs
-      organizer = "Netz39 Team <kontakt@netz39.de>"
-      location = "Netz39 e.V., Leibnizstraße 32, 39104 Magdeburg"
+      default_organizer = "Netz39 Team <kontakt@netz39.de>"
+      default_location = "Netz39 e.V., Leibnizstraße 32, 39104 Magdeburg"
 
       cal = Icalendar::Calendar.new
 
       events.each do |event|
         title = event.data['title']
-        date = event.data['event_date']
+        date = event.data.dig('event', 'date') || event.data['event_date']
+        duration = event.data.dig('event', 'duration')
+        organizer = event.data.dig('event', 'organizer') || default_organizer
+        location = event.data.dig('event', 'location') || default_location
 
         # Remove image URLs from description
         content = event.content
@@ -28,8 +31,13 @@ module Jekyll
 
         # Create new event and set its properties
         ical_event = Icalendar::Event.new
-        ical_event.dtstart = Icalendar::Values::Date.new(date)
-        ical_event.dtend = Icalendar::Values::Date.new(date)
+        if duration
+          ical_event.dtstart = date
+          ical_event.dtend = date + duration.to_i * 60
+        else
+          ical_event.dtstart = Icalendar::Values::Date.new(date)
+          ical_event.dtend = Icalendar::Values::Date.new(date)
+        end
         ical_event.summary = title
         ical_event.description = description
         ical_event.organizer = organizer
