@@ -11,13 +11,13 @@ module Jekyll
       events = site.collections['events'].docs
       default_organizer = "Netz39 Team <kontakt@netz39.de>"
       default_location = "Netz39 e.V., Leibnizstraße 32, 39104 Magdeburg"
-
+      default_duration = Rational(4, 24)
       cal = Icalendar::Calendar.new
 
       events.each do |event|
         title = event.data['title']
         start_date = event.data.dig('event', 'start') || event.data['event_date']
-        end_date = event.data.dig('event', 'end') || event.data['event_date']
+        end_date = event.data.dig('event', 'end') || event.data['event_date'] || start_date + default_duration
         organizer = event.data.dig('event', 'organizer') || default_organizer
         location = event.data.dig('event', 'location') || default_location
 
