@@ -16,8 +16,8 @@ module Jekyll
 
       events.each do |event|
         title = event.data['title']
-        date = event.data.dig('event', 'date') || event.data['event_date']
-        duration = event.data.dig('event', 'duration')
+        start_date = event.data.dig('event', 'start') || event.data['event_date']
+        end_date = event.data.dig('event', 'end') || event.data['event_date']
         organizer = event.data.dig('event', 'organizer') || default_organizer
         location = event.data.dig('event', 'location') || default_location
 
@@ -31,12 +31,15 @@ module Jekyll
 
         # Create new event and set its properties
         ical_event = Icalendar::Event.new
-        if duration
-          ical_event.dtstart = date
-          ical_event.dtend = date + duration.to_i * 60
+        if start_date > end_date
+          raise StandardError.new "#{File.basename(event.path)}: Start date must not be greater than end date"
+        end
+        if start_date < end_date
+          ical_event.dtstart = start_date
+          ical_event.dtend = end_date
         else
-          ical_event.dtstart = Icalendar::Values::Date.new(date)
-          ical_event.dtend = Icalendar::Values::Date.new(date)
+          ical_event.dtstart = Icalendar::Values::Date.new(start_date)
+          ical_event.dtend = Icalendar::Values::Date.new(end_date)
         end
         ical_event.summary = title
         ical_event.description = description
