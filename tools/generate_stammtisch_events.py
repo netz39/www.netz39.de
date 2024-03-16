@@ -6,17 +6,15 @@ import datetime
 def generate_markdown_file(year, month, day):
     markdown_content = f"""---
 layout: event
-title:  "Netz39-Stammtisch"
-event_date:   {year}-{month:02d}-{day:02d}
+title: "Netz39-Stammtisch"
+event:
+  start: {year}-{month:02d}-{day:02d} 19:30:00
 ---
-
-**Wann: 19:30 Uhr**\\
-**Wo: Netz39 e.V.**
 
 Es ist wieder Vereins-Stammtisch! Wie immer in allen ganzzahlig durch drei teilbaren Kalenderwochen. Das Protokoll dieses Stammtisches findet ihr [hier](https://wiki.netz39.de/stammtisch:{year}:{year}-{month:02d}-{day:02d}).
 """
-
-    folder_path = f"../_events/{year}/"
+    dirname = os.path.dirname(__file__)
+    folder_path = os.path.join(dirname, f"../_events/{year}/")
     filename = f"{year}-{month:02d}-{day:02d}_n39_stammtisch.md"
     file_path = os.path.join(folder_path, filename)
 

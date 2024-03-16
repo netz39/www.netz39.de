@@ -1,10 +1,8 @@
 ---
 layout: event
-title:  "Netz39-Stammtisch"
-event_date:   2024-01-17
+title: "Netz39-Stammtisch"
+event:
+  start: 2024-01-17 19:30:00
 ---
-
-**Wann: 19:30 Uhr**\
-**Wo: Netz39 e.V.**
 
 Es ist wieder Vereins-Stammtisch! Wie immer in allen ganzzahlig durch drei teilbaren Kalenderwochen. Das Protokoll dieses Stammtisches findet ihr [hier](https://wiki.netz39.de/stammtisch:2024:2024-01-17).
