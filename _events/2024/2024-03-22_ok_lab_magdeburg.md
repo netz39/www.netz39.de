@@ -1,12 +1,10 @@
 ---
 layout: event
-title:  "Treffen des Open Knowledge Lab Magdeburg"
-event_date:   2024-03-22
+title: "Treffen des Open Knowledge Lab Magdeburg"
+event:
+  start: 2024-03-22 19:00:00
 author: jens
 ---
-
-**Wann: 19:00 Uhr**\
-**Wo: Netz39 e.V.**
 
 - Präsentation aktueller Projekte
   - Virtuelle Stempelkarte für Magdeburger Spielplätze

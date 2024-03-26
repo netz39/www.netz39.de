@@ -44,11 +44,21 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
     ---
     layout: event
     title: "Titel des Events"
-    author: MaxMustermann # optional, soll gemacht werden, wenn du der Ansprechpartner des Events bist
-    event_date: 2023-10-20 # Datum, an dem das Event stattfindet
+    author: MaxMustermann # optional, soll angegeben werden, wenn du der Ansprechpartner des Events bist
+    event:
+      start: 2023-10-20 19:00:00 # Datum, an dem das Event stattfindet. Die Zeit ist optional
+      end:   2023-10-20 21:00:00 # optional, Zeitpunkt, an dem das Event endet
+      organizer: "Netz39 Team <kontakt@netz39.de>" # optional, Kontaktdaten im ical Event
+      location: "Netz39 e.V." # optional, Ort des Events
     ---
     ```
 - Unterhalb des Front Matters die Beschreibung des Events in Markdown aufschreiben
+- Bei der Angabe der Zeiten müssen folgende Regeln eingehalten werden:
+    - `event.end` darf nicht vor `event.start` liegen
+    - Wenn `event.end` angegeben ist, dann muss `event.start` eine Uhrzeit enthalten
+    - Wenn `event.end` weggelassen wird, dann wird das Ereignis auf der [Homepage](https://www.netz39.de/events) ganztagig und im ical Feed mit Uhrzeit angezeigt
+    - Wenn keine Uhrzeit in `event.start` angegeben ist, dann wird das Event auch im ical Feed ganztagig angezeigt
+    - Mehrtägige Events werden nur mit Angabe der Uhrzeiten korrekt dargestellt
 
 ## Installation und lokale Entwicklung mit Docker:
 

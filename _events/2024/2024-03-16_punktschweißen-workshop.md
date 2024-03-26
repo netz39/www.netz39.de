@@ -1,15 +1,14 @@
 ---
 layout: event
 title:  "Punktschweißen-Workshop"
-event_date:   2024-03-16
+event:
+  start: 2024-03-16 14:00:00
+  end: 2024-03-16 16:00:00
 author: max2
 feature-img: "/assets/img/pexels/pexels-markus-spiske-330771.jpg"
 ---
 
 ![](/assets/img/pexels/pexels-nastyasensei-282045.jpg)
-
-**Wann: 14:00-16:00 Uhr**\
-**Wo: Netz39 e.V.**
 
 Selber Akkuzellen mit Nickelstreifen zusammen schweißen? 
 

@@ -8,7 +8,8 @@ layout: default
       <div class="feature-image-padding"></div>
       {% else %}
       <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
-      {% include blog/post_info.liquid author=page.author date=page.event_date %}
+      {% assign start_date = page.event.start | default: page.event_date %}
+      {% include blog/post_info.liquid author=page.author date=start_date %}
       {% endif %}
     </div>
   </header>
@@ -17,6 +18,12 @@ layout: default
   {% if page.bootstrap %}
     <div class="bootstrap-iso">
     {% endif %}
+      {% if page.event.start %}
+      <p>
+        <strong>Wann: {{ page.event.start | date: "%H:%M" }}{% if page.event.end %} - {{ page.event.end | date: "%H:%M" }}{% endif %} Uhr</strong><br />
+        <strong>Wo: {{ page.event.location | default: "Netz39 e.V." }}</strong>
+      </p>
+      {% endif %}
       {{ content }}
     {% if page.bootstrap %}
     </div>
