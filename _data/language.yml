@@ -15,7 +15,10 @@ str_no_result_found: "No result found"
 str_cookie_approve: "Approve"
 str_cookie_disclaimer: "We would like to use third party cookies and scripts to improve the functionality of this website."
 str_months: [Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
+str_dark: 'Dark'
+str_light: 'Light'
+str_date_format: '%B %-d, %Y'
 str_more_blog_entries: "Mehr Blogeinträge..."
 
-# Localization settings 
+# Localization settings
 cusdis_lang: # zh-cn, es, tr, pt-BR
