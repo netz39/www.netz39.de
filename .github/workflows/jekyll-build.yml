@@ -1,4 +1,4 @@
-name: Jekyll Build
+name: Test build (Jekyll)
 
 on:
   pull_request:
