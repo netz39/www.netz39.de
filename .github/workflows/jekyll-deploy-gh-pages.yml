@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy Jekyll and upload GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -30,22 +30,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Cached checkout
-        uses: nschloe/action-cached-lfs-checkout@v1
-        # Use these to explicitly include/exclude files:
-        # with:
-        #   include: "*"
-        #   exclude: ""
+        uses: netz39/action-cached-lfs-checkout@main
+        
       - name: Build the site in the jekyll/builder container
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-
-      - name: Install packages
-        continue-on-error: true
-        run: |
-          docker pull sylhare/type-on-strap
-          docker pull sylhare/jekyll
 
       - name: "Upload artifact"
         uses: actions/upload-pages-artifact@v3
