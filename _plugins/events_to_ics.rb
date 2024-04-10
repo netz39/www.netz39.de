@@ -30,7 +30,7 @@ module Jekyll
 
         # Render Markdown content to plain text
         markdown_parser = Redcarpet::Markdown.new(Redcarpet::Render::StripDown)
-        description = markdown_parser.render(content)
+        description = markdown_parser.render(content) + "\nMehr Infos unter #{site.config['url']}#{event.url}"
 
         # Create new event and set its properties
         ical_event = Icalendar::Event.new
