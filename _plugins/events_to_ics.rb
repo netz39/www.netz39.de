@@ -21,6 +21,9 @@ module Jekyll
         organizer = event.data.dig('event', 'organizer') || default_organizer
         location = event.data.dig('event', 'location') || default_location
 
+        # Skip events older than 365 days
+        next if start_date.to_date < (Date.today - 365)
+
         # Remove image URLs from description
         content = event.content
         content.gsub!(/\!\[.*?\]\((.*?)\)/, '')
