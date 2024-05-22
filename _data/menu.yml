@@ -1,0 +1,5 @@
+# To add links to the navigation bar.
+- type-on-strap:
+  title: "Wiki"
+  url: https://wiki.netz39.de
+  position: 5
