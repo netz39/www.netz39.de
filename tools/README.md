@@ -5,8 +5,9 @@
 ```bash
 cd tools
 python3 generate_stammtisch_events.py
-Enter the year: 2024
 ```
+> Enter the year: 2024
+
 Output:
 
 ```bash
@@ -27,4 +28,28 @@ Markdown file '2024-10-16_n39_stammtisch.md' generated successfully in the _even
 Markdown file '2024-11-06_n39_stammtisch.md' generated successfully in the _events folder!
 Markdown file '2024-11-27_n39_stammtisch.md' generated successfully in the _events folder!
 Markdown file '2024-12-18_n39_stammtisch.md' generated successfully in the _events folder!
+```
+
+## Softwerke Stammtisch Event erzeugen
+
+```bash
+cd tools
+./generate_softwerke_stammtisch.sh
+```
+> When is the next Stammtisch? (YYYY-MM-DD)
+
+> 2024-07-05
+
+Output:
+
+```bash
+Zu neuem Branch 'events/2024-07-05_softwerke_stammtisch.md' gewechselt
+[events/2024-07-05_softwerke_stammtisch.md 6a22bef] Add event for 2024-07-05
+ 1 file changed, 10 insertions(+)
+ create mode 100644 _events/2024/2024-07-05_softwerke_stammtisch.md
+```
+
+Branch veröffentlichen:
+```bash
+git push origin events/2024-07-05_softwerke_stammtisch.md
 ```
