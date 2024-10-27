@@ -4,6 +4,7 @@ title: Spenden
 permalink: /spenden/
 feature-img: "assets/img/pexels/pexels-pixabay-259165.jpg"
 tags: [Page]
+position: 7
 ---
 
 ## Geldspenden
