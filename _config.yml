@@ -64,6 +64,8 @@ collections:
     title: Events
 
 # BUILD SETTINGS
+github:
+  repository_url: https://github.com/netz39/www.netz39.de
 sass:
   style: compressed
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
