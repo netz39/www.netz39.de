@@ -7,4 +7,4 @@ event:
 author: softwerke
 ---
 
-Am Freitag den 8. November 2024 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Die elektronische Patient:innenakte (ePa) kommt! Was sich damit ändert, warum das für dich relevant sein sollte und über das Für und Wider eines Widerspruchs wollen wir auf unserem nächsten Stammtisch diskutieren. Der Stammtisch findet am 08.11. um 19:30 Uhr mit netten Menschen und Snacks im [@netz39](https://machteburch.social/@netz39) statt. Wir freuen uns auf deine Teilnahme und einen regen Austausch zum Thema!
