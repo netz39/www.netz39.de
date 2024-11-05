@@ -5,8 +5,8 @@ title: "Einfach schräg."
 date: "2019-01-14"
 categories: 
   - "workshop"
-feature-img: "assets/img/post-img/2019/Moehrenklarinette_Einzelteile_horizontal-1440x486.jpg"
-thumbnail: "assets/img/post-img/2019/Moehrenklarinette_Einzelteile_horizontal-1440x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2019/Moehrenklarinette_Einzelteile_horizontal-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2019/Moehrenklarinette_Einzelteile_horizontal-1440x486.jpg"
 ---
 
 Das war mal Hackathon at its best: Schräge bis schrägste Musikinstrumente haben wir am 12. und 13. Januar 2019 im Space gebaut und natürlich ausgiebig getestet. Aus der Zutatenliste: Bowdenzug, Möhren, Kühlkörper, Marmeladengläser, Floppy-Drives, Sperrholz, PLA-Filament, Platinen plus Hühnerfutter und und und.
@@ -31,7 +31,7 @@ Hier die Projekte noch mal in Gänze inklusive Anleitungen, soweit vorhanden:
 
 Und hier noch mal in Farbe und bunt:
 
-![](/assets/img/post-img/2019/Sirene.jpg) | ![](/assets/img/post-img/2019/Floppyklavier_full.jpg) |
-![](/assets/img/post-img/2019/Thereminfamilie.jpeg) | ![](/assets/img/post-img/2019/Tretmine_inprogressPlatine.jpeg) |
-![](/assets/img/post-img/2019/Moehrenklarinette_Tag2.jpg) | ![](/assets/img/post-img/2019/Marmeladenglasophon.jpg)
-![](/assets/img/post-img/2019/Einseiter_gespielt.jpg) |
+![](https://cdn.netz39.de/img/post-img/2019/Sirene.jpg) | ![](https://cdn.netz39.de/img/post-img/2019/Floppyklavier_full.jpg) |
+![](https://cdn.netz39.de/img/post-img/2019/Thereminfamilie.jpeg) | ![](https://cdn.netz39.de/img/post-img/2019/Tretmine_inprogressPlatine.jpeg) |
+![](https://cdn.netz39.de/img/post-img/2019/Moehrenklarinette_Tag2.jpg) | ![](https://cdn.netz39.de/img/post-img/2019/Marmeladenglasophon.jpg)
+![](https://cdn.netz39.de/img/post-img/2019/Einseiter_gespielt.jpg) |

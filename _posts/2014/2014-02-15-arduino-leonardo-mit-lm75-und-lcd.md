@@ -10,8 +10,8 @@ tags:
   - "i²c"
   - "lcd"
   - "lm75"
-feature-img: "assets/img/post-img/2014/img_0003a-1440x486.jpg"
-thumbnail: "assets/img/post-img/2014/img_0003a-1440x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2014/img_0003a-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2014/img_0003a-1440x486.jpg"
 ---
 
 Ein LM75 ist ein digitaler Temperatursensor mit I²C-Schnittstelle, die eine oder andere kennt den Stein vielleicht von der Hauptplatine seines PC. Aus Gründen wollte ich ein bisschen damit spielen und um zu sehen, ob der überhaupt was kann, warum nicht mal eben schnell an einen Arduino stecken? Zum Glück ist das Netz voll von passenden Anleitungen und so war schnell [diese hier](http://books.google.de/books?id=CSei8-a3C30C&pg=PA160&lpg=PA160&dq=lm75+arduino&source=bl&ots=qpDdlbdMlJ&sig=ghvquYx8E_zY9KaU-i-EuA_F1cY&hl=de&sa=X&ei=ol3-UscJkrWEB_TfgYAP&redir_esc=y#v=onepage&q=lm75%20arduino&f=false) als brauchbar ausgemacht. Die Pins 5 bis 7 hab ich einfach auf Masse gelegt. Da die oberen 4 Bits der 7-Bit breiten Slave-Adresse des Steins mit `1001` fest stehen, bedeutet das für die Adresse insgesamt (mit führender Null) `01001000b`. Das behalten wir mal im Hinterkopf, steht aber auch im oben verlinkten Dokument. SDA (Pin 1) und SCL (Pin 2) werden mit dem Arduino verbunden, da gibt's ja freundlicherweise direkt auf der Platine einen passenden Aufdruck. Zum ersten Test benutzt man einfach die serielle Konsole als Ausgabe, sieht als Sketch dann so aus:
@@ -74,7 +74,7 @@ Soweit so gut, jetzt noch das HD44780-kompatible alphanumerische LCD. Dazu kann 
 
 Hier nochmal das Bild von meinem Aufbau:
 
-| ![](/assets/img/post-img/2014/img_0003a.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/img_0003a.jpg) |
 |:--:|
 |Arduino Leonardo mit LM75 und LCD |
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tic tac toe
-feature-img: "assets/img/portfolio/ttt.png"
-img: "assets/img/portfolio/ttt.png"
+feature-img: "https://cdn.netz39.de/img/portfolio/ttt.png"
+img: "https://cdn.netz39.de/img/portfolio/ttt.png"
 date: September 2014
 ---
 

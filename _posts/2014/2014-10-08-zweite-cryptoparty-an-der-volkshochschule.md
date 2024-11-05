@@ -4,8 +4,8 @@ title: "Zweite Cryptoparty an der Volkshochschule"
 date: "2014-10-08"
 categories: 
   - "veranstaltung"
-feature-img: "assets/img/post-img/2014/11288630926_3f6f60e772_o1-1440x486.jpg"
-thumbnail: "assets/img/post-img/2014/11288630926_3f6f60e772_o1-1440x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2014/11288630926_3f6f60e772_o1-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2014/11288630926_3f6f60e772_o1-1440x486.jpg"
 ---
 
 Bereits zum zweiten Mal laden wir und die Städtische Volkshochschule zu einer Cryptoparty ein. Die zweite Veranstaltung dieser Art findet am 11. Oktober, von 10:00 bis 14:00 Uhr statt.

@@ -11,8 +11,8 @@ tags:
   - "geodesic-dome"
   - "ohm2013"
   - "timelapse"
-feature-img: "assets/img/post-img/2014/geodesic_spheres-1000x486.jpg"
-thumbnail: "assets/img/post-img/2014/geodesic_spheres-1000x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2014/geodesic_spheres-1000x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2014/geodesic_spheres-1000x486.jpg"
 ---
 
 Es fing damit an, dass sich ein paar Freunde (darunter ich) einen Garten im Herzen von Magdeburg zugelegt haben: 500 qm verwildeter Schrebergarten mit einem kleinen Geräteschuppen. Damit das Ganze aber nicht nur nach Ackerfläche aussieht, wurde überlegt, wie man etwas Struktur hineinbekommt. So wurden Obststräucher gepflanzt, ein kleines Pumpenhäuschen gebaut, eine Kräutersprirale angelegt, etc. Aber es fehlte noch so ein richtiger Hingucker, eine Art Skulptur, die man aber auch irgendwie gartentechnisch nutzen kann, was nerdiges und cooles eben.
@@ -21,7 +21,7 @@ Auf die Idee brachte mich dann Schub, ein befreundeter Hacker aus dem Umfeld von
 
 Um das Konzept geodätischer Kuppeln zu verstehen, bastelte ich ersteinmal einen Prototypen aus Trinkhalmen: 
 
-| ![](/assets/img/post-img/2014/geodesicdome_poc1.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/geodesicdome_poc1.jpg) |
 |:--:|
 | Erster Prototyp einer geodätischen Kuppel aus Trinkhalmen | 
 
@@ -31,7 +31,7 @@ Bei diesem Typ handelt es sich um eine **3V** geodätische Kuppel, man spricht a
 
 Es muss also eine Kuppel höherer Frequenz sein, also mindestens 4V. Ahhh, nagut ... machen wir 5V. Und nicht aus Metall, sondern Holz. Es soll ja auch in den Garten passen, also optisch. 
 
-| ![](/assets/img/post-img/2014/geodesicdome_garden.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/geodesicdome_garden.jpg) |
 |:--:|
 | 5V Kuppel aus Holz. Durchmesser: 4m |
 
@@ -43,13 +43,13 @@ Mittlerweile hat die Garten-Kuppel 1,5 Winter überstanden und ist recht grau ge
 
 Davon lassen wir uns aber nicht die Petersilie verhageln, sondern tüfteln an besseren Verbindern und anderen Materialien. Als Fingerübung für Zwischendurch sind dann zwei geodätische Kugeln aus Kupferdraht entstanden: 
 
-| ![](/assets/img/post-img/2014/geodesic_spheres.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/geodesic_spheres.jpg) |
 |:--:|
 | Geodätische Kugeln aus Kupferdraht und Kabelschuhe (verlötet). Links: 2V, rechts: 3V. Durchmesser: 15cm. |
 
 Da für den Garten eine Kuppel genug ist, bot sich mit dem Hackercamp OHM2013 die Möglichkeit, wieder eine hölzerne Kuppel zu bauen, aber größer ... muahaha. Diese sollte aber auch stabiler werden als die Garten-Kuppel. Da ich noch einige Platten Sperrholz im Keller stehen hatte, bot es sich an, daraus 6-eckige Verbinder zu fräsen:
 
-| ![](/assets/img/post-img/2014/20130720-181449.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/20130720-181449.jpg) |
 |:--:|
 | Verbinder für die geodätische Kupel auf der OHM2013. |
 
@@ -57,19 +57,19 @@ Wie schon oben erwähnt, muss man einige Winkel beachten. Und wenn man genau hin
 
 Dann noch schnell ein kleines Schild gefräst: 
 
-| ![](/assets/img/post-img/2014/20130724-190308.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/20130724-190308.jpg) |
 |:--:|
 | Schild für die geodätische Kuppel auf dem Hackercamp OHM2013 |
 
 Und auf ging es zur OHM2013. Im Schlepptau ein Anhänger mit über 300 Meter Holzleisten. Vor Ort haben wir dann ca. 1,5 Tage benötigt, um die Holzleisten zurecht zu sägen und zu bohren und nochmal 1,5 Tage für den Aufbau.
 
-| ![](/assets/img/post-img/2014/20130731-143710.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/20130731-143710.jpg) |
 |:--:|
 | Unsere geodätische Kuppel bei der OHM2013. Durchmesser: 5m. |
 
 Und weils so schön ist, noch ein Bild bei Nacht:
 
-| ![](/assets/img/post-img/2014/20130731-220605.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/20130731-220605.jpg) |
 |:--:|
 | Die geodätische Kuppel bei Nacht. |
 
@@ -77,13 +77,13 @@ Materialpreis lag hier so bei ca. 200,- Euro für Holz und Schrauben.
 
 Die Kuppel lockte dann auch viele Schaulustige an, u.a. das holländische Fernsehen. Die Holländer haben die Kuppel dann so in ihr Herz geschlossen, dass wir sie in Holland gelassen haben. Ein freundlicher junger Mann hat die Kuppel am letzten Tag des Camps dann abtransportiert, zerlegt natürlich:
 
-| ![](/assets/img/post-img/2014/20130804-111752.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/20130804-111752.jpg) |
 |:--:|
 | Abtransport der (zerlegten) Kuppel. |
 
 Wir sind mit der Kuppel also ganz gut auf dem Camp aufgefallen. Und so gab es nach dem Camp eine kleine Anfrage, für den 30C3 auch eine Kuppel zu bauen. In dieser Größenordnung ist aber daraus (u.a. wegen Zeitmangel) leider nichts geworden. Stattdessen habe ich eine kleine Variante einer 5V Kuppel in Holz nachgebaut:
 
-| ![](/assets/img/post-img/2014/IMG_20131222_190226453.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/IMG_20131222_190226453.jpg) |
 |:--:|
 | Kleine 5V Kuppel aus Sperrholz für den 30C3. |
 
@@ -94,7 +94,7 @@ Und weil eine Katze darin vorkommt, will ich euch auch nicht dieses kleine timel
 
 Jetzt schmückt diese Kuppel die Lampe in unserer Werkstatt: 
 
-| ![](/assets/img/post-img/2014/6990_5434_960.jpeg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/6990_5434_960.jpeg) |
 |:--:|
 | Geodätische Werkstattlampe. |
 

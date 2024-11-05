@@ -20,7 +20,7 @@ So ist das halt. Für alle Hacker bedeutet das: Noch ein Vierteljahrhundert Gnad
 Der Jahreswechsel im Magdeburger Hackerspace war geschäftig: Viele Mitglieder waren auf dem [29. Chaos Communication Congress (29C3)](https://events.ccc.de/congress/ 2012/wiki/Main_Page) unter dem Motto ”Not My Department“ unterwegs und es gab einen regen Austausch mit anderen Hackerspaces, von dem wir viele Ideen für Netz39 mitnahmen. Für Daheimgebliebene haben wir in Magdeburg aktuelles Kongressprogramm gestreamt, sodass man live Vorträge schauen und sich mit Gleichge- sinnten austauschen konnte.
 
 
-![fin.log25](/assets/img/post-img/2013/fin.log25.png)
+![fin.log25](https://cdn.netz39.de/img/post-img/2013/fin.log25.png)
 
 Auch in unseren Räumen waren wir fleißig. Der Serverraum – bei uns ein Raum, der Dank eines sehr weitsichtigen Bauherren genau die passende Breite hat – wurde ”möbliert“ und enthält als Feature nun ein Gestell, in das sich Server im 19" Gehäuse montieren lassen. Darauf richten wir gerade ein Etherpad ein und auch DynDNS soll es für unsere Mitglieder bald geben. Im Zuge dessen haben wir auch beschlossen, IPv6 voranzubringen und anzubieten. Der entsprechende Tunnel, der uns mit IPv6- Adressen und -Zugang versorgt, obwohl unser Internet-Provider das noch nicht unterstützt, stehtbereits und auch intern werden entsprechende Adressen vergeben. Nach Abschluss der DNS-Arbeiten soll man uns auch von außen über IPv6 erreichen können.
 

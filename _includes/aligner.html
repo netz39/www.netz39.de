@@ -10,7 +10,7 @@
     {% for image in images %}
     <div {% if column %} style="flex: {{ column }}%" {% else %} class="column" {% endif %}  >
         <img {% if images.size == 1 %}class="single"{% endif %}
-             src="{{ image | prepend: 'assets/img/' | relative_url }}"
+             src="{{ image | prepend: 'https://cdn.netz39.de/img/' | relative_url }}"
              alt="{{ image | prepend: '/' | split: '/' | last }}">
     </div>
     {% endfor %}

@@ -10,8 +10,8 @@ tags:
   - "lug"
   - "stammtisch"
   - "treffen"
-feature-img: "assets/img/post-img/2018/30100915_4a04840120_o.jpg"
-thumbnail: "assets/img/post-img/2018/30100915_4a04840120_o.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2018/30100915_4a04840120_o.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2018/30100915_4a04840120_o.jpg"
 ---
 
 Auf den vergangenen [Linux Presentation Days](http://www.netz39.de/2018/linux-presentation-day-am-2018-04-21/) gab es einige Gäste, die sich häufiger Veranstaltungen wünschten, wo man sich persönlich über Linux austauschen oder auch seine Linux-Probleme mit anderen Nutzern besprechen kann. Wir haben uns daher entschlossen, die Idee der Linux User Group wiederzubeleben. Laut [Wikipedia](https://de.wikipedia.org/wiki/Linux_User_Group) handelt es sich dabei um folgendes:

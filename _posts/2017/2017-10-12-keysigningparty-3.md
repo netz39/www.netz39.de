@@ -10,8 +10,8 @@ tags:
   - "keysigning"
   - "openpgp"
   - "pgp"
-feature-img: "assets/img/post-img/2017/5421_dba1.jpeg"
-thumbnail: "assets/img/post-img/2017/5421_dba1.jpeg"
+feature-img: "https://cdn.netz39.de/img/post-img/2017/5421_dba1.jpeg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2017/5421_dba1.jpeg"
 ---
 
 Wir haben schon länger keine Keysigningparty gemacht. Mittlerweile gab es die eine oder Anfrage dafür und deswegen machen wir wieder eine. Termin ist **Freitag, der 20. Oktober 2017** um **19:30 Uhr** und wir machen das in unseren Räumen in der Leibnizstraße 32 in Magdeburg.

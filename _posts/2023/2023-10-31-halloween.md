@@ -6,8 +6,8 @@ date: "2023-10-31"
 tags:
   - "halloween"
   - "3d-drucker"
-feature-img: "assets/img/post-img/2023/nOOds-fledermaeuse.jpeg"
-thumbnail: "assets/img/post-img/2023/nOOds-fledermaeuse.jpeg"
+feature-img: "https://cdn.netz39.de/img/post-img/2023/nOOds-fledermaeuse.jpeg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2023/nOOds-fledermaeuse.jpeg"
 ---
 
 Jedes Jahr zur Halloweenparty stelle ich mir die gleiche Frage: Was kann ich dieses Jahr als witzige kleine Deko basteln, worüber sich alle freuen? Für mich als Fan von bunt leuchtenden Dingen musste es auf jeden Fall etwas mit LEDs sein. Vor einigen Wochen habe ich "Adafruit's nOOds" entdeckt und sofort in verschiedenen Farben bestellt. Das ist ein LED-Streifen ... nur in Form einer flexiblen, leuchtenden Spaghetti. SUPER COOL!
@@ -20,8 +20,8 @@ Insgesamt ein super simples und schnelles Projekt, welches auch für Anfänger g
 
 Dateien zum 3D-Drucken und die Links zum Kaufen der Teile findet ihr [hier](https://github.com/timherrm/nOOds).
 
-![](/assets/img/post-img/2023/nOOds-fledermaeuse.jpeg) | ![](/assets/img/post-img/2023/nOOds-render.png)
+![](https://cdn.netz39.de/img/post-img/2023/nOOds-fledermaeuse.jpeg) | ![](https://cdn.netz39.de/img/post-img/2023/nOOds-render.png)
 
-![](/assets/img/post-img/2023/nOOds-fledermaus.jpeg) | ![](/assets/img/post-img/2023/nOOds-geist.jpeg)
+![](https://cdn.netz39.de/img/post-img/2023/nOOds-fledermaus.jpeg) | ![](https://cdn.netz39.de/img/post-img/2023/nOOds-geist.jpeg)
 
-![](/assets/img/post-img/2023/nOOds-hexenhut.jpeg)
+![](https://cdn.netz39.de/img/post-img/2023/nOOds-hexenhut.jpeg)
