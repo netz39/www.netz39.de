@@ -7,8 +7,8 @@ categories:
   - "veranstaltung"
 tags: 
   - "linux"
-feature-img: "assets/img/post-img/2018/30100915_4a04840120_o.jpg"
-thumbnail: "assets/img/post-img/2018/30100915_4a04840120_o.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2018/30100915_4a04840120_o.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2018/30100915_4a04840120_o.jpg"
 ---
 
 In diesem Monat können wir gleich drei Veranstaltungen zum Thema [Linux](https://de.wikipedia.org/wiki/Linux) anbieten.

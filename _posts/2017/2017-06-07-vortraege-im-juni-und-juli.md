@@ -7,8 +7,8 @@ categories:
   - "vortrag"
 tags: 
   - "techtalk"
-feature-img: "assets/img/post-img/2017/23879273354_8baab97f3d_o-1440x486.png"
-thumbnail: "assets/img/post-img/2017/23879273354_8baab97f3d_o-1440x486.png"
+feature-img: "https://cdn.netz39.de/img/post-img/2017/23879273354_8baab97f3d_o-1440x486.png"
+thumbnail: "https://cdn.netz39.de/img/post-img/2017/23879273354_8baab97f3d_o-1440x486.png"
 ---
 
 In unserer regelmäßigen Vortragsserie am jeweils vierten Montag im Monat um 19:30 Uhr freuen wir uns auch im Sommer auf interessante Themen. Am [26\. Juni](http://www.netz39.de/events/event/techtalk-entwicklung-der-finken3-roboter/) geht es um die Quadrocopter am [SwarmLab](http://www.is.ovgu.de/SwarmLab.html) der OvGU. Wie man solche Geräte baut und was man dann damit machen kann, wird uns Basti erzählen.

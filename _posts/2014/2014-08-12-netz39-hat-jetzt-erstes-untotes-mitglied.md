@@ -8,10 +8,10 @@ categories:
   - "projekte"
 tags: 
   - "stricken"
-thumbnail: "assets/img/post-img/2014/zombiebreit-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2014/zombiebreit-1440x486.jpg"
 ---
 
-![](/assets/img/post-img/2014/2014-07-27-11.48.28.jpg)
+![](https://cdn.netz39.de/img/post-img/2014/2014-07-27-11.48.28.jpg)
 
 Ja, man kann sogar Bastelprojekte prokrastinieren. Bevor dieses hier fertig werden konnte, musste ich drei Mützen stricken. Zwischendurch hats genervt, aber jetzt ist er total toll: mein selbstgestrickter Zombie mit rausnehmbaren Innereien und allem! Die meisten Teile sind auseinanderreißbar, da mit Klettverschluss oder Druckknopf befestigt. Der Zombie kann sich also gattungsgemäß desintegrieren (lassen).
 
@@ -23,4 +23,4 @@ Weils mein erstes Strick-"Kuscheltier" war, hab ichs relativ streng nach Anleitu
 
 **Kosten:** Kann ich gar nicht genau sagen, da man viele unterschiedliche Garnfarben und Zeugs braucht; es bleibt aber von allem massig übrig. Bzw. andersherum: Der Zombie könnte ein klassischer Resteverwerter sein, wenn man sie denn hat. Ich hatte die nicht und habe für ca. 70 Euro alles neu gekauft und hab jetzt noch Material für eine Zombiegroßfamilie.
 
-![](/assets/img/post-img/2014/2014-07-27-11.48.15.jpg) | ![](/assets/img/post-img/2014/2014-07-27-11.50.35.jpg)
+![](https://cdn.netz39.de/img/post-img/2014/2014-07-27-11.48.15.jpg) | ![](https://cdn.netz39.de/img/post-img/2014/2014-07-27-11.50.35.jpg)

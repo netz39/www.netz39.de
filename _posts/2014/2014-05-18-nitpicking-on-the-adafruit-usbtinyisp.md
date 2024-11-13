@@ -9,8 +9,8 @@ tags:
   - "eagle"
   - "rant"
   - "usbtinyisp"
-feature-img: "assets/img/post-img/2014/usbtiny_rant_brd_orig-1280x486.png"
-thumbnail: "assets/img/post-img/2014/usbtiny_rant_brd_orig-1280x486.png"
+feature-img: "https://cdn.netz39.de/img/post-img/2014/usbtiny_rant_brd_orig-1280x486.png"
+thumbnail: "https://cdn.netz39.de/img/post-img/2014/usbtiny_rant_brd_orig-1280x486.png"
 ---
 
 We had some visitors from the U.S.A. for a great [soldering workshop](https://www.netz39.de/2014/loten-im-mai-ein-workshop-fur-anfanger-und-fortgeschrittene/ "Löten im Mai – Ein Workshop für Anfänger und Fortgeschrittene") yesterday last week. While [Jimmie P. Rodgers](http://jimmieprodgers.com/) and [Mitch Altman](https://twitter.com/maltman23) were showing the kits they brought to solder, they also showed the [USBtinyISP AVR Programmer](https://learn.adafruit.com/usbtinyisp) by adafruit, and I couldn't resist ranting about it. This blog post is elaborating on this rant and share what I found out, but let's start from the beginning.
@@ -25,7 +25,7 @@ Being back home I started working on the next parts of what will eventually be a
 
 First we have a look on the schematic:
 
-| ![](/assets/img/post-img/2014/usbtiny_rant_sch_orig.png) |
+| ![](https://cdn.netz39.de/img/post-img/2014/usbtiny_rant_sch_orig.png) |
 |:--:|
 | Eagle Schematic USBtinyISP by adafruit |
 
@@ -52,7 +52,7 @@ Left over are 7 and 8. With 7 this was probably due to laziness, the GND and VCC
 
 See my derived version of the circuit: [GitHub](https://github.com/netz39/circuit_boards/tree/master/usbtinyisp)
 
-![](/assets/img/post-img/2014/usbtiny_rant_sch_new.png) 
+![](https://cdn.netz39.de/img/post-img/2014/usbtiny_rant_sch_new.png) 
 
 I fixed all the things I criticized above but what else?
 
@@ -68,11 +68,11 @@ I fixed all the things I criticized above but what else?
 
 The original adafruit USBtinyISP is a double layer board, so for making a single layer one, I had to change it anyway. So what where my design decisions and what did I discover on the original board?
 
-| ![](/assets/img/post-img/2014/tools_531946274_dcd8763cda_o.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2014/tools_531946274_dcd8763cda_o.jpg) |
 |:--:|
 | the original USBtinyISP |
 
-| ![](/assets/img/post-img/2014/usbtiny_rant_brd_orig_commented.png) |
+| ![](https://cdn.netz39.de/img/post-img/2014/usbtiny_rant_brd_orig_commented.png) |
 |:--:|
 | original board with annotations |
 
@@ -88,7 +88,7 @@ So there are some annotation numbers left in the picture of the board. Near 1 is
 
 So see my new board:
 
-| ![](/assets/img/post-img/2014/usbtiny_rant_brd_new.png) |
+| ![](https://cdn.netz39.de/img/post-img/2014/usbtiny_rant_brd_new.png) |
 |:--:|
 | new usbtinyisp by alex |
 

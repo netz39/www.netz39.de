@@ -8,13 +8,13 @@ categories:
 tags: 
   - "29c3"
   - "congress-everywhere"
-feature-img: "assets/img/post-img/2012/Congress_Congress_Everywhere.jpg"
-thumbnail: "assets/img/post-img/2012/Congress_Congress_Everywhere.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2012/Congress_Congress_Everywhere.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2012/Congress_Congress_Everywhere.jpg"
 ---
 
 # 29C3 - Congress Everywhere im Netz39"
 
-![](/assets/img/post-img/2012/29c3_fullbanner_468x60px-04.png)
+![](https://cdn.netz39.de/img/post-img/2012/29c3_fullbanner_468x60px-04.png)
 
 Ab dem 27. Dezember geht es wieder los, der Netz39 wird von Donnerstag bis Sonntag den 29C3 in unserem Hackerspace übertragen.
 

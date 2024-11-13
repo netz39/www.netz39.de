@@ -23,12 +23,12 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
         title: "Titel des Blogeintrags"
         author: MaxMustermann
         date: 2023-10-20
-        feature-img: "assets/img/feature-img.jpg" # optional
-        thumbnail: "assets/img/thumbnail-img.jpg" # optional
+        feature-img: "https://cdn.netz39.de/img/feature-img.jpg" # optional
+        thumbnail: "https://cdn.netz39.de/img/thumbnail-img.jpg" # optional
         ---
         ```
     - Schreibe den Inhalt deines Blogeintrags im Markdown-Format unterhalb des Front Matter.
-    - Bilder eines Blogeintrags werden unter `/assets/img/post-img`in das jeweilige Jahr abgelegt.
+    - Bilder eines Blogeintrags werden unter `https://cdn.netz39.de/img/post-img`in das jeweilige Jahr abgelegt.
 
 2. **Pull Request erstellen:**
 

@@ -9,8 +9,8 @@ categories:
 tags: 
   - "lndw"
   - "tdot"
-feature-img: "assets/img/post-img/2016/lndw.jpg"
-thumbnail: "assets/img/post-img/2016/lndw.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2016/lndw.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2016/lndw.jpg"
 ---
 
 In diesem Jahr  sind wir vom Netz39 e.V. erstmals auch bei der [Langen Nacht der Wissenschaft](http://lndw-md.de/institutionen-ubersicht/netz-39-ev/hackathon/) dabei. Zusammen mit anderen Organisationen wie z.B. die OvGU oder das Fraunhofer Institut Magdeburg zeigen wir euch viele spannende Dinge.

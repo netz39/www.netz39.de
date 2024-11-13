@@ -8,8 +8,8 @@ categories:
 tags: 
   - "digitaler-thesenanschlag"
   - "netzpolitischer-abend"
-feature-img: "assets/img/post-img/2015/npa-2015-11-digitale-thesenanschlag.png"
-thumbnail: "assets/img/post-img/2015/npa-2015-11-digitale-thesenanschlag.png"
+feature-img: "https://cdn.netz39.de/img/post-img/2015/npa-2015-11-digitale-thesenanschlag.png"
+thumbnail: "https://cdn.netz39.de/img/post-img/2015/npa-2015-11-digitale-thesenanschlag.png"
 ---
 
 Einen Monat nach der Veröffentlichung des Digitalen Thesenanschlags auf [www.digital.sachsen-anhalt.de](http://www.digital.sachsen-anhalt.de/) ist [Frau Dr. Buschschulte](https://twitter.com/abuschschulte) als zuständige Referentin der Staatskanzlei Gast im Netz39 und erläutert den Digitalen Thesenanschlag des Landes. Im Anschluss findet eine Diskussion statt.

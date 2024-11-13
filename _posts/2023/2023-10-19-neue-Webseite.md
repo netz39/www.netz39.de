@@ -6,8 +6,8 @@ date: "2023-10-19"
 tags:
   - "webpage"
   - "jekyll"
-feature-img: "assets/img/pexels/pexels-markus-spiske-330771.jpg"
-thumbnail: "assets/img/pexels/pexels-markus-spiske-330771.jpg"
+feature-img: "https://cdn.netz39.de/img/pexels/pexels-markus-spiske-330771.jpg"
+thumbnail: "https://cdn.netz39.de/img/pexels/pexels-markus-spiske-330771.jpg"
 ---
 
 Nun ist es soweit: Netz39 e.V. hat endlich eine neue Webseite! 🎉

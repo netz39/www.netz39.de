@@ -14,12 +14,12 @@ board:
 # THEME-SPECIFIC CONFIGURATION
 title: Netz39 e.V.                                      # site's title
 description: "Magdeburger Hackerspace"                  # used by search engines
-avatar: assets/img/logo/netz39-logo-final.svg           # Empty for no avatar in navbar
-favicon: assets/img/logo/netz39-logo-icon.svg           # Icon displayed in the tab
+avatar: https://cdn.netz39.de/img/logo/netz39-logo-final.svg           # Empty for no avatar in navbar
+favicon: https://cdn.netz39.de/img/logo/netz39-logo-icon.svg           # Icon displayed in the tab
 
 # Header and footer text
 header_text: Netz39 e.V. — ein Hackerspace für Magdeburg und Umgebung # Change Blog header text
-header_feature_image: assets/img/header/bg-featured-1.jpg
+header_feature_image: https://cdn.netz39.de/img/header/bg-featured-1.jpg
 header_feature_image_responsive: true
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -30,7 +30,7 @@ share_buttons: false
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
-color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+color_image: https://cdn.netz39.de/img/lineart.png                    # A bit transparent for color posts.
 
 # Features
 # More in the _data folder for share buttons, author and language

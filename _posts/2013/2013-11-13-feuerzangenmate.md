@@ -8,9 +8,9 @@ categories:
 tags: 
   - "feuerzangenmate"
   - "projekt"
-gallery_path: "assets/img/post-img/2013/feuerzangenmate"
-feature-img: "assets/img/post-img/2013/feuerzangenmate/img_0221.jpg"
-thumbnail: "assets/img/post-img/2013/feuerzangenmate/img_0221.jpg"
+gallery_path: "https://cdn.netz39.de/img/post-img/2013/feuerzangenmate"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/feuerzangenmate/img_0221.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/feuerzangenmate/img_0221.jpg"
 ---
 
 Im Rahmen unserer [Social Soljanka](http://www.netz39.de/events/termine/) -(zweiwöchentliche gemütliche Runde zum Nölen, Spielen und Schnacken) haben findige Hacker des Netz39 die extrem leckere Feuerzangen-Mate entwickelt. Dazu passen Keksen aus selbstgedruckten Plätzchenausstechern.
