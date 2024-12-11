@@ -9,8 +9,8 @@ tags:
   - "debian"
   - "nginx"
   - "phpmyadmin"
-feature-img: "assets/img/post-img/2013/netz39-006-1440x486.jpg"
-thumbnail: "assets/img/post-img/2013/netz39-006-1440x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/netz39-006-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/netz39-006-1440x486.jpg"
 ---
 
 # phpmyadmin mit nginx unter Debian Wheezy

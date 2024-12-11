@@ -11,7 +11,7 @@ tags:
 
 # Windmill construction workshop
 
-![image](/assets/img/post-img/2013/windmill-construction-workshop.jpg)
+![image](https://cdn.netz39.de/img/post-img/2013/windmill-construction-workshop.jpg)
 
 **Details**
 

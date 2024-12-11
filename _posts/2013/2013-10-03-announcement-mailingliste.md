@@ -5,8 +5,8 @@ title: "Announcement-Mailingliste"
 date: "2013-10-03"
 tags: 
   - "mail"
-feature-img: "assets/img/post-img/2013/netz39-010-1280x486.jpg"
-thumbnail: "assets/img/post-img/2013/netz39-010-1280x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/netz39-010-1280x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/netz39-010-1280x486.jpg"
 ---
 
 # Announcement-Mailingliste

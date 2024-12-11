@@ -9,8 +9,8 @@ tags:
   - "debian"
   - "ipv6"
   - "nginx"
-feature-img: "assets/img/post-img/2013/console-feature.jpg"
-thumbnail: "assets/img/post-img/2013/console-feature.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/console-feature.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/console-feature.jpg"
 ---
 
 Netzwerk und Server in so einem Space am Laufen zu halten, kostet schon mal das eine oder andere graue Haar, aber wieviele mir [nginx](http://nginx.org/) schon bereitet hat, mag ich grad nicht mehr zählen. Von vorn: weil wir coole Hacker sind, haben wir in unserem lokalen Netz im Space auch IPv6 trotz IPv4-only-Anschluss und NAT, [SixXS](https://www.sixxs.net/) und [fli4l](http://www.fli4l.de/) machen's möglich. Im lokalen Netz laufen einige Dienste, unter anderem auch die [Space API](http://spaceapi.net/). Für den HTTP-Zugriff von draußen über IPv4 haben wir mit nginx einen Reverse Proxy aufgesetzt auf einem Debian Wheezy, wir reden also von Version 1.2.1 plus Patches. Den aktuellen Status kann man abrufen, so:

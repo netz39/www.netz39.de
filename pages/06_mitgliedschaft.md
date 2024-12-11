@@ -2,7 +2,7 @@
 layout: page
 title: Mitglied werden
 permalink: /mitgliedschaft/
-feature-img: "assets/img/pexels/pexels-pixabay-163064.jpg"
+feature-img: "https://cdn.netz39.de/img/pexels/pexels-pixabay-163064.jpg"
 tags: [Page]
 ---
 

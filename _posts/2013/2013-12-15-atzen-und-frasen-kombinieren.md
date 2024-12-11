@@ -15,7 +15,7 @@ tags:
 
 Wir können selbst Platinen ätzen und wir haben eine CNC-Fräse. Letztere zum Ausschneiden und Bohren der selbst geätzten Platinen zu benutzen, liegt nahe. Im Detail ist das leider nicht so einfach wie man denkt. Man besehe sich dieses Bild:
 
-| ![](/assets/img/post-img/2013/eagle-eps-inkscape-dxf-fräse.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2013/eagle-eps-inkscape-dxf-fräse.jpg) |
 |:--:|
 | geätztes gefräst |
 

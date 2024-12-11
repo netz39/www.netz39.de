@@ -9,8 +9,8 @@ categories:
   - "workshop"
 tags: 
   - "workshop"
-feature-img: "assets/img/post-img/2014/rect3885.png"
-thumbnail: "assets/img/post-img/2014/rect3885.png"
+feature-img: "https://cdn.netz39.de/img/post-img/2014/rect3885.png"
+thumbnail: "https://cdn.netz39.de/img/post-img/2014/rect3885.png"
 ---
 
 **Tatata-Tag der offenen Tür - am 10.05.2014** ist es wieder so weit bei uns im Hackerspace Netz39. Gut, an sich steht die Tür immer für Interessierte offen und wir erklären auch immer gerne etwas zu den Projekten und Möglichkeiten.
@@ -24,4 +24,4 @@ Viele der Aktionen sind übrigens mit ein bisschen Hilfe kindergeeignet.
 Los gehts um 11:23 Uhr, open end. Wir freuen uns auf euch!
 
 
-![n39_tdot_14](/assets/img/post-img/2014/n39_tdot_14.jpg)
+![n39_tdot_14](https://cdn.netz39.de/img/post-img/2014/n39_tdot_14.jpg)

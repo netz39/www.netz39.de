@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tower of Hanoi
-img: "assets/img/portfolio/toh.png"
+img: "https://cdn.netz39.de/img/portfolio/toh.png"
 date: September 2014
 ---
 

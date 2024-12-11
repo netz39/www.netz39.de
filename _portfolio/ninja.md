@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ninja
-img: "assets/img/portfolio/ninja.png"
+img: "https://cdn.netz39.de/img/portfolio/ninja.png"
 date: April, 08 2014
 tags: [Lorem]
 ---

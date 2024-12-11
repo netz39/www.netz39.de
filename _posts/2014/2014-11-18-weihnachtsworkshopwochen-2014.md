@@ -4,15 +4,15 @@ title: "Weihnachtsworkshopwochen 2014"
 date: "2014-11-18"
 categories: 
   - "workshop"
-feature-img: "assets/img/post-img/2014/schwibbogen_by_salzkraftwerk_2013.png"
-thumbnail: "assets/img/post-img/2014/schwibbogen_by_salzkraftwerk_2013.png"
+feature-img: "https://cdn.netz39.de/img/post-img/2014/schwibbogen_by_salzkraftwerk_2013.png"
+thumbnail: "https://cdn.netz39.de/img/post-img/2014/schwibbogen_by_salzkraftwerk_2013.png"
 ---
 
 Auch wenn wir es noch nicht wirklich wahrhaben wollen, so steht doch das Jahresende ins Haus und somit die oftmals stressige Weihnachtszeit mit ihren überfüllten Kaufhäusern, Familienbesuchen und Geschenkesuchmarathons.
 
 Schon im letzten Jahr haben wir an den Adventswochenenden euch versucht, eine Alternative zu den alltäglichen Geschenken zu bieten und in schöner Atmosphäre, die Weihnachtszeit einzuleiten. Da die Workshopwochen letztes Jahr ein recht großer Erfolg war, gibt es auch dieses Jahr wieder jede Menge Workshops rund um Weihnachten, Geschenke für die lieben Verwandten, aber auch allgemeine Dinge, die ihr vielleicht schon immer mal machen wolltet.
 
-| ![Peter's Schwibbogen 2014](/assets/img/post-img/2014/Schwibbogen_by_Peter_20141.png) |
+| ![Peter's Schwibbogen 2014](https://cdn.netz39.de/img/post-img/2014/Schwibbogen_by_Peter_20141.png) |
 |:--:|
 | Peter's Schwibbogen 2014, cc bei Peter |
 
@@ -72,7 +72,7 @@ Ihr wolltet schon immer mal Baby- und Kinderschuhe selbst nähen, dann seid ihr 
 
 Der Renner und den Marmeladen! Schamlos abgeschaut bei den Wienern und um Längen verbessert (sagen selbst die Wiener)!
 
-| ![Peltierelemente und LEDs](/assets/img/post-img/2014/Peltier_und_LEDs.jpg) |
+| ![Peltierelemente und LEDs](https://cdn.netz39.de/img/post-img/2014/Peltier_und_LEDs.jpg) |
 |:--:|
 | Experimente von katha mit Peltierelemente und LEDs |
 

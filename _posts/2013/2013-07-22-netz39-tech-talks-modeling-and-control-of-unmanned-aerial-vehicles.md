@@ -10,8 +10,8 @@ tags:
   - "talk"
   - "tech-talk"
   - "vortrag"
-feature-img: "assets/img/post-img/2013/img_0171-copter-motoren-1024x682.jpg"
-thumbnail: "assets/img/post-img/2013/img_0171-copter-motoren-1024x682.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/img_0171-copter-motoren-1024x682.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/img_0171-copter-motoren-1024x682.jpg"
 ---
 
 # Netz39 Tech Talks: modeling and control of unmanned aerial vehicles

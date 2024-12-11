@@ -22,8 +22,8 @@ Im Anschluss der Diskussionsrunde wurden die Werkstätten und Räumlichkeiten de
 
 Vielen Dank an alle Teilnehmer und der MACHERBURG für die Räumlichkeiten.
 
-![](/assets/img/post-img/2021/IMG_20210818_183138-1440x1080.jpg) | ![](/assets/img/post-img/2021/photo_2021-09-01_08-59-13.jpg)
-![](/assets/img/post-img/2021/photo_2021-09-01_08-59-26.jpg) | ![](/assets/img/post-img/2021/photo_2021-09-01_08-59-18.jpg)
+![](https://cdn.netz39.de/img/post-img/2021/IMG_20210818_183138-1440x1080.jpg) | ![](https://cdn.netz39.de/img/post-img/2021/photo_2021-09-01_08-59-13.jpg)
+![](https://cdn.netz39.de/img/post-img/2021/photo_2021-09-01_08-59-26.jpg) | ![](https://cdn.netz39.de/img/post-img/2021/photo_2021-09-01_08-59-18.jpg)
 
 [1] https://gruene-magdeburg.de/start/  
 [2] https://macherburg.de/  

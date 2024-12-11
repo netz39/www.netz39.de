@@ -7,8 +7,8 @@ categories:
   - "allgemein"
 tags: 
   - "logo"
-feature-img: "assets/img/post-img/2013/netz39_logo_v01.jpg"
-thumbnail: "assets/img/post-img/2013/netz39_logo_v01.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/netz39_logo_v01.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/netz39_logo_v01.jpg"
 ---
 
 # Logoideen anyone?

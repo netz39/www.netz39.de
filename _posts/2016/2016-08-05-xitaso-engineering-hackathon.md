@@ -7,7 +7,7 @@ categories:
   - "veranstaltung"
 ---
 
-![Hackathon_Magdeburg](/assets/img/post-img/2016/Hackathon_Magdeburg.jpg)
+![Hackathon_Magdeburg](https://cdn.netz39.de/img/post-img/2016/Hackathon_Magdeburg.jpg)
 
 Hallo ihr technikinteressierten Leute da draußen,
 

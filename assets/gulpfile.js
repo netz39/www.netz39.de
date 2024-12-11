@@ -21,8 +21,8 @@ gulp.task('post', function (callback) {
   let content = '---\n' +
     'layout: post\n' +
     'title: ' + title + '\n' +
-    //'feature-img: "assets/img/"\n' +
-    //'thumbnail: "assets/img/thumbnails/"\n' +
+    //'feature-img: "https://cdn.netz39.de/img/"\n' +
+    //'thumbnail: "https://cdn.netz39.de/img/thumbnails/"\n' +
     'tags: []\n' +
     '---';
   console.log('[' + new Date().toLocaleTimeString('en-CA', {hour12: false}) + '] File created: _posts/' + filename);

@@ -8,8 +8,8 @@ categories:
 tags: 
   - "tutorial"
   - "workshop"
-feature-img: "assets/img/post-img/2016/20160911_001-1440x486.jpg"
-thumbnail: "assets/img/post-img/2016/20160911_001-1440x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2016/20160911_001-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2016/20160911_001-1440x486.jpg"
 ---
 
 Zum Auftakt der TutOrials-Serie wird gedruckt - in 3D und Farbe!
