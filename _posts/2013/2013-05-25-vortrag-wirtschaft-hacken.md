@@ -8,8 +8,8 @@ categories:
 tags: 
   - "vortrag"
   - "wirtschaft-hacken"
-feature-img: "assets/img/post-img/2013/800px-Netz39_Basteltisch_2013-02-20.jpeg"
-thumbnail: "assets/img/post-img/2013/800px-Netz39_Basteltisch_2013-02-20.jpeg"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/800px-Netz39_Basteltisch_2013-02-20.jpeg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/800px-Netz39_Basteltisch_2013-02-20.jpeg"
 ---
 
 # Vortrag: Wirtschaft hacken

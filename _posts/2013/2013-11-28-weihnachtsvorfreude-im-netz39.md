@@ -8,8 +8,8 @@ categories:
   - "workshop"
 tags: 
   - "workshop"
-feature-img: "assets/img/post-img/2013/IMG_20131123_153211-1440x486.jpg"
-thumbnail: "assets/img/post-img/2013/IMG_20131123_153211-1440x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/IMG_20131123_153211-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/IMG_20131123_153211-1440x486.jpg"
 ---
 
 So langsam macht sich auch im Netz39 die Weihnachtsvorfreude breit und aus Hackern werden fleißige Wichtel. Und da Wichtel von Natur aus sehr gesellig sind, laden wir alle Interessierten herzlich ein, im Netz39 vorbeizuschauen und mitzuwerkeln.

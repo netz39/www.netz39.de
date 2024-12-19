@@ -8,7 +8,7 @@ author: rick
 **Wann: 19:00-21:00 Uhr**\
 **Wo: Netz39 e.V.**
 
-![](/assets/img/events/loetworkshop.jpg)
+![](https://cdn.netz39.de/img/events/loetworkshop.jpg)
 
 Fürs Basteln, Reparieren oder erstellen eigener Projekte ist der Umgang mit dem Lötkolben ein wichtiger Skill.
 Wir wollen euch einen ersten Einstieg in das Thema mit dem heißen Eisen geben. Was für Themen wollen wir Präsentieren und mit euch Besprechen:

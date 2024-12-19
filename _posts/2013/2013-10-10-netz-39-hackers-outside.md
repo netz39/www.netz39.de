@@ -10,8 +10,8 @@ tags:
   - "fin-log"
   - "netz39"
   - "outside"
-feature-img: "assets/img/post-img/2013/netz39-ohm1-1440x486.jpg"
-thumbnail: "assets/img/post-img/2013/netz39-ohm1-1440x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/netz39-ohm1-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/netz39-ohm1-1440x486.jpg"
 ---
 
 Bleichgesichtige, nachtaktive Computerfreaks, die beim ersten Sonnenstrahl den Rollladen schließen. Kennt ihr die? Wir nicht! Der Sommer war lang und schön und wir waren: DRAUßEN! Ha!
@@ -22,7 +22,7 @@ Doch nun zum spannenden Teil: Was treibt einen Hacker nach draußen?!
 
 Da war zunächst die **OHM2013**. Unter dem Slogan "Observe. Hack. Make." trafen sich Anfang August ca. 3000 Hacker im Niederländischen Geestmerambacht, um das geschäftige Treiben vom Zerlegen und Zusammenbauen diverser Geräte auf dem Campingplatz fortzuführen. Neben dem Luxus eines Zeltes mit Strom- und Internetanschluss gab es dabei auch allerhand spannendes zu sehen: vom Quadrokopter in Straußen-Form (zur Erinnerung: dieser Vogel kann eigentlich gar nicht fliegen!) über hochpräzise Geräte des niederländischen Forensik-Instituts bis hin zu prakitschen Maschinen, die z.B. auf Knopfdruck einen Crêpe samt Belag herstellen — zu finden beim metalab, dem Wiener Hackerspace. Das Netz39 ließ sich nicht lumpen und präsentierte sich mit einer 5m durchmessenden Halbkugel in Form einer geodätischen Kuppel, in der wir unseren Stand aufbauten. Diese Konstruktion aus vielen Dreiecken eignet sich nicht nur hervorragend, um Handtücher zu trocknen und Sonnensegel aufzuspannen – unser Pavillon war auch einer der wenigen, die trotz sehr starken Windes unangefochten stand. 
 
-| ![](/assets/img/post-img/2013/dome.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2013/dome.jpg) |
 |:--:|
 | Netz39 @ Ohm2013 | 
 
@@ -30,11 +30,11 @@ Weitere Informationen und Bilder vom Netz39 auf der Ohm gibt es [hier](http://ww
 
 Bald darauf ging es weiter, diesmal im Wald des [Schlosses Heinrichshorst](http://www.heinrichshorst.com/) ein Stück nördlich von Magdeburg. Vier Mitglieder sind der Einladung gefolgt, an einem einwöchigen **Windrad-Workshop** teilzunehmen. Angeleitet von drei erfahrenen Windrad-Konstrukteuren haben ein Dutzen Bastelbegeisterte Balken, Bretter, Eisenrohre und viel Kupferdraht in eine Windturbine nach einer Anleitung von [Hugh Piggott](http://scoraigwind.co.uk/) mit 3m Durchmesser und 800W Leistung verwandelt. Dabei durfte nicht nur gesägt und geschraubt, sondern auch gehämmert werden!
 
-| ![](/assets/img/post-img/2013/windmill1.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2013/windmill1.jpg) |
 |:--:|
 | Netz39 @ Windmill workshop | 
 
-| ![](/assets/img/post-img/2013/windmill2.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2013/windmill2.jpg) |
 |:--:|
 | Netz39 @ Windmill workshop | 
 
@@ -44,7 +44,7 @@ Zu guter Letzt haben wir uns – zum Abschluss der diesjährigen Draußensaison 
 
 Aus Resten, die in den Wochen zuvor auf dem Gelände herumlagen und wiederverwendet werden durften, haben wir fast ein Haus gebaut und darin Workshops für Lötanfänger, die Herstellung von Knete und den Bau einer kleinen geodätischen Kuppel angeboten. 
 
-| ![](/assets/img/post-img/2013/bucktopia.jpg) |
+| ![](https://cdn.netz39.de/img/post-img/2013/bucktopia.jpg) |
 |:--:|
 | Netz39 @ Buckautopia |
 

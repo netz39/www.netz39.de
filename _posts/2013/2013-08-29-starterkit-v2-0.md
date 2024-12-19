@@ -9,9 +9,9 @@ tags:
   - "avr"
   - "eagle"
   - "starterkit"
-feature-img: "assets/img/post-img/2013/img_0181-1024x682.jpg"
-thumbnail: "assets/img/post-img/2013/img_0181-1024x682.jpg"
-gallery_path: "assets/img/post-img/2013/starterkit"
+feature-img: "https://cdn.netz39.de/img/post-img/2013/img_0181-1024x682.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2013/img_0181-1024x682.jpg"
+gallery_path: "https://cdn.netz39.de/img/post-img/2013/starterkit"
 ---
 
 # Starterkit v2.0

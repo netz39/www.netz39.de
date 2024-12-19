@@ -8,8 +8,8 @@ categories:
 tags: 
   - "kaffee"
   - "tech-talk"
-feature-img: "assets/img/post-img/2014/Roasted_coffee_beans-1440x486.jpg"
-thumbnail: "assets/img/post-img/2014/Roasted_coffee_beans-1440x486.jpg"
+feature-img: "https://cdn.netz39.de/img/post-img/2014/Roasted_coffee_beans-1440x486.jpg"
+thumbnail: "https://cdn.netz39.de/img/post-img/2014/Roasted_coffee_beans-1440x486.jpg"
 ---
 
 Auch am kommenden Montag findet ab 19.30 Uhr findet im Netz39 ein Vortrag von Mitgliedern des Spaces statt.
