@@ -27,6 +27,7 @@ git branch -D "events/$filename" > /dev/null 2>&1
 git checkout -b "events/$filename" > /dev/null || exit 1
 
 # Create the new file
+mkdir "$root_dir/_events/$year"
 cat > "$root_dir/_events/$year/$filename" <<EOF
 ---
 layout: event
