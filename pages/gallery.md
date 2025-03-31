@@ -6,6 +6,7 @@ permalink: /gallery/
 gallery_path: "https://cdn.netz39.de/img/pexels"
 tags: [Page]
 hide: true
+excluded: true
 ---
 
 This is a photo gallery made from the static files in the `https://cdn.netz39.de/img/pexels` folder. 

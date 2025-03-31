@@ -3,17 +3,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
 
     <!-- Theme Mode-->
-    {% if site.color_theme == 'auto' %}
     <script>
-        const isAutoTheme = true;
-        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+        const darkBtn = "{{ site.data.language.str_dark | default: "Dark" }}";
+        const lightBtn = "{{ site.data.language.str_light | default: "Light" }}";
+        const isAutoTheme = {% if site.color_theme == 'auto' %}true{% else %}false{% endif %};
+        const preferredTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        if (isAutoTheme) {
+            document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme') ?? preferredTheme);
+        } else {
+            document.documentElement.setAttribute('data-theme', "{{ site.color_theme | default: 'light' }}");
+        }
     </script>
-    {% else %}
-    <script>
-        const isAutoTheme = false;
-        document.documentElement.setAttribute('data-theme', "{{ site.color_theme | default: 'light' }}")
-    </script>
-    {% endif %}
 
     <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
     <script defer src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
@@ -35,18 +35,15 @@
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     {% endif %}
 
-    <!-- KaTeX 0.15.2 -->
+    <!-- KaTeX 0.16.9 -->
     {% if site.katex or site.theme_settings.katex %}
     <script defer src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}"></script>
-    <script defer src="{{ '/assets/js/vendor/auto-render.min.js' | relative_url }}" onload="renderMathInElement(document.body);"></script>
+    <script defer src="{{ '/assets/js/vendor/katex.auto-render.min.js' | relative_url }}" onload="renderMathInElement(document.body);"></script>
     {% endif %}
 
-    <!-- Mermaid 9.1.1 -->
+    <!-- Mermaid 10.8.0 -->
     {% if site.mermaid %}
-    <script defer src="{{ '/assets/js/vendor/mermaid.min.js' | relative_url }}" onload="mermaid.initialize({
-      startOnLoad:true,
-      theme: '{{ site.mermaid }}',
-    });"></script>
+    <script defer src="{{ '/assets/js/vendor/mermaid.min.js' | relative_url }}"></script>
     {% endif %}
 
     <!-- Simple Jekyll Search 1.10.0 -->

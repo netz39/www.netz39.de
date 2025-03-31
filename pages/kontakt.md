@@ -5,6 +5,7 @@ permalink: /kontakt/
 feature-img: "https://cdn.netz39.de/img/pexels/pexels-karol-d-841228.jpg"
 tags: [Page]
 show-in-footer: true
+position: 8
 ---
 
 ## Schnelles Feedback, Talk
