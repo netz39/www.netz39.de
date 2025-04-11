@@ -50,6 +50,8 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
       end:   2023-10-20 21:00:00 # optional, Zeitpunkt, an dem das Event endet
       organizer: "Netz39 Team <kontakt@netz39.de>" # optional, Kontaktdaten im ical Event
       location: "Netz39 e.V." # optional, Ort des Events
+      frequency: "WEEKLY" # https://icalendar.org/iCalendar-RFC-5545/3-3-10-recurrence-rule.html
+      interval: 2 # optional, ergibt zusammen mit frequency am Beispiel "alle zwei wochen"
     ---
     ```
 - Unterhalb des Front Matters die Beschreibung des Events in Markdown aufschreiben
