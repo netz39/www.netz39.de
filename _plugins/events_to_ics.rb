@@ -14,6 +14,10 @@ module Jekyll
       default_duration = Rational(4, 24)
       cal = Icalendar::Calendar.new
 
+      cal.timezone do |t|
+        t.tzid = "Europe/Berlin"
+      end
+
       events.each do |event|
         title = event.data['title']
         start_date = event.data.dig('event', 'start') || event.data['event_date']
@@ -38,8 +42,8 @@ module Jekyll
           raise StandardError.new "#{File.basename(event.path)}: Start date must not be greater than end date"
         end
         if start_date < end_date
-          ical_event.dtstart = start_date
-          ical_event.dtend = end_date
+          ical_event.dtstart = Icalendar::Values::DateTime.new(start_date, 'tzid' => 'Europe/Berlin')
+          ical_event.dtend   = Icalendar::Values::DateTime.new(end_date, 'tzid' => 'Europe/Berlin')
         else
           ical_event.dtstart = Icalendar::Values::Date.new(start_date)
           ical_event.dtend = Icalendar::Values::Date.new(end_date)
