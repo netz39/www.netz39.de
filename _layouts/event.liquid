@@ -9,7 +9,7 @@ layout: default
       {% else %}
       <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
       {% assign start_date = page.event.start | default: page.event_date %}
-      {% include blog/post_info.liquid author=page.author date=start_date %}
+      {% include blog/post_info.liquid author=page.author date=start_date frequency=page.event.frequency interval=page.event.interval %}
       {% endif %}
     </div>
   </header>
