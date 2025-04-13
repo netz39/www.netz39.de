@@ -14,8 +14,23 @@ module Jekyll
       default_duration = Rational(4, 24)
       cal = Icalendar::Calendar.new
 
+      # Define Europe/Berlin timezone with standard rules (incl. DST)
       cal.timezone do |t|
         t.tzid = "Europe/Berlin"
+         # Daylight Saving Time (DST) adjustments (if applicable)
+        t.daylight do |d|
+          d.tzoffsetfrom = "-0100"
+          d.tzoffsetto = "-0200"
+          d.dtstart = "19700329T020000"
+          d.tzname = "CEST"
+        end
+         # Standard Time definition
+        t.standard do |s|
+          s.tzoffsetfrom = "-0200"
+          s.tzoffsetto = "-0100"
+          s.dtstart = "19701025T030000"
+          s.tzname = "CET"
+        end
       end
 
       events.each do |event|
