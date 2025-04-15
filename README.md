@@ -28,7 +28,8 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
         ---
         ```
     - Schreibe den Inhalt deines Blogeintrags im Markdown-Format unterhalb des Front Matter.
-    - Bilder eines Blogeintrags werden unter `https://cdn.netz39.de/img/post-img`in das jeweilige Jahr abgelegt.
+    - Neue Bilder im [cdn-repo](https://github.com/netz39/cdn.netz39.de) ablegen. Sie werden dann automatisch in das
+    CDN kopiert und können über `https://cdn.netz39.de/img/post-img/JAHR/...` verlinkt werden.
 
 2. **Pull Request erstellen:**
 
