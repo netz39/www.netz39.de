@@ -102,7 +102,58 @@ Abgesehen davon, funktioniert die geschnittene Platine sehr gut und sie war kost
 ## LED Ansteuerung mit WLED
 
 Adressierbare LEDs machen ohne Daten erstmal gar nichts, also muss etwas her, was die richtigen Signale generiert. 
-Am Anfang wollte ich eigendlich gar nicht die LED Farben einstellbar machen und einfach nur einen einfachen Mikrocontroller verbauen der ein statisches Farbsignal ausgibt, aber das wäre verschenktes Potential. 
-Leute aus dem Hackerspace zeigten mir [WLED](https://kno.wled.ge/) und das ist schon ein ziemlich cooles Projekt. Die Firmware läuft auf ESP-32 Chips und man verbindet sich dann mit einem WLAN Hotspot, der geöffnet wird. 
+Am Anfang wollte ich eigendlich gar nicht die LED Farben einstellbar machen und nur einen einfachen Mikrocontroller verbauen der ein statisches Farbsignal ausgibt, aber das wäre verschenktes Potential. 
+Leute aus dem Hackerspace zeigten mir [WLED](https://kno.wled.ge/) und das ist schon ein ziemlich cooles Projekt. Die Firmware läuft auf ESP-32 Chips und man verbindet sich dann mit einem WLAN Hotspot, der eröffnet wird. 
 Schon irgendwie witzig, das meine Lampe WLAN hat.  
+WLED lässt sich dann vom Browser aus bedienen. Es gibt hunderte Effekte und alles ist ohne Firmware neu flashen einstellbar.
+Ein Problem gibt es aber. Der ESP-32 möchte gerne 3,3V haben und gibt auch nur Signale in dieser Stärke aus. 
+Unsere LEDs erwarten aber 5V, deshalb muss ein [Pegelumsetzer](https://de.wikipedia.org/wiki/Pegelumsetzer) her. 
+Solche gibt es als fertige Platinen zu kaufen, aber ich wollte nicht warten und habe das ganze selber gebaut. 
+Als Grundlage diente ein [MaxLinear SP485](https://www.maxlinear.com/product/interface/serial-transceivers/rs-485-rs-422/sp485) RS-485 Treiber Chip. Diese hatte ich von einem anderen Projekt über. 
+Der Chip benötigt außer ein paar Keramikkondensatoren keine weiteren extra Komponenten und ich begann alles auf eine Lochrasterplatine zu löten.
 
+![Pegelwandler auf Lochrasterplatine](./blog-wled-camping-lamp/level_shifter.jpg)
+
+Der Hersteller gibt an, das der Chip Signale über 2V als HIGH interpretiert. Perfekt, damit können wir unser 3.3V Signal zu 5V für die LEDs wandeln (RS-485 ist 5V basiert). 
+Im Detail hat dieser Chip Pins für Sendesignal, Empfangssignal, Richtung und zwei Ausgänge die auf das [RS-485 Netzwerk](https://de.wikipedia.org/wiki/EIA-485) gehen. Diese sind einmal invertiert und nicht Invertiert.
+Ich habe den Richtungspin dauerhaft auf "senden" gestellt, die Sendeleitung mit dem ESP-32 verbunden und die nicht invertierte Ausgangsleitung mit dem LED Streifen. 
+Der Chip ist ziemlich klein und ich musste unter dem Lötmikroskop arbeiten und Fädeldrähte ziehen.
+
+Damit der ESP-32 Strom bekommt, wurde der temporäre 6V Spannungswandler von der Energiespaarlampentreiberplatine zumkonfiguriert auf 3.3V.
+
+## PCBs stapeln
+
+Alle Komponenten sind fertig und nach etwas weiterer Lötarbeit konnte ich das erste mal den LED Kelch in Action sehen. 
+Jetzt muss alles nur zurück in die Lampe aber genau so das man sie auch Notfalls wieder auseinander nehmen kann. 
+Hierzu habe ich die zwei Metallstangen in der Mitte genutzt und kleine Halteteile 3d-gedruckt.
+
+![PCB Halteteile](./blog-wled-camping-lamp/pcb_holder.png)
+
+Diese dann in drei Varianten für 
+- 17V zu 5V Wandler 
+- 17V zu 3.3V Wandler
+- ESP-32 mit Pegelwandler "Rucksack"
+
+Das sah dann so aus.
+
+![PCB Stapel Vorne](./blog-wled-camping-lamp/pcb_stack_front.jpg)
+
+![PCB Stapel Hinten](./blog-wled-camping-lamp/pcb_stack_back.jpg)
+
+## An und aus
+
+Kommen wir zur letzten Baustelle, der An-Aus Schalter. Da die Treiberplatine, auf der der alte Schalter schliff, nicht mehr da ist, muss etwas neues her. 
+Hier habe ich einen Mikroschalter aus der 3d-Drucker Ersatzteilekiste genommen und ihn grob im Deckel platziert. Dann habe ich ein Foto von oben gemacht und in das CAD importiert um eine Halterung zu designen. Ich wollte am Deckel nicht rumschnippeln, weil das Plastik nicht sehr stabil aussah.
+
+![Deckel mit Mikroschalter](./blog-wled-camping-lamp/microswitch_in_top_part.png)
+
+Ein kleines Adapterstück und etwas Lötarbeit später und wir können final zusammenbauen.
+
+**TODO Bild vom Deckel mit Mikroschalter**
+
+## Schlusswort
+
+Puh, das war ganz schön Anstrengend zu schreiben, besonders weil auch schon wieder einiges an Zeit vergangen ist von Heute zu wo das Projekt fertig wurde. Es macht schon ziemlich Spaß mit der Lampe rumzuspielen und sie ist selbst bei 10% Helligkeit schon so hell wie die alte Energiespaarlampe. Die Energiespaarlampe hat 600mA bei 17V Akkuspannung verbraucht, die LEDs knapp die hälfte. Wie oben erwähnt ist der Spannungswandler für die LEDs ziemlich ineffizient, aber das ist auch nicht so wichtig. 
+Ich hoffe dir hat mein Artikel gefallen, ich werde definitiv noch mehr Projekte hier auf der Website veröffentlichen. Falls du die Lampe mal in Person sehen willst, schreibe einfach in unserem Discord und ich bringe sie mal in den Hackerspace.
+
+Ciao, Mischa
