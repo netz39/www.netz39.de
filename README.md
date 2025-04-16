@@ -52,6 +52,7 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
       location: "Netz39 e.V." # optional, Ort des Events
       frequency: "WEEKLY" # https://icalendar.org/iCalendar-RFC-5545/3-3-10-recurrence-rule.html
       interval: 2 # optional, ergibt zusammen mit frequency am Beispiel "alle zwei wochen"
+      rrule: "FREQ=MONTHLY;INTERVAL=1;BYDAY=1FR,1TH" # follows https://icalendar.org/iCalendar-RFC-5545/3-3-10-recurrence-rule.html  
     ---
     ```
 - Unterhalb des Front Matters die Beschreibung des Events in Markdown aufschreiben
