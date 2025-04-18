@@ -8,24 +8,16 @@ permalink: /calendar-data/
 {% for event in site.events %}
 	{% assign start = event.event.start | default: event.event_date %}
 	{% assign end = event.event.end | default: start %}
-	{% if event.event.rrule %}
 	{
 		"title": "{{event.title}}",
 		"start": "{{start | date: "%Y-%m-%dT%H:%M:%S"}}",
 		"end": "{{end | date: "%Y-%m-%dT%H:%M:%S"}}",
 		"allDay": {% if start == end %}true{% else %}false{% endif %},
 		"url": "{{event.url}}",
-		"rrule": {% if event.event.rrule %}"{{event.event.rrule}}"{% else %}null{% endif %}
+		{% if event.event.rrule %}
+		"rrule": "{{event.event.rrule}}"
+		{% endif %}
 	}
-	{% else %}
-	{
-		"title": "{{event.title}}",
-		"start": "{{start | date: "%Y-%m-%dT%H:%M:%S"}}",
-		"end": "{{end | date: "%Y-%m-%dT%H:%M:%S"}}",
-		"allDay": {% if start == end %}true{% else %}false{% endif %},
-		"url":"{{event.url}}"
-	}
-	{% endif %}
 	{%unless forloop.last %},{%endunless%}
 {% endfor %}
 ]
