@@ -13,8 +13,10 @@ position: 1
 <html lang='de'>
   <head>
     <meta charset='utf-8' />
+    <script src='/assets/js/vendor/rrule.min.js'></script>
     <script src='/assets/js/vendor/fullcalendar/index.global.min.js'></script>
     <script src='/assets/js/vendor/fullcalendar/de.global.min.js'></script>
+    <script src='/assets/js/vendor/fullcalendar/fullcalendar-rrule.global.min.js'></script>
     <script>
 
       document.addEventListener('DOMContentLoaded', function() {
@@ -36,6 +38,7 @@ position: 1
       });
 
     </script>
+
   </head>
   <body>
     <div id='calendar' style="width:95%; margin: auto;"></div>
@@ -69,5 +72,6 @@ position: 1
             alert('URL wurde in die Zwischenablage kopiert!');
         });
     </script>
+
   </body>
 </html>
