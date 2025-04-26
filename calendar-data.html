@@ -9,11 +9,14 @@ permalink: /calendar-data/
 	{% assign start = event.event.start | default: event.event_date %}
 	{% assign end = event.event.end | default: start %}
 	{
-		"title":"{{event.title}}",
+		"title": "{{event.title}}",
 		"start": "{{start | date: "%Y-%m-%dT%H:%M:%S"}}",
 		"end": "{{end | date: "%Y-%m-%dT%H:%M:%S"}}",
 		"allDay": {% if start == end %}true{% else %}false{% endif %},
-		"url":"{{event.url}}"
+		"url": "{{event.url}}",
+		{% if event.event.rrule %}
+		"rrule": "{{event.event.rrule}}"
+		{% endif %}
 	}
 	{%unless forloop.last %},{%endunless%}
 {% endfor %}
