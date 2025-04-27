@@ -15,7 +15,10 @@ permalink: /calendar-data/
 		"allDay": {% if start == end %}true{% else %}false{% endif %},
 		"url": "{{event.url}}",
 		{% if event.event.rrule %}
-		"rrule": "{{event.event.rrule}}"
+		"rrule": "{{event.event.rrule}}",
+		{% endif %}
+		{% if event.tags %}
+		"tags": "{{event.tags}}"
 		{% endif %}
 	}
 	{%unless forloop.last %},{%endunless%}
