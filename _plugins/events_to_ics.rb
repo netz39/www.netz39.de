@@ -14,7 +14,7 @@ module Jekyll
       default_duration = Rational(4, 24)
       cals = Hash.new()
       calAllEvents = Icalendar::Calendar.new
-      cals[:everything] = calAllEvents
+      cals[:events] = calAllEvents
 
       events.each do |event|
         title = event.data['title']
@@ -56,7 +56,7 @@ module Jekyll
         ical_event.organizer = organizer
         ical_event.location = location
 
-        cals[:everything].add_event(ical_event)
+        cals[:events].add_event(ical_event)
         if tags
           tags.join('').split(/,/).each do |tag|
             if cals.key?(tag)
@@ -91,7 +91,7 @@ module Jekyll
           end
         end
 
-        site.pages << IcalPage.new(site, site.source, 'feeds', "#{tag}.ics", cal)
+        site.pages << IcalPage.new(site, site.source, 'feed/eo-events/', "#{tag}.ics", cal)
         puts "Generated #{tag}.ics page from #{events.length} events"
       }
     end

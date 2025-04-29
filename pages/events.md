@@ -99,7 +99,7 @@ position: 1
       {% assign name = feed.name | downcase %}
       {% if name contains 'ics' %}
         <script>
-          icalFeedUrls["{{feed.name}}"] = { url: "{{site.url}}/feeds/{{feed.name}}", btn: document.getElementById("{{feed.name}}-cpbtn")};
+          icalFeedUrls["{{feed.name}}"] = { url: "{{site.url}}/feed/eo-events/{{feed.name}}", btn: document.getElementById("{{feed.name}}-cpbtn")};
 
           // set text in HTML element "{{feed.name}}-url" to the URL
           document.getElementById("{{feed.name}}-url").textContent = icalFeedUrls["{{feed.name}}"].url;
