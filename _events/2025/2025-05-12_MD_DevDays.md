@@ -1,7 +1,6 @@
 ---
 layout: event
 title: "Magdeburger Developer Days"
-tags: "members"
 location: "AMO Kulturhaus, Tessenowstraße 5 a, 39114 Magdeburg"
 event:
   start: 2025-05-12 10:00:00
