@@ -66,11 +66,11 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
 1. Docker und Docker Compose auf deinem System installieren
 2. Docker Container im root-Verzeichnis starten:
    ```bash
-   docker-compose up
+   docker compose up
    ```
 
    Der Jekyll-Buildserver wird nun in einem Docker-Container gestartet und ist unter `http://localhost:4000` verfügbar. Du kannst Änderungen vornehmen, und sie werden automatisch in Echtzeit aktualisiert.
-3. Nach der Entwicklung den Container mit `docker-compose down` beenden.
+3. Nach der Entwicklung den Container mit `docker compose down` beenden.
 
 ## git-lfs
 
