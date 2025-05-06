@@ -12,26 +12,9 @@ module Jekyll
       default_organizer = "Netz39 Team <kontakt@netz39.de>"
       default_location = "Netz39 e.V., Leibnizstraße 32, 39104 Magdeburg"
       default_duration = Rational(4, 24)
-      cal = Icalendar::Calendar.new
-
-      # Define Europe/Berlin timezone with standard rules (incl. DST)
-      cal.timezone do |t|
-        t.tzid = "Europe/Berlin"
-         # Daylight Saving Time (DST) adjustments (if applicable)
-        t.daylight do |d|
-          d.tzoffsetfrom = "-0100"
-          d.tzoffsetto = "-0200"
-          d.dtstart = "19700329T020000"
-          d.tzname = "CEST"
-        end
-         # Standard Time definition
-        t.standard do |s|
-          s.tzoffsetfrom = "-0200"
-          s.tzoffsetto = "-0100"
-          s.dtstart = "19701025T030000"
-          s.tzname = "CET"
-        end
-      end
+      cals = Hash.new()
+      calAllEvents = Icalendar::Calendar.new
+      cals[:events] = calAllEvents
 
       events.each do |event|
         title = event.data['title']
@@ -40,6 +23,7 @@ module Jekyll
         organizer = event.data.dig('event', 'organizer') || default_organizer
         location = event.data.dig('event', 'location') || default_location
         rrule = event.data.dig('event', 'rrule')
+        tags = event.data['tags']
 
         # Skip events older than 365 days
         next if start_date.to_date < (Date.today - 365)
@@ -71,11 +55,45 @@ module Jekyll
         ical_event.description = description
         ical_event.organizer = organizer
         ical_event.location = location
-        cal.add_event(ical_event)
-      end
-      site.pages << IcalPage.new(site, site.source, 'feed/eo-events', "events.ics", cal)
 
-      puts "Generated events.ics page from #{events.length} events"
+        cals[:events].add_event(ical_event)
+        if tags
+          tags.join('').split(/,/).each do |tag|
+            if cals.key?(tag)
+              cals[tag].add_event(ical_event)
+            else
+              newCal = Icalendar::Calendar.new
+              newCal.add_event(ical_event)
+              cals[tag] = newCal
+            end
+          end
+        end
+      end
+
+      cals.each_key { |tag|
+        cal = cals[tag]
+        # Define Europe/Berlin timezone with standard rules (incl. DST)
+        cal.timezone do |t|
+          t.tzid = "Europe/Berlin"
+          # Daylight Saving Time (DST) adjustments (if applicable)
+          t.daylight do |d|
+            d.tzoffsetfrom = "-0100"
+            d.tzoffsetto = "-0200"
+            d.dtstart = "19700329T020000"
+            d.tzname = "CEST"
+          end
+          # Standard Time definition
+          t.standard do |s|
+            s.tzoffsetfrom = "-0200"
+            s.tzoffsetto = "-0100"
+            s.dtstart = "19701025T030000"
+            s.tzname = "CET"
+          end
+        end
+
+        site.pages << IcalPage.new(site, site.source, 'feed/eo-events/', "#{tag}.ics", cal)
+        puts "Generated #{tag}.ics page from #{events.length} events"
+      }
     end
   end
 

@@ -45,12 +45,13 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
     layout: event
     title: "Titel des Events"
     author: MaxMustermann # optional, soll angegeben werden, wenn du der Ansprechpartner des Events bist
+    tags: 'example,halloWelt' # every tag will result in a seperate ics feed
     event:
       start: 2023-10-20 19:00:00 # Datum, an dem das Event stattfindet. Die Zeit ist optional
       end:   2023-10-20 21:00:00 # optional, Zeitpunkt, an dem das Event endet
       organizer: "Netz39 Team <kontakt@netz39.de>" # optional, Kontaktdaten im ical Event
       location: "Netz39 e.V." # optional, Ort des Events
-      rrule: "FREQ=MONTHLY;INTERVAL=1;BYDAY=1FR,1TH" # follows https://icalendar.org/iCalendar-RFC-5545/3-3-10-recurrence-rule.html  
+      rrule: "FREQ=MONTHLY;INTERVAL=1;BYDAY=1FR,1TH;DTSTART=20231020T190000" # follows https://icalendar.org/iCalendar-RFC-5545/3-3-10-recurrence-rule.html the given order is relevant!
     ---
     ```
 - Unterhalb des Front Matters die Beschreibung des Events in Markdown aufschreiben
