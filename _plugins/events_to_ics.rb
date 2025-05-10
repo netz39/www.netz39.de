@@ -2,6 +2,16 @@ require 'icalendar'
 require 'redcarpet'
 require 'redcarpet/render_strip' 
 
+def file_path_to_uuid(file_path)
+  # Generate a SHA256 hash from the file path
+  hashed_path = Digest::SHA256.hexdigest(file_path)
+  
+  # Use the first 32 characters of the hash and format it as a UUID
+  uuid = "#{hashed_path[0, 8]}-#{hashed_path[8, 4]}-4#{hashed_path[12, 3]}-#{hashed_path[15, 4]}-#{hashed_path[19, 12]}"
+  
+  uuid
+end
+
 module Jekyll
   class IcsGenerator < Generator
     safe true
@@ -12,6 +22,7 @@ module Jekyll
       default_organizer = "Netz39 Team <kontakt@netz39.de>"
       default_location = "Netz39 e.V., Leibnizstraße 32, 39104 Magdeburg"
       default_duration = Rational(4, 24)
+
       cals = Hash.new()
       calAllEvents = Icalendar::Calendar.new
       cals[:events] = calAllEvents
@@ -19,14 +30,14 @@ module Jekyll
       events.each do |event|
         title = event.data['title']
         start_date = event.data.dig('event', 'start') || event.data['event_date']
+
+        next if !start_date || start_date.to_date < (Date.today - 365)
+
         end_date = event.data.dig('event', 'end') || event.data['event_date'] || start_date + default_duration
         organizer = event.data.dig('event', 'organizer') || default_organizer
         location = event.data.dig('event', 'location') || default_location
         rrule = event.data.dig('event', 'rrule')
         tags = event.data['tags']
-
-        # Skip events older than 365 days
-        next if start_date.to_date < (Date.today - 365)
 
         # Remove image URLs from description
         content = event.content
@@ -51,6 +62,7 @@ module Jekyll
         if rrule
           ical_event.rrule = rrule
         end
+        ical_event.uid = file_path_to_uuid(event.path)
         ical_event.summary = title
         ical_event.description = description
         ical_event.organizer = organizer
