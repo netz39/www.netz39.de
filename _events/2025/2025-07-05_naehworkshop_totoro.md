@@ -3,8 +3,8 @@ layout: event
 title: "'Totoro' Nähworkshop"
 location: "Netz39 e.V."
 event:
-  start: 2025-07-25 10:00:00
-  end: 2025-07-25 13:00:00
+  start: 2025-07-05 10:00:00
+  end: 2025-07-05 13:00:00
 ---
 
 ### Lerne deinen eingenen Totoro zu nähen!
