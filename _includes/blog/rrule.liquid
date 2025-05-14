@@ -1,0 +1,71 @@
+{% assign rrule = include.rrule %}
+
+{% assign freq = rrule | split: ";" %}
+{% assign frequency = freq[0] | split: "=" | last %}
+{% assign interval = freq[1] | split: "=" | last %}
+{% assign byday = freq[2] | split: "=" | last %}
+{% capture transformed_text %}
+  {% if frequency == "MONTHLY" %}
+    {% assign days = byday | split: "," %}
+    {% capture days_text %}
+      {% for day in days %}
+        {% assign day_of_week = day | slice: 1, 2 %}
+        {% assign week = day | slice: 0, 1 %}
+        {% case day_of_week %}
+          {% when "MO" %}
+            {% assign day_name = "Monday" %}
+          {% when "TU" %}
+            {% assign day_name = "Tuesday" %}
+          {% when "WE" %}
+            {% assign day_name = "Wednesday" %}
+          {% when "TH" %}
+            {% assign day_name = "Thursday" %}
+          {% when "FR" %}
+            {% assign day_name = "Friday" %}
+          {% when "SA" %}
+            {% assign day_name = "Saturday" %}
+          {% when "SU" %}
+            {% assign day_name = "Sunday" %}
+        {% endcase %}
+        {% assign week_suffix = week | append: "th" %}
+        {% if week == "1" %}
+          {% assign week_suffix = week | append: "st" %}
+        {% elsif week == "2" %}
+          {% assign week_suffix = week | append: "nd" %}
+        {% elsif week == "3" %}
+          {% assign week_suffix = week | append: "rd" %}
+        {% endif %}
+        {% if forloop.first %}
+          {{ week_suffix }} {{ day_name }}
+        {% else %}
+          and {{ week_suffix }} {{ day_name }}
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% capture month_text %}
+      {% if interval == "1" %}
+        Every month
+      {% elsif interval == "2" %}
+        Every other month
+      {% else %}
+        Every {{interval}} months
+      {% endif %}
+    {% endcapture %}
+    {{ month_text }} on the {{days_text}}
+  {% elsif frequency == "WEEKLY" %}
+    {% capture week_text %}
+      {% if interval == "1" %}
+        Every week
+      {% elsif interval == "2" %}
+        Every other week
+      {% else %}
+        Every {{interval}} weeks
+      {% endif %}
+    {% endcapture %}
+    {% capture day %}
+      {{ date | date: "%A" }}
+    {% endcapture %}
+    {{ week_text }} on {{ day }}
+  {% endif %}
+{% endcapture %}
+{{transformed_text}}
