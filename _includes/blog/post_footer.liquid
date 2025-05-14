@@ -1,5 +1,6 @@
 {% assign color = include.color %}
 {% assign img = include.img %}
+{% assign isEvent = include.isEvent %}
 {% capture _post_footer %}
     <!-- To change color of links in the page -->
     <style>
@@ -34,7 +35,7 @@
     </style>
 
     <!-- Post navigation -->
-    {% if site.post_navigation or site.theme_settings.post_navigation %}
+    {% if isEvent != 'True' and site.post_navigation or site.theme_settings.post_navigation %}
         {% include blog/post_nav.liquid %}
     {% endif %}
 
