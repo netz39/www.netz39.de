@@ -2,6 +2,17 @@ require 'icalendar'
 require 'redcarpet'
 require 'redcarpet/render_strip' 
 
+def file_path_to_uid(file_path)
+  # Generate a SHA256 hash from the file path
+  hashed_path = Digest::SHA256.hexdigest(file_path)
+  
+  # for ics uid requirements see:
+  # https://datatracker.ietf.org/doc/html/rfc5545#section-3.8.4.7 
+  uid = "#{hashed_path}@netz39.de"
+  
+  uid
+end
+
 module Jekyll
   class IcsGenerator < Generator
     safe true
@@ -19,14 +30,15 @@ module Jekyll
       events.each do |event|
         title = event.data['title']
         start_date = event.data.dig('event', 'start') || event.data['event_date']
+
+        # Skip events older than 365 days
+        next if !start_date || start_date.to_date < (Date.today - 365)
+
         end_date = event.data.dig('event', 'end') || event.data['event_date'] || start_date + default_duration
         organizer = event.data.dig('event', 'organizer') || default_organizer
         location = event.data.dig('event', 'location') || default_location
         rrule = event.data.dig('event', 'rrule')
         tags = event.data['tags']
-
-        # Skip events older than 365 days
-        next if start_date.to_date < (Date.today - 365)
 
         # Remove image URLs from description
         content = event.content
@@ -51,6 +63,7 @@ module Jekyll
         if rrule
           ical_event.rrule = rrule
         end
+        ical_event.uid = file_path_to_uid(event.path)
         ical_event.summary = title
         ical_event.description = description
         ical_event.organizer = organizer
