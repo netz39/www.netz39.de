@@ -1,0 +1,30 @@
+.sponsor-banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+
+.sponsor {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  flex-direction: column;
+  margin: auto;
+}
+
+.sponsor-logo {
+  max-height: 40px;
+  margin-right: 0.5rem;
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+
+.sponsor-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
