@@ -68,6 +68,7 @@ module Jekyll
         ical_event.description = description
         ical_event.organizer = organizer
         ical_event.location = location
+        ical_event.url = "#{site.config['url']}#{event.url}"
 
         cals[:events].add_event(ical_event)
         if tags

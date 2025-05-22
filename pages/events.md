@@ -13,31 +13,24 @@ position: 1
 <html lang='de'>
   <head>
     <meta charset='utf-8' />
-    <script src='/assets/js/vendor/rrule.min.js'></script>
-    <script src='/assets/js/vendor/fullcalendar/index.global.min.js'></script>
-    <script src='/assets/js/vendor/fullcalendar/de.global.min.js'></script>
-    <script src='/assets/js/vendor/fullcalendar/fullcalendar-rrule.global.min.js'></script>
+    <script src='/assets/js/vendor/fullcalendar/n39calendar.js'></script>
     <script>
-
-      document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth',
-          height: "auto",
-          locale: 'de',
-          events: '/calendar-data',
-          weekNumbers: true,
-          headerToolbar:
-          {
-            left: 'today',
-            center: 'title',
-            right: 'prev,next'
-          }
-        });
-        calendar.render();
-      });
-
       const icalFeedUrls = {};
+      const relativeICalFeedUrls = {};
+    </script>
+    {% for feed in site.pages %}
+      {% assign name = feed.name | downcase %}
+      {% if name contains 'ics' %}
+        <script>
+          relativeICalFeedUrls["{{feed.name}}"] = "/feed/eo-events/{{feed.name}}";
+        </script>
+      {% endif %}
+    {% endfor %}
+    <script>
+      N39Calendar.buildCalendar(Object.values(relativeICalFeedUrls).map((url) => ({ 
+              url,
+              format: 'ics',
+          })))
     </script>
 
   </head>

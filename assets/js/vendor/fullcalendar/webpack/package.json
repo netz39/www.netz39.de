@@ -1,0 +1,24 @@
+{
+  "name": "www.netz39.de",
+  "version": "1.0.0",
+  "description": "Netz39 webseite js bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.17",
+    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/icalendar": "^6.1.17",
+    "@fullcalendar/rrule": "^6.1.17",
+    "ical.js": "^1.5.0",
+    "rrule": "^2.8.1"
+  }
+}
