@@ -3,7 +3,7 @@ layout: event
 title: Freies Hacken
 image: https://cdn.netz39.de/img/post-img/2019/microbit_mit_zip_halo-e1554138460970.jpeg
 feature-img: "https://cdn.netz39.de/img/post-img/2019/microbit_mit_zip_halo-e1554138460970.jpeg"
-tags: "recurring"
+tags: [internal,recurring]
 event:
   start: 2025-04-30 19:30:00
   end: 2025-04-30 23:59:59

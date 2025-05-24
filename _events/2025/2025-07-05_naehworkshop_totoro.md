@@ -2,6 +2,7 @@
 layout: event
 title: "'Totoro' Nähworkshop"
 location: "Netz39 e.V."
+tags: [non-recurring, internal]
 event:
   start: 2025-07-05 10:00:00
   end: 2025-07-05 13:00:00
