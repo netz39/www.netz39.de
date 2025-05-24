@@ -80,7 +80,7 @@ module Jekyll
 
         cals[:events].add_event(ical_event)
         if tags
-          tags.join('').split(/,/).each do |tag|
+          tags.each do |tag|
             if cals.key?(tag)
               cals[tag].add_event(ical_event)
             else

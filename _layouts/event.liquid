@@ -5,11 +5,11 @@ layout: default
   <header id="main" style="">
     <div class="title-padder">
       {% if page.hide_title %}
-      <div class="feature-image-padding"></div>
+        <div class="feature-image-padding"></div>
       {% else %}
-      <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
-      {% assign start_date = page.event.start | default: page.event_date %}
-      {% include blog/post_info.liquid author=page.author date=start_date rrule=page.event.rrule %}
+        <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
+        {% assign start_date = page.event.start | default: page.event_date %}
+        {% include blog/post_info.liquid author=page.author date=start_date rrule=page.event.rrule %}
       {% endif %}
     </div>
   </header>
@@ -20,7 +20,7 @@ layout: default
     {% endif %}
       {% if page.event.start %}
       <p>
-        <strong>Wann: {{ page.event.start | date: "%H:%M" }}{% if page.event.end %} - {{ page.event.end | date: "%H:%M" }}{% endif %} Uhr</strong><br />
+        <strong>Wann: {% if page.event.rrule %}{% include blog/rrule.liquid rrule=page.event.rrule %}{% endif %}{{ page.event.start | date: "%H:%M" }}{% if page.event.end %} - {{ page.event.end | date: "%H:%M" }}{% endif %} Uhr</strong><br />
         <strong>Wo: {{ page.event.location | default: "Netz39 e.V." }}</strong>
       </p>
       {% endif %}
@@ -40,3 +40,5 @@ layout: default
   {% include default/tags_list.liquid tags=tag_list %}
 
 </article>
+
+{% include blog/post_footer.liquid color=page.color img=page.feature-img isEvent='True' %}

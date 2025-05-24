@@ -82,9 +82,14 @@ position: 1
             <div style="display: flex; flex-direction: column; margin: auto; margin-left: 15px">
               {% for feed in site.pages %}
                   {% assign name = feed.name | downcase %}
-                  {% if name contains 'ics' %}
+                  {% if name contains 'ics' and feed.name contains 'events' or feed.name contains 'non-recurring' %}
                     <div style="display: flex; align-items: center; width: 100%;">
-                      <p style="margin-bottom: 0px; margin-right: 10px;">{{ feed.name | replace: '.ics', '' }}</p>
+                      <p style="margin-bottom: 0px; margin-right: 10px;">
+                        {% if feed.name contains 'events' %}
+                          everything
+                        {% else %}
+                          {{ feed.name | replace: '.ics', '' }}
+                        {% endif %}</p>
                       <code id="{{feed.name}}-url" style="box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); font-family: monospace;"></code>
                       <a id="{{feed.name}}-cpbtn" style="margin-left: 10px; margin-top: 0px; margin-bottom: 0px;">
                           <i class="fas fa-copy" title="In Zwischenablage kopieren"></i>

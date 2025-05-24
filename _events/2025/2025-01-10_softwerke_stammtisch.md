@@ -1,6 +1,7 @@
 ---
 layout: event
 title: "Softwerke-Stammtisch"
+tags: [recurring, external]
 event:
   start: 2025-01-10 19:30:00
   end: 2025-01-10 21:30:00
