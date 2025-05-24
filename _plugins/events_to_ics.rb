@@ -39,6 +39,7 @@ module Jekyll
         location = event.data.dig('event', 'location') || default_location
         rrule = event.data.dig('event', 'rrule')
         tags = event.data['tags']
+        exdate = event.data.dig('event', 'exdate')
 
         # Remove image URLs from description
         content = event.content
@@ -62,7 +63,15 @@ module Jekyll
         end
         if rrule
           ical_event.rrule = rrule
+            if exdate
+              exdates = exdate.split(',').map do |d|
+                date_obj = Date.parse(d.strip)
+                Icalendar::Values::Date.new(date_obj)
+              end
+              ical_event.exdate = exdates
+            end
         end
+
         ical_event.uid = file_path_to_uid(event.path)
         ical_event.summary = title
         ical_event.description = description

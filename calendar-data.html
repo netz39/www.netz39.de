@@ -15,7 +15,14 @@ permalink: /calendar-data/
     "end": "{{ event.event.end | date: "%Y-%m-%dT%H:%M:%S" }}",
     "allDay": {% if event.event.start == event.event.end %}true{% else %}false{% endif %},
     "url": {{ event.url | jsonify }}{% if event.event.rrule or event.tags.size > 0 %},{% endif %}
-    {% if event.event.rrule %}"rrule": "{{ event.event.rrule }}"{% if event.tags.size > 0 %},{% endif %}{% endif %}
+    {% if event.event.rrule %}
+    "rrule": "{{ event.event.rrule }}"{% if event.event.exdate %},{% endif %}
+    {% if event.event.exdate %}"exdate": [
+      {% assign exdates = event.event.exdate | split: "," %}
+      {% for date in exdates %}
+        "{{ date | strip }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}]{% endif %}{% if event.tags.size > 0 %},{% endif %}
+    {% endif %}
     {% if event.tags.size > 0 %}"tags": "{{ event.tags }}"{% endif %}
   }
 {% endfor %}
