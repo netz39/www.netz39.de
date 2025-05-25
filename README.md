@@ -48,7 +48,7 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
   layout: event
   title: "Titel des Events"
   author: MaxMustermann # optional, soll angegeben werden, wenn du der Ansprechpartner des Events bist
-  tags: "example,halloWelt" # every tag will result in a seperate ics feed
+  tags: [example, halloWelt] # every tag will result add the event to the ics feed, the last tag will assign its color
   event:
     start: 2023-10-20 19:00:00 # Datum, an dem das Event stattfindet. Die Zeit ist optional
     end: 2023-10-20 21:00:00 # optional, Zeitpunkt, an dem das Event endet
