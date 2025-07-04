@@ -1,12 +1,14 @@
 ---
 layout: event
-title: "'Totoro' Nähworkshop"
+title: "'ABGESAGT: Totoro' Nähworkshop"
 location: "Netz39 e.V."
 tags: [non-recurring, internal]
 event:
   start: 2025-07-05 10:00:00
   end: 2025-07-05 13:00:00
 ---
+
+## Aufgrund von Krankheit müssen wir den Workshop leider absagen
 
 ### Lerne deinen eingenen Totoro zu nähen!
 
