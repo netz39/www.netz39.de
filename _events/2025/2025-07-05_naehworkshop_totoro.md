@@ -12,7 +12,6 @@ event:
 
 ### Lerne deinen eingenen Totoro zu nähen!
 
-
 In diesem Workshop wird ein kleiner Totoro per Hand aus Filz genäht.
 
 #### Erfahrung
