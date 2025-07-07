@@ -5,11 +5,11 @@ url: "https://www.netz39.de"
 # BOARD MEMBERS
 board:
   chair:
-    name: "Timo Herrmann"
-    wiki: "timo"
+    name: "Lena Prieß"
+#    wiki: ""
   deputy:
-    name: "Rick Hollinski"
-    wiki: "rick"
+    name: "Felix Kranz"
+#    wiki: ""
 
 # THEME-SPECIFIC CONFIGURATION
 title: Netz39 e.V.                                      # site's title
