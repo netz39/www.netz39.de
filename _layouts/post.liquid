@@ -13,10 +13,12 @@ layout: default
         </div>
     </header>
 
+    {% if page.sponsors%}
     <div style="margin-bottom: 50px">
         <center><h2>Gefördert von</h2></center>
-        {% if page.sponsors%}{% include default/sponsors_banner.liquid sponsors=page.sponsors %}{% endif %}
+        {% include default/sponsors_banner.liquid sponsors=page.sponsors %}
     </div>
+    {% endif %}
 
     <section class="post-content">
     {% if page.bootstrap %}<div class="bootstrap-iso">{% endif %}
