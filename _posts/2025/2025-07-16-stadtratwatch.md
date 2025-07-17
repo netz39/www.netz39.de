@@ -6,8 +6,7 @@ tags:
   - "project"
   - "code-for-magdeburg"
   - "stadtratwatch"
-feature-img: "https://cdn.netz39.de/img/post-img/2025/2025-07-16-stadtratwatch/2025-07-16-stadtratwatch-feature-img.png"
-thumbnail: "https://cdn.netz39.de/img/post-img/2025/2025-07-16-stadtratwatch/2025-07-16-thumbnail.png"
+thumbnail: "https://cdn.netz39.de/img/post-img/2025/2025-07-16-stadtratwatch/2025-07-16-stadtratwatch-feature-img.png"
 ---
 
 In Zeiten, in denen das Vertrauen in demokratische Institutionen herausgefordert wird, entstehen innovative Projekte, die Bürger:innen helfen, Politik besser zu verstehen und zu verfolgen. Ein Beispiel dafür ist unser Projekt "[StadtratWatch](https://www.stadtratwatch.de)" – ein ehrenamtliches, digitales Demokratieprojekt, das die Arbeit des Magdeburger Stadtrates transparent und zugänglich macht.
@@ -17,7 +16,6 @@ In Zeiten, in denen das Vertrauen in demokratische Institutionen herausgefordert
 StadtratWatch ist eine Datenplattform, die systematisch Abstimmungen und Redebeiträge in den Stadtratssitzungen der Landeshauptstadt Magdeburg analysiert und visualisiert. Das Projekt dokumentiert namentliche Abstimmungen und macht damit sichtbar, wie einzelne Stadtratsmitglieder bei wichtigen Entscheidungen abstimmen.
 
 ![](https://cdn.netz39.de/img/post-img/2025/2025-07-16-stadtratwatch/2025-07-16-stadtratwatch.png)
-<sub>Magdeburger Stadtrat digitalisiert</sub>
 
 ## Datenquellen und Methodik
 
@@ -29,7 +27,6 @@ Die Daten stammen aus zwei öffentlich zugänglichen Quellen:
 Durch diese Kombination aus schriftlichen Protokollen und Videomaterial entsteht ein umfassendes Bild der Stadtratssitzungen, das über reine Abstimmungsergebnisse hinausgeht.
 
 ![](https://cdn.netz39.de/img/post-img/2025/2025-07-16-stadtratwatch/2025-07-16-abstimmung.png)
-<sub>Eine Abstimmung im Stadtrat Magdeburg</sub>
 
 ## Warum ist das wichtig?
 
