@@ -3,7 +3,7 @@ layout: default
 title: Events
 permalink: /events
 icon: "far fa-calendar"
-position: 20
+position: 0
 ---
 
 <center>

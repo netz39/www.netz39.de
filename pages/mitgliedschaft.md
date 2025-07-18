@@ -5,6 +5,7 @@ permalink: /mitgliedschaft/
 feature-img: "https://cdn.netz39.de/img/pexels/pexels-pixabay-163064.jpg"
 tags: [Page]
 position: 2
+icon: far fa-user
 ---
 
 ## Mitgliedschaft
