@@ -5,7 +5,7 @@ permalink: /spenden/
 feature-img: "https://cdn.netz39.de/img/pexels/pexels-pixabay-259165.jpg"
 tags: [Page]
 position: 3
-icon: far fa-euro-sign
+icon: far fa-sack-dollar
 ---
 
 ## Geldspenden
