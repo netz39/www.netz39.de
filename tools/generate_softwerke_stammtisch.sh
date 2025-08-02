@@ -32,6 +32,7 @@ cat > "$root_dir/_events/$year/$filename" <<EOF
 ---
 layout: event
 title: "Softwerke-Stammtisch"
+tags: [recurring,external]
 event:
   start: ${date} 19:30:00
   end: ${date} 21:30:00

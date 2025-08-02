@@ -15,7 +15,8 @@
 
     <div class="footer-links">
         <ul>
-            {% for page in site.pages %}
+            {% assign pages = site.pages | sort: 'position' %}
+            {% for page in pages %}
             {% if page.show-in-footer %}
             <li>
                 <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">

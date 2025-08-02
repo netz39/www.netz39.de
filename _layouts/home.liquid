@@ -32,6 +32,11 @@ layout: default
 		</div>
 	</article>
 
+    <div style="margin-bottom: 50px">
+    <center><h2>Sponsoren</h2></center>
+    {% include default/sponsors_banner.liquid sponsors="abaxor,pcbway,swm" %}
+    </div>
+
     <div class="blog-links">
         <center><h2>Neuste Blogeinträge:</h2></center>
         {% capture _blog %}{% include blog/small_blog.liquid %}{% endcapture %}

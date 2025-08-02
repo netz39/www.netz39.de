@@ -1,0 +1,17 @@
+{% assign sponsors = include.sponsors | split: "," %}
+
+<div class="sponsor-banner">
+  {% for key in sponsors %}
+    {% assign sponsore = site.data.sponsors[key] %}
+    {% if sponsore %}
+      <a href="{{ sponsore.url }}" class="sponsor" target="_blank" rel="noopener">
+        {% if sponsore.logo contains "<svg" %}
+          <span class="sponsor-logo">{{ sponsore.logo }}</span>
+        {% else %}
+          <img src="{{ sponsore.logo }}" alt="{{ sponsore.name }} logo" class="sponsor-logo">
+        {% endif %}
+        <span class="sponsor-name">{{ sponsore.name }}</span>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
