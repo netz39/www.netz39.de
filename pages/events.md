@@ -77,9 +77,9 @@ position: 0
       {% endfor %}
     </div>
     <div id='calendar' style="width:95%; margin: auto; margin-top: 50px;"></div>
-        <div style="display: flex; align-items: center; margin-top: 50px; width: 100%; padding: 15px;">
+        <div style="align-items: center; margin-top: 50px; width: 100%; padding: 15px;">
             <h3 style="margin: auto; margin-right: 0px">ICal Feeds</h3>
-            <div style="display: flex; flex-direction: column; margin: auto; margin-left: 15px">
+            <div class="event-feeds">
               {% for feed in site.pages %}
                   {% assign name = feed.name | downcase %}
                   {% if name contains 'ics' and feed.name contains 'events' or feed.name contains 'non-recurring' %}

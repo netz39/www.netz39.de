@@ -13,11 +13,39 @@
   }
 }
 
+.status-float {
+  background: var(--background);
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  bottom: 30px;
+  right: 30px;
+  position: fixed;
+  padding: 0px 5px 15px 15px;
+  z-index: 9999;
+  box-shadow:
+    0.1rem 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.5);
+
+  .spacestatus {
+    border-radius: 15px 5px 5px 15px;
+    margin: auto;
+    height: 30px;
+    width: 150px;
+    background-image: url('https://spaceapi.n39.eu/state.png');
+    background-size: contain;
+  }
+}
+
 .site-header {
   padding: 2% 2% 1% 2%;
   background: var(--background);
   display: inline-block;
   float: left;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
   width: 100%;
 
   .separator {
@@ -88,13 +116,6 @@ nav {
   }
 }
 
-nav img.spacestatus {
-    border-radius: 15px 5px 5px 15px;
-    padding: 0;
-    margin-left: 10px;
-    height: 30px;
-}
-
 /* ---- Responsive ---- */
 
 @media (min-width: $break) {
@@ -121,25 +142,41 @@ nav img.spacestatus {
       display: none !important;
     }
 
-    ul {
-      width: 100%;
-      overflow: hidden;
+  .menu-wrapper {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+    float: right;
+    display: flex;
+    width: 100%;
 
-      /* fade out, then shrink */
+
+    ul {
+      margin: auto;
+      padding: 0;
+      list-style: none;
+      line-height: 1.5;
+      float: right;
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      &.hide {
+          font-size: 0;
+          margin: 0;
+          opacity: 0;
+          padding: 0;
+      }
       transition: opacity .25s 0s, font-size .25s 0s;
       transition-delay: 0s;
-
-      &.hide {
-        font-size: 0;
-        margin: 0;
-        opacity: 0;
-        padding: 0;
-      }
     }
 
     li {
-      width: 100%;
-      text-align: center;
+      display: inline;
+      float: left;
+      margin-right: 0.4em;
+      text-align: left;
+      width: fit-content;
       font-size: 1em;
       position: relative;
       background-color: var(--background);
@@ -148,13 +185,8 @@ nav img.spacestatus {
       &:nth-of-type(4n) {
         background-color: var(--background);
       }
-
-      a {
-        width: 100%;
-        margin: 0;
-        display: block;
-      }
-
     }
+  }
+
   }
 }
