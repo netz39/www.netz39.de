@@ -1,52 +1,154 @@
 <header class="site-header">
 
-    <!-- Logo and title -->
-	<div class="branding">
-        {% if site.avatar %}
-		<a href="{{ '/' | relative_url }}">
-			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" loading="lazy"/>
-		</a>
-        {% endif %}
-        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
-        {{ site.title }}
-		</a>
-	</div>
+  <!-- Logo and title -->
+  <div class="branding">
+    {% if site.avatar %}
+      <a href="{{ '/' | relative_url }}">
+        <img
+          alt="logo img"
+          class="avatar"
+          src="{{ site.avatar | relative_url }}"
+          loading="lazy" />
+      </a>
+    {% endif %}
+    <a
+      class="site-title"
+      aria-label="{{ site.title }}"
+      href="{{ '/' | relative_url }}">
+      {{ site.title }}
+    </a>
+  </div>
 
-    <!-- Toggle menu -->
-    <nav class="clear">
-    <a aria-label="pull" id="pull" class="toggle" href="#">
-    <i class="fas fa-bars fa-lg"></i>
+  <!-- Toggle menu -->
+  <nav class="clear">
+    <a
+      aria-label="pull"
+      id="pull"
+      class="toggle"
+      href="#">
+      <i class="fas fa-bars fa-lg"></i>
     </a>
 
     <!-- Menu -->
-    <ul class="hide">
+    <div class="menu-wrapper">
+      <ul class="hide">
         {% assign name_page = "" %}
         {% assign emptyArray = '' | split: '' %}
         {% assign menus = site.data.menu | default: emptyArray %}
         {% assign pages = site.pages | concat: menus | sort: 'position' %}
         {% for page in pages %}
-        {% unless page.title == null or page.hide or name_page contains page.title %}
-            <li class="separator"> | </li>
-            <li>
-                <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
-                    {% if page.icon %} <i class="navbar-icon fas {{ page.icon }}" aria-hidden="true"></i>{% endif %}
-                    <span class="navbar-label {% if page.icon %}navbar-label-with-icon{% endif%}">{{ page.title }}</span>
-                </a>
+          {% unless page.title == null or page.hide or name_page contains page.title %}
+            <li class="separator">
+              |
             </li>
-        {% endunless %}
-        {% assign name_page = page.title | append: name_page %}
+            <li>
+              <a
+                class="clear"
+                aria-label="{{ page.title }}"
+                title="{{ page.title }}"
+                href="{{ page.url | relative_url }}">
+                {% if page.icon %}
+                  <i class="navbar-icon fas {{ page.icon }}" aria-hidden="true"></i>
+                {% endif %}
+                <span class="navbar-label {% if page.icon %}navbar-label-with-icon{% endif%}">{{ page.title }}</span>
+              </a>
+            </li>
+          {% endunless %}
+          {% assign name_page = page.title | append: name_page %}
         {% endfor %}
 
         {% if site.color_theme == 'auto' %}
-        <li class="separator"> | </li>
-        <li><a id="theme-toggle" title="Theme wechseln" aria-label="Theme wechseln" onclick="themeToggle()"></a></li>
+          <li class="separator">
+            |
+          </li>
+          <li>
+            <a
+              id="theme-toggle"
+              title="Theme wechseln"
+              aria-label="Theme wechseln"
+              onclick="themeToggle()"></a>
+          </li>
         {% endif %}
-        <!-- Spacestatus -->
-        <li>
-            <a href="https://www.netz39.de/status/">
-                <img loading="lazy" alt="status" src="https://spaceapi.n39.eu/state.png" class="spacestatus">
-            </a>
-        </li>
-    </ul>
-	</nav>
+      </ul>
+    </div>
+  </nav>
 </header>
+<div class="status-float">
+  <h4>Next Event</h4>
+  <div id="next-event">
+    Loading…
+  </div>
+  <script src='/assets/js/vendor/rrule.min.js'></script>
+
+  <script>
+      async function loadNextEvent() {
+        try {
+            const response = await fetch('/calendar-data');
+            if (!response.ok) throw new Error('Network response was not ok');
+            const events = await response.json();
+
+
+            const now = new Date();
+
+            const allNextOccurrences = [];
+
+            events.forEach(event => {
+                if (event.rrule) {
+                const rruleOptions = rrule.RRule.parseString(event.rrule);
+
+                if (!rruleOptions.dtstart) {
+                    rruleOptions.dtstart = new Date(event.start);
+                }
+
+                const rule = new rrule.RRule(rruleOptions);
+
+                const exdates = (event.exdate || []).map(d => new Date(d));
+
+                let nextOccurrence = rule.after(now, true);
+                while (nextOccurrence && exdates.some(exd => exd.getTime() === nextOccurrence.getTime())) {
+                    nextOccurrence = rule.after(nextOccurrence);
+                }
+
+                if (nextOccurrence) {
+                    allNextOccurrences.push({
+                      title: event.title,
+                      start: nextOccurrence,
+                      url: event.url
+                    });
+                }
+                } else {
+                  const startDate = new Date(event.start);
+                  if (startDate > now) {
+                      allNextOccurrences.push({
+                        title: event.title,
+                        start: startDate,
+                        url: event.url
+                      });
+                  }
+                }
+            });
+
+
+            allNextOccurrences.sort((a, b) => new Date(a.start) - new Date(b.start));
+
+            
+            const nextEventDiv = document.getElementById('next-event');
+            
+            if (allNextOccurrences.length > 0) {
+                const nextEvent = allNextOccurrences[0];
+                const startDate = new Date(nextEvent.start);
+                nextEventDiv.innerHTML = `<a href=${nextEvent.url}>${nextEvent.title}<br>${startDate.toLocaleString()}</a>`;
+            } else {
+                nextEventDiv.innerHTML = 'No upcoming events';
+            }
+        } catch (error) {
+            console.log(error);
+            document.getElementById('next-event').innerHTML = 'Failed to load events';
+        }
+      }
+
+      loadNextEvent();
+  </script>
+  <h4>Spacestatus</h4>
+  <a class="spacestatus" href="https://www.netz39.de/status/"></a>
+</div>

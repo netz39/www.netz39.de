@@ -98,4 +98,13 @@
   .excerpt {
     margin-top: 1em;
   }
+
+  .event-feeds {
+    width: 100%;
+    overflow: hidden;
+    display: flex; 
+    flex-direction: column; 
+    margin: auto; 
+    margin-left: 15px
+  }
 }
