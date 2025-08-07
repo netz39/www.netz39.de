@@ -19,7 +19,7 @@ event:
 author: softwerke
 ---
 
-Am {date:%A} den {date:%-d. %B %Y} findet der Linux-Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Am {date:%A} dem {date:%-d. %B %Y} findet der Linux-Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
 """
     dirname = os.path.dirname(__file__)
     folder_path = os.path.join(dirname, f"../_events/{date:%Y}/")

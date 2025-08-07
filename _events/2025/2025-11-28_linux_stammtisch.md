@@ -8,4 +8,4 @@ event:
 author: softwerke
 ---
 
-Am Freitag den 28. November 2025 findet der Linux-Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Am Freitag dem 28. November 2025 findet der Linux-Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
