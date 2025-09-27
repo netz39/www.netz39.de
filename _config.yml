@@ -68,7 +68,7 @@ github:
   repository_url: https://github.com/netz39/www.netz39.de
 sass:
   style: compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-redirect-from]
 exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", "README.md", "docker-compose.yml", "Gemfile", "type-on-strap.gemspec", "tools"]
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
