@@ -6,4 +6,4 @@ event:
 author: softwerke
 ---
 
-Am Freitag den 1. März 2024 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Am Freitag dem 1. März 2024 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!

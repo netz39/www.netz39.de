@@ -8,4 +8,4 @@ event:
 author: softwerke
 ---
 
-Am Freitag den 12. September 2025 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Am Freitag dem 12. September 2025 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!

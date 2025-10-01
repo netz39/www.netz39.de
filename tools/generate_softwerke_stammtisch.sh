@@ -39,7 +39,7 @@ event:
 author: softwerke
 ---
 
-Am ${dow} den ${day#"${day%%[!0]*}"}. ${Month} ${year} findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Am ${dow} dem ${day#"${day%%[!0]*}"}. ${Month} ${year} findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
 EOF
 
 # Add the file to git
