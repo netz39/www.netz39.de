@@ -9,3 +9,5 @@ author: softwerke
 ---
 
 Am Freitag den 14. November 2025 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+
+#external
