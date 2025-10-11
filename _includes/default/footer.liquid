@@ -2,9 +2,12 @@
     <p class="text">
         <i class="fa fa-edit"></i> <a href="{{ site.github.repository_url }}/blob/main/{{ page.path }}">Edit page on GitHub</a>
     </p>
+
+    {% if site.footer_text %}
     <p class="text">
-        {{ site.footer_text | default: "Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>" }}
+        {{ site.footer_text }}
     </p>
+    {% endif %}
 
     <div class="footer-icons">
         <ul>
