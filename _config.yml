@@ -21,8 +21,7 @@ favicon: https://cdn.netz39.de/img/logo/netz39-logo-icon.svg           # Icon di
 header_text: Netz39 e.V. — ein Hackerspace für Magdeburg und Umgebung # Change Blog header text
 header_feature_image: https://cdn.netz39.de/img/header/bg-featured-1.jpg
 header_feature_image_responsive: true
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+# footer_text:
 
 # Show share_buttons
 share_buttons: false
