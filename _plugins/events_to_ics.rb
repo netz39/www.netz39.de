@@ -1,6 +1,8 @@
 require 'icalendar'
 require 'redcarpet'
 require 'redcarpet/render_strip' 
+require 'time'
+require 'date'
 
 def file_path_to_uid(file_path)
   # Generate a SHA256 hash from the file path
@@ -29,12 +31,20 @@ module Jekyll
 
       events.each do |event|
         title = event.data['title']
-        start_date = event.data.dig('event', 'start') || event.data['event_date']
+        start_date_raw = event.data.dig('event', 'start') || event.data['event_date']
+        next unless start_date_raw
 
-        # Skip events older than 365 days
-        next if !start_date || start_date.to_date < (Date.today - 365)
+        start_date = start_date_raw.is_a?(String) ? DateTime.parse(start_date_raw) : start_date_raw
+        next if start_date.to_date < (Date.today - 365)
 
-        end_date = event.data.dig('event', 'end') || event.data['event_date'] || start_date + default_duration
+        
+        end_date_raw = event.data.dig('event', 'end') || event.data['event_date']
+        end_date = if end_date_raw
+                      end_date_raw.is_a?(String) ? DateTime.parse(end_date_raw) : end_date_raw
+                    else
+                      start_date + default_duration
+                    end
+
         organizer = event.data.dig('event', 'organizer') || default_organizer
         location = event.data.dig('event', 'location') || default_location
         rrule = event.data.dig('event', 'rrule')
