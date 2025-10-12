@@ -2,10 +2,10 @@
 layout: event
 title: "PARKing Day"
 author: "Netz39 e.V." 
-tags: ["external", "recurring"]
+tags: []
 event:
-  start: 2025-09-19 12:00:00 
-  end:   2025-09-19 16:00:00 
+  start: 2025-09-19 14:00:00 
+  end:   2025-09-19 18:00:00 
   organizer: "Netz39 Team <kontakt@netz39.de>" 
   location: "Hasselbachplatz bis Einsteinstr. (vor der Stern-Apotheke)"
 ---

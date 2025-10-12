@@ -2,7 +2,7 @@
 layout: event
 title: "FaRaFIN Campusrallye"
 author: "Netz39 e.V." 
-tags: ["external", "recurring"]
+tags: ["non-recurring"]
 event:
   start: 2025-10-06 14:00:00 
   end:   2025-10-06 17:00:00 

@@ -9,9 +9,6 @@ permalink: /calendar-data/
 {% assign dark = "#22272e" %}
 {% assign light = "#FFFFFF" %}
 
-{% assign backgroundColor = dark %}
-{% assign textColor = gradientBlueOrange2 %}
-
 {% assign gradientBlueOrange0 = "#4ddbff" %}
 {% assign gradientBlueOrange1 = "#6bc8d5" %}
 {% assign gradientBlueOrange2 = "#89b5ab" %}
@@ -24,6 +21,8 @@ permalink: /calendar-data/
 {% for event in site.events %}
   {% if has_previous %},{% endif %}
   {% assign has_previous = true %}
+  {% assign backgroundColor = dark %}
+  {% assign textColor = gradientBlueOrange2 %}
   {
     "title": {{ event.title | jsonify }},
     "start": "{{ event.event.start | date: "%Y-%m-%dT%H:%M:%S" }}",
@@ -42,10 +41,7 @@ permalink: /calendar-data/
             {% elsif tag == "recurring" %}
                 {% assign backgroundColor = gradientBlueOrange2 %}
                 {% assign textColor = dark %}
-            {% else %}
-                {% assign backgroundColor = dark %}
-                {% assign textColor = gradientBlueOrange2 %}
-            {% endif %}
+            {% endif  %}
         {% endfor %}
     {% endif %}
     "backgroundColor": "{{ backgroundColor }}",
