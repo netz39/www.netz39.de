@@ -1,5 +1,5 @@
 ---
 layout: page
 permalink: /events/linux
-redirect_to: /events/2025/discord-event-1415406548922142741
+redirect_to: /events/2025/2025-10-12_linux_install_party
 ---
