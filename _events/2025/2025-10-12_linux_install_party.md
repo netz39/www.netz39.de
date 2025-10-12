@@ -20,6 +20,6 @@ Anmeldung und Fragen unter endof10@netz39.de
 
 Weitere Termine: 
 
-[25.10.2025 16:00Uhr](https://www.netz39.de/events/2025/discord-event-1415407086317342792 )
+[25.10.2025 16:00Uhr](https://www.netz39.de/events/2025/2025-10-25_linux_install_party )
 
 #internal
