@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 39C3 - Chaos Communication Congress
+title: 'Canceled: 39C3 - Chaos Communication Congress'
 author: Netz39 e.V.
 tags:
 - non-recurring
