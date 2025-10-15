@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Forum MINT auf der vocatium Magdeburg focus 2025
+title: 'Canceled: Forum MINT auf der vocatium Magdeburg focus 2025'
 author: Netz39 e.V.
 tags:
 - non-recurring
