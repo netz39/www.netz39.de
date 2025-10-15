@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Linux Install Party
+title: 'Canceled: Linux Install Party'
 author: Netz39 e.V.
 tags:
 - internal
