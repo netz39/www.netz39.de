@@ -20,28 +20,96 @@
 
     <!-- Menu -->
     <ul class="hide">
-        {% assign name_page = "" %}
+        {% assign current_lang = page.lang | default: site.lang | default: site.default_lang | default: 'en' %}
+        {% assign navbar_i18n = site.data.i18n[current_lang].navbar %}
         {% assign emptyArray = '' | split: '' %}
-        {% assign menus = site.data.menu | default: emptyArray %}
-        {% assign pages = site.pages | concat: menus | sort: 'position' %}
-        {% for page in pages %}
-        {% unless page.title == null or page.hide or name_page contains page.title %}
-            <li class="separator"> | </li>
-            <li>
-                <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
-                    {% if page.icon %} <i class="navbar-icon fas {{ page.icon }}" aria-hidden="true"></i>{% endif %}
-                    <span class="navbar-label {% if page.icon %}navbar-label-with-icon{% endif%}">{{ page.title }}</span>
-                </a>
-            </li>
-        {% endunless %}
-        {% assign name_page = page.title | append: name_page %}
+        {% assign nav_pages = site.pages | where_exp: 'p', 'p.lang == current_lang' %}
+        {% assign menu_items = site.data.menu | default: emptyArray %}
+        {% assign nav_entries = nav_pages | concat: menu_items %}
+        {% assign sorted_entries = nav_entries | sort: 'position' %}
+        {% assign name_page = "" %}
+        {% assign is_first_item = true %}
+
+        {% for entry in sorted_entries %}
+        {% if entry.path %}
+            {% assign entry_title = entry.title %}
+            {% unless entry_title == null or entry.hide or name_page contains entry_title %}
+                {% unless is_first_item %}<li class="separator"> | </li>{% endunless %}
+                <li>
+                    <a class="clear" aria-label="{{ entry_title }}" title="{{ entry_title }}" href="{{ entry.url | relative_url }}">
+                        {% if entry.icon %} <i class="navbar-icon fas {{ entry.icon }}" aria-hidden="true"></i>{% endif %}
+                        <span class="navbar-label {% if entry.icon %}navbar-label-with-icon{% endif%}">{{ entry_title }}</span>
+                    </a>
+                </li>
+                {% assign name_page = entry_title | append: name_page %}
+                {% assign is_first_item = false %}
+            {% endunless %}
+        {% else %}
+            {% assign item_languages = entry.languages | default: entry.lang | default: 'all' %}
+            {% if item_languages == 'all' or item_languages contains current_lang %}
+                {% assign item_title = entry.title | default: '' %}
+                {% if entry.labels %}
+                    {% assign item_title = entry.labels[current_lang] | default: entry.labels[site.default_lang] | default: item_title %}
+                {% endif %}
+                {% if item_title == '' %}
+                    {% assign item_title = entry.title %}
+                {% endif %}
+                {% unless item_title == null or item_title == '' or entry.hide or name_page contains item_title %}
+                    {% unless is_first_item %}<li class="separator"> | </li>{% endunless %}
+                    <li>
+                        <a class="clear" aria-label="{{ item_title }}" title="{{ item_title }}" href="{{ entry.url | relative_url }}">
+                            {% if entry.icon %} <i class="navbar-icon fas {{ entry.icon }}" aria-hidden="true"></i>{% endif %}
+                            <span class="navbar-label {% if entry.icon %}navbar-label-with-icon{% endif%}">{{ item_title }}</span>
+                        </a>
+                    </li>
+                    {% assign name_page = item_title | append: name_page %}
+                    {% assign is_first_item = false %}
+                {% endunless %}
+            {% endif %}
+        {% endif %}
         {% endfor %}
 
         {% if site.color_theme == 'auto' %}
-        <li class="separator"> | </li>
-        <li><a id="theme-toggle" title="Theme wechseln" aria-label="Theme wechseln" onclick="themeToggle()"></a></li>
+        {% unless is_first_item %}<li class="separator"> | </li>{% endunless %}
+        <li><a id="theme-toggle" title="{{ navbar_i18n.theme_toggle_label }}" aria-label="{{ navbar_i18n.theme_toggle_aria }}" onclick="themeToggle()"></a></li>
+        {% assign is_first_item = false %}
         {% endif %}
+
+        {% assign languages_config = site.languages | default: emptyArray %}
+        {% if languages_config and languages_config.size > 1 %}
+        {% unless is_first_item %}<li class="separator"> | </li>{% endunless %}
+        <li class="language-switch">
+            <span class="sr-only">{{ navbar_i18n.language_switch_label }}</span>
+            {% for language in languages_config %}
+                {% assign lang_code = language.code %}
+                {% assign label = language.short_label | default: lang_code | upcase %}
+                {% if lang_code == current_lang %}
+                    <span class="active">{{ label }}</span>
+                {% else %}
+                    {% assign alternate_url = nil %}
+                    {% if page.lang_ref %}
+                        {% assign alternate_page = site.pages | where: 'lang_ref', page.lang_ref | where: 'lang', lang_code | first %}
+                        {% if alternate_page %}
+                            {% assign alternate_url = alternate_page.url %}
+                        {% endif %}
+                    {% endif %}
+                    {% if alternate_url == nil %}
+                        {% if lang_code == site.default_lang %}
+                            {% assign alternate_url = '/' %}
+                        {% else %}
+                            {% assign alternate_url = '/' | append: lang_code | append: '/' %}
+                        {% endif %}
+                    {% endif %}
+                    <a href="{{ alternate_url | relative_url }}">{{ label }}</a>
+                {% endif %}
+                {% unless forloop.last %} / {% endunless %}
+            {% endfor %}
+        </li>
+        {% assign is_first_item = false %}
+        {% endif %}
+
         <!-- Spacestatus -->
+        {% unless is_first_item %}<li class="separator"> | </li>{% endunless %}
         <li>
             <a href="https://www.netz39.de/status/">
                 <img loading="lazy" alt="status" src="https://spaceapi.n39.eu/state.png" class="spacestatus">

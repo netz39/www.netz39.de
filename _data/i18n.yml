@@ -1,0 +1,50 @@
+de:
+  header_text: "Netz39 e.V. — ein Hackerspace für Magdeburg und Umgebung"
+  language_name: "Deutsch"
+  language_name_short: "DE"
+  home:
+    intro_heading: "Verein"
+    paragraphs:
+      - "Netz39 ist der Hotspot für den Austausch von Technologie, Gesellschaft und Kultur im Bereich der informationsverarbeitenden Technologien. Wir bieten nicht nur Räumlichkeiten und Werkzeuge, sondern auch eine inspirierende Community in Magdeburg und Umgebung."
+      - "Bei uns ist alles möglich! Ob du an technischen oder künstlerischen Projekten arbeiten möchtest oder einfach nur dein Wissen erweitern willst – Netz39 ist der ideale Ort dafür. Wir unterstützen unsere Mitglieder und alle Interessierten dabei, ihre individuellen Ideen umzusetzen. Gleichzeitig bieten wir ein breites Spektrum an Weiterbildungsmöglichkeiten zu unseren Themen."
+      - "Also worauf wartest du? Starte jetzt dein Abenteuer bei Netz39!"
+    latest_posts_heading: "Neueste Blogeinträge:"
+  navbar:
+    theme_toggle_label: "Theme wechseln"
+    theme_toggle_aria: "Theme wechseln"
+    language_switch_label: "Sprache"
+  footer:
+    edit_on_github: "Seite auf GitHub bearbeiten"
+    language_switch_label: "Sprache wechseln"
+    github_prefix: "Seite auf GitHub"
+    github_suffix: "bearbeiten"
+    github_text: "Seite auf GitHub bearbeiten"
+  blog:
+    latest_posts_heading: "Neueste Blogeinträge:"
+  language_switch:
+    de: "Deutsch"
+    en: "English"
+
+en:
+  header_text: "Netz39 e.V. — a hackerspace for Magdeburg and beyond"
+  language_name: "English"
+  language_name_short: "EN"
+  home:
+    intro_heading: "Association"
+    paragraphs:
+      - "Netz39 is the hotspot for exchanging ideas on technology, society, and culture across all things digital. We provide not just space and tools, but also an inspiring community in and around Magdeburg."
+      - "Everything is possible here! Whether you want to work on technical or artistic projects or simply expand your knowledge – Netz39 is the perfect place. We support our members and everyone interested in bringing their ideas to life and offer a wide range of learning opportunities on our topics."
+      - "So what are you waiting for? Start your adventure at Netz39 today!"
+    latest_posts_heading: "Latest blog entries:"
+  navbar:
+    theme_toggle_label: "Switch theme"
+    theme_toggle_aria: "Switch theme"
+    language_switch_label: "Language"
+  footer:
+    edit_on_github: "Edit page on GitHub"
+    language_switch_label: "Change language"
+  blog:
+    latest_posts_heading: "Latest blog entries:"
+  language_switch:
+    de: "German"
+    en: "English"

@@ -14,6 +14,15 @@ board:
 # THEME-SPECIFIC CONFIGURATION
 title: Netz39 e.V.                                      # site's title
 description: "Magdeburger Hackerspace"                  # used by search engines
+lang: de
+default_lang: de
+languages:
+  - code: de
+    label: Deutsch
+    short_label: DE
+  - code: en
+    label: English
+    short_label: EN
 avatar: https://cdn.netz39.de/img/logo/netz39-logo-final.svg           # Empty for no avatar in navbar
 favicon: https://cdn.netz39.de/img/logo/netz39-logo-icon.svg           # Icon displayed in the tab
 
@@ -72,3 +81,14 @@ exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      lang: de
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      lang: de
