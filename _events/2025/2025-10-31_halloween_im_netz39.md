@@ -21,4 +21,6 @@ Vielleicht gibt’s eine Runde "Werwölfe von Düsterwald" oder zum Abschluss ei
 Eingeladen sind alle – Kinder, Erwachsene, Mitglieder & Neugierige!
 Kostüme sind natürlich sehr willkommen.
 
-Kommt vorbei und feiert mit uns – wir freuen uns auf euch!
+Kommt vorbei und feiert mit uns – wir freuen uns auf euch! 🎃
+
+PS: Eine kleine Info, falls ihr teilnehmen wollt wäre super, um die Menge an Essen und Getränken abschätzen zu können!
