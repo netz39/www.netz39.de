@@ -3,6 +3,7 @@ layout: event
 title: Hackathon Mitgliederverwaltung
 author: Netz39 e.V.
 tags:
+- internal
 - non-recurring
 event:
   start: '2025-11-08 10:00:00'
@@ -13,4 +14,6 @@ event:
 ---
 Wir probieren verschiedene CRMs aus. Derzeit stehen CiviCRM und Hitobito auf dem Plan, aber weitere Vorschläge sind willkommen. Außerdem gucken wir uns die Aktivisti App der Partei die Linke an.
 
-Pad zur Orga folgt.
+Pad zur Orga: https://pad.n39.eu/-rWZmKXgRfCGWph8TVyv8A  
+
+#internal
