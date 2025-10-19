@@ -3,6 +3,7 @@ layout: event
 title: Halloween im Netz39 🎃
 author: Netz39 e.V.
 tags:
+- internal
 - non-recurring
 event:
   start: '2025-10-31 16:00:00'
@@ -24,3 +25,5 @@ Kostüme sind natürlich sehr willkommen.
 Kommt vorbei und feiert mit uns – wir freuen uns auf euch! 🎃
 
 PS: Eine kleine Info, falls ihr teilnehmen wollt wäre super, um die Menge an Essen und Getränken abschätzen zu können!
+
+#internal
