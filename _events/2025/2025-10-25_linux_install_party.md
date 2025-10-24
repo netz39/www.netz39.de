@@ -16,10 +16,10 @@ Der Support für Windows 10 endet am 14. Oktober 2025 – die Gelegenheit um Mic
 
 Mitbringen musst du nur deinen Laptop und eine externe Festplatte mit genug Speicherplatz für ein Backup deiner Daten. Im besten Fall erstelle dieses Backup bereits zu Hause.
 
-Anmeldung und Fragen unter endof10@netz39.de
+Anmeldung und Fragen an: endof10@netz39.de
 
-Weitere Termine: 
+Mehr Infos unter https://endof10.org/
 
-[12.10.2025 16:00Uhr](https://www.netz39.de/events/2025/2025-10-12_linux_install_party )
+Weitere Termine folgen.
 
 #internal
