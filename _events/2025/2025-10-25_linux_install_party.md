@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 'Canceled: Linux Install Party'
+title: Linux Install Party
 author: Netz39 e.V.
 tags:
 - internal
@@ -10,17 +10,16 @@ event:
   end: '2025-10-25 20:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39e.V., Leibnizstr.32, 39104 Magdeburg
-  discord_event_id: 1427988401772040234
+  discord_event_id: 1415407086317342792
 ---
 Der Support für Windows 10 endet am 14. Oktober 2025 – die Gelegenheit um Microsoft goodbye zu sagen. Bei den Linux-Installationspartys von Netz39 e.V. zeigen wir dir, wie du dein Gerät mit einem kostenlosen Linux-Betriebssystem einrichtest. Linux läuft dabei auf alten wie neuen Rechnern flüssig – ganz ohne nervige Werbung, versteckte Kosten oder einen KI-Agenten an jeder Ecke. Wir begleiten dich Schritt für Schritt – Vorkenntnisse brauchst du dabei nicht. Komm vorbei und entdecke, wie einfach und umweltfreundlich du deinen Rechner fit für die Zukunft machst!
 
 Mitbringen musst du nur deinen Laptop und eine externe Festplatte mit genug Speicherplatz für ein Backup deiner Daten. Im besten Fall erstelle dieses Backup bereits zu Hause.
 
-Anmeldung und Fragen unter endof10@netz39.de
+Anmeldung und Fragen an: endof10@netz39.de
 
-Weitere Termine: 
+Mehr Infos unter https://endof10.org/
 
-[12.10.2025 16:00Uhr](https://www.netz39.de/events/2025/discord-event-1415406548922142741 )
+Weitere Termine folgen.
 
 #internal
-<!-- event imported from discord manual changes may be overwritten -->
