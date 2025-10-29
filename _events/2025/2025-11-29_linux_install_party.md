@@ -3,6 +3,7 @@ layout: event
 title: Linux Install Party
 author: Netz39 e.V.
 tags:
+- internal
 - non-recurring
 event:
   start: '2025-11-29 11:00:00'
@@ -20,3 +21,5 @@ Anmeldung und Fragen an: endof10@netz39.de
 Mehr Infos unter https://endof10.org/
 
 Weitere Termine folgen.
+
+#internal
