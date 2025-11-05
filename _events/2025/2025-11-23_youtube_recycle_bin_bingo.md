@@ -3,6 +3,7 @@ layout: event
 title: YouTube Recycle Bin Bingo
 author: Netz39 e.V.
 tags:
+- internal
 - non-recurring
 event:
   start: '2025-11-23 20:00:00'
@@ -16,3 +17,5 @@ Ein Bingo mit YouTube Videos, die kaum Clicks haben.
 [BingoCard](https://bingobaker.com/#6907abb0cbc76a1e)  
 [Konzept](https://docs.google.com/document/d/1mV5PhumaIJ8mtH8XmohqXkk5fjK_HlqcineMccPQm5A/edit?pli=1&tab=t.0) by [KVN AUST](https://www.youtube.com/@KVNAUST)  
 [VideoGenerator](https://thearmagan.github.io/youtube-recycle-bin/)
+
+#internal
