@@ -7,7 +7,7 @@ tags:
 - non-recurring
 event:
   start: '2025-11-23 20:00:00'
-  end: '2025-11-30 22:00:00'
+  end: '2025-11-23 22:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39 e.V., Leibnizstr 32, 39104 Magdeburg
   discord_event_id: 1434622404285431849
