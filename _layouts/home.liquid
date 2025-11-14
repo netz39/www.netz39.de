@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+{% assign current_lang = page.lang | default: site.lang | default: site.default_lang | default: 'en' %}
+{% assign i18n_home = site.data.i18n[current_lang].home %}
+{% assign i18n_blog = site.data.i18n[current_lang].blog %}
+{% assign header_text = page.header_text | default: site.data.i18n[current_lang].header_text | default: site.header_text %}
 <div class="home">
     <style scoped>
         {% assign image = site.header_feature_image | relative_url | split: '.' %}
@@ -21,19 +25,19 @@ layout: default
         {% endif %}
     </style>
     <div id="main" class="call-out call-out_img" style="padding: 2% 9%;">
-        <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
+        <h1> {{ header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
     </div>
-	<article>
-		<div class="post-content">
-		    <center><h2>Verein</h2></center>
-		    <p>Netz39 ist der Hotspot für den Austausch von Technologie, Gesellschaft und Kultur im Bereich der informationsverarbeitenden Technologien. Wir bieten nicht nur Räumlichkeiten und Werkzeuge, sondern auch eine inspirierende Community in Magdeburg und Umgebung.</p>
-		    <p>Bei uns ist alles möglich! Ob du an technischen oder künstlerischen Projekten arbeiten möchtest oder einfach nur dein Wissen erweitern willst – Netz39 ist der ideale Ort dafür. Wir unterstützen unsere Mitglieder und alle Interessierten dabei, ihre individuellen Ideen umzusetzen. Gleichzeitig bieten wir ein breites Spektrum an Weiterbildungsmöglichkeiten zu unseren Themen.</p>
-		    <p>Also worauf wartest du? Starte jetzt dein Abenteuer bei Netz39!</p>
-		</div>
-	</article>
+        <article>
+                <div class="post-content">
+                    <center><h2>{{ i18n_home.intro_heading }}</h2></center>
+                    {% for paragraph in i18n_home.paragraphs %}
+                    <p>{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+        </article>
 
     <div class="blog-links">
-        <center><h2>Neuste Blogeinträge:</h2></center>
+        <center><h2>{{ i18n_blog.latest_posts_heading }}</h2></center>
         {% capture _blog %}{% include blog/small_blog.liquid %}{% endcapture %}
     {{ _blog | split: " " | join: " "}}
     </div>

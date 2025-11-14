@@ -1,23 +1,22 @@
 ---
 layout: default
-title: Veranstaltungen
-permalink: /events/
+title: Events
+permalink: /en/events/
 icon: "far fa-calendar"
 position: 0
-lang: de
+lang: en
 lang_ref: events
 ---
 
 <center>
-<h2 class="title"> <i class="far fa-calendar"></i> Veranstaltungen </h2>
+<h2 class="title"> <i class="far fa-calendar"></i> Events </h2>
 </center>
 
-<html lang='de'>
+<html lang='en'>
   <head>
     <meta charset='utf-8' />
     <script src='/assets/js/vendor/rrule.min.js'></script>
     <script src='/assets/js/vendor/fullcalendar/index.global.min.js'></script>
-    <script src='/assets/js/vendor/fullcalendar/de.global.min.js'></script>
     <script src='/assets/js/vendor/fullcalendar/fullcalendar-rrule.global.min.js'></script>
     <script>
 
@@ -26,7 +25,7 @@ lang_ref: events
         var calendar = new FullCalendar.Calendar(calendarEl, {
           initialView: 'dayGridMonth',
           height: "auto",
-          locale: 'de',
+          locale: 'en',
           events: '/calendar-data',
           weekNumbers: true,
           headerToolbar:
@@ -80,7 +79,7 @@ lang_ref: events
     </div>
     <div id='calendar' style="width:95%; margin: auto; margin-top: 50px;"></div>
         <div style="display: flex; align-items: center; margin-top: 50px; width: 100%; padding: 15px;">
-            <h3 style="margin: auto; margin-right: 0px">iCal-Feeds</h3>
+            <h3 style="margin: auto; margin-right: 0px">iCal feeds</h3>
             <div style="display: flex; flex-direction: column; margin: auto; margin-left: 15px">
               {% for feed in site.pages %}
                   {% assign name = feed.name | downcase %}
@@ -88,13 +87,13 @@ lang_ref: events
                     <div style="display: flex; align-items: center; width: 100%;">
                       <p style="margin-bottom: 0px; margin-right: 10px;">
                         {% if feed.name contains 'events' %}
-                          alles
+                          all events
                         {% else %}
                           {{ feed.name | replace: '.ics', '' }}
                         {% endif %}</p>
                       <code id="{{feed.name}}-url" style="box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); font-family: monospace;"></code>
                       <a id="{{feed.name}}-cpbtn" style="margin-left: 10px; margin-top: 0px; margin-bottom: 0px;">
-                          <i class="fas fa-copy" title="In Zwischenablage kopieren"></i>
+                          <i class="fas fa-copy" title="Copy to clipboard"></i>
                       </a>
                     </div>
                   {% endif %}
@@ -118,7 +117,7 @@ lang_ref: events
               tempInput.select();
               document.execCommand('copy');
               document.body.removeChild(tempInput);
-              alert('URL wurde in die Zwischenablage kopiert!');
+              alert('URL copied to the clipboard!');
           });
         </script>
       {% endif %}
