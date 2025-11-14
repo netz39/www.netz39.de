@@ -11,4 +11,4 @@ event:
   location: Leibnizstraße 32
   discord_event_id: 1435741862005837865
 ---
-Wir designen Sticker und Stempel usw.
+Wir designen Sticker und Stempel usw. für den 39C3 und für wann auch immer man mal sowas braucht. Alle dürfen sich gerne beteiligen!
