@@ -1,0 +1,40 @@
+<div class="post-teaser">
+    {% if post.thumbnail %}
+    <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
+        <div class="post-img" style="background-image: url({{ post.thumbnail | relative_url }});">
+        </div>
+    </a>
+    {% endif %}
+    {% if post.thumbnail %}
+    <div class="post-text">
+        {% else %}
+        <div class="post-text-without-thumbnail">
+            {% endif %}
+            <header>
+                {% include blog/post_info.liquid author=post.author date=post.date %}
+                <h2>
+                    <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title }}
+                    </a>
+                </h2>
+            </header>
+
+            {% if site.excerpt or site.theme_settings.excerpt %}
+            <div class="excerpt">
+                {% if site.excerpt == "truncate" %}
+                {{ post.content | strip_html | truncate: '250' | escape }}
+                {% else %}
+                {{ post.excerpt | strip_html | escape }}
+                {% endif %}
+            </div>
+            {% endif %}
+
+            <div class="more-link-wrapper">
+                <h5>
+                    <a aria-label="more-link" class="post-link" href="{{ post.url | relative_url }}">
+                        － Beitrag lesen －
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
