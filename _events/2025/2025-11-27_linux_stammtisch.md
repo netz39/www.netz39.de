@@ -11,5 +11,4 @@ event:
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
   discord_event_id: 1427988474102943890
 ---
-
-Diesen Donnerstag findet der zweite Linux-Stammtisch des Softwerke e. V. statt! Ab 19:30 Uhr wollen wir im [@Netz39](https://machteburch.social/@netz39) Raum bieten, um alle möglichen Fragen rund um [#Linux](https://machteburch.social/tags/linux) zu diskutieren und uns über unsere Linux-Erfahrungen auszutauschen. Willkommen sind alle: von interessierten Neulingen bis zu Linux-Expert:innen. Ob du tausend Fragen hast, deinem alten PC ein neues Leben schenken willst oder einfach nur über dein Setup reden magst – ganz egal, der Linux-Stammtisch ist deine Anlaufstelle!
+Am Donnerstag dem 27. November 2025 findet der Linux-Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
