@@ -5,7 +5,7 @@ author: Netz39 e.V.
 tags:
 - non-recurring
 event:
-  start: '2025-11-23 16:00:00'
+  start: '2025-11-23 17:00:00'
   end: '2025-11-23 20:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Leibnizstraße 32
