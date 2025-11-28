@@ -47,31 +47,31 @@ position: 0
         {% if event.event.rrule %}
           <div class="post-teaser">
               {% if event.image %}
-              <div class="post-img">
-                  <a aria-label="{{ event.title }}" href="{{ event.url | relative_url }}">
-                      <img alt="{{ event.title }}" src="{{ event.image | relative_url }}">
-                  </a>
-              </div>
+              <a aria-label="{{ event.title }}" href="{{ event.url | relative_url }}">
+                  <div class="post-img" style="background-image: url({{ event.image | relative_url }});">
+                  </div>
+              </a>
+              <div class="post-text">
+              {% else %}
+              <div class="post-text-without-thumbnail">
               {% endif %}
-              <span>
-                <header>
-                  <h1>
-                    <a aria-label="{{ event.title }}" class="post-link" href="{{ event.url | relative_url }}">
-                      {{ event.title }}
-                    </a>
-                  </h1>
-                  {% include blog/post_info.liquid author=event.author date=event.event.start rrule=event.event.rrule %}
-                </header>
-                {% if site.excerpt or site.theme_settings.excerpt %}
-                    <div class="excerpt">
-                        {% if site.excerpt == "truncate" %}
-                          {{ event.content | strip_html | truncate: '250' | escape }}
-                        {% else %}
-                          {{ event.excerpt | strip_html | escape }}
-                        {% endif %}
-                    </div>
-                {% endif %}
-            </span>
+              <header>
+                <h1>
+                  <a aria-label="{{ event.title }}" class="post-link" href="{{ event.url | relative_url }}">
+                    {{ event.title }}
+                  </a>
+                </h1>
+                {% include blog/post_info.liquid author=event.author date=event.event.start rrule=event.event.rrule %}
+              </header>
+              {% if site.excerpt or site.theme_settings.excerpt %}
+                  <div class="excerpt">
+                      {% if site.excerpt == "truncate" %}
+                        {{ event.content | strip_html | truncate: '250' | escape }}
+                      {% else %}
+                        {{ event.excerpt | strip_html | escape }}
+                      {% endif %}
+                  </div>
+              {% endif %}
           </div>
         {% endif %}
       {% endfor %}
