@@ -17,10 +17,10 @@ icon: far fa-comments
 
 ## Allgemeine Informationen für Interessenten
 
-- Alle wichtigen Status-Updates, Ankündigungen und Termine werden sowohl hier im Blog als auch zusätzlich per [Twitter](https://twitter.com/netz39) und [Facebook](https://www.facebook.com/pg/Netz39/events/) veröffentlicht
+- Alle wichtigen Status-Updates, Ankündigungen und Termine werden sowohl hier im Blog als auch zusätzlich per [Discord](https://discord.netz39.de) veröffentlicht
 - Diese Infos gehen auch über die allgemeine [Announce Mailingliste](https://lists.netz39.de/listinfo/netz39-announce)
 - Für weitergreifende Unterhaltungen gibt es die [Diskussions Mailingliste](https://lists.netz39.de/listinfo/netz39-list)
-- Termine werden Demnächst(tm) auch wieder im Kalender veröffentlicht.
+- Termine werden auch im Kalender veröffentlicht.
 
 ## Diskussion, Entscheidungsfindung
 
