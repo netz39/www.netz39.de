@@ -1,41 +1,18 @@
 <div class="posts">
     {% unless site.posts %}
-    <article><section class="post-content"><p>There are no blog posts</p></section></article>
+    <article>
+        <section class="post-content">
+            <p>There are no blog posts</p>
+        </section>
+    </article>
     {% endunless %}
     {% for post in site.posts limit:3 %}
-    <div class="post-teaser">
-        {% if post.thumbnail %}
-        <div class="post-img">
-            <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
-                <img alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}">
-            </a>
-        </div>
-        {% endif %}
-        <span>
-          <header>
-            <h2>
-              <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title }}
-              </a>
-            </h2>
-            {% include blog/post_info.liquid author=post.author date=post.date %}
-          </header>
-          {% if site.excerpt or site.theme_settings.excerpt %}
-              <div class="excerpt">
-                  {% if site.excerpt == "truncate" %}
-                     {{ post.content | strip_html | truncate: '250' | escape }}
-                  {% else %}
-                     {{ post.excerpt | strip_html | escape }}
-                  {% endif %}
-              </div>
-          {% endif %}
-      </span>
-    </div>
+        {% include blog/blog_entry.liquid %}
     {% endfor %}
     <center>
-		<a aria-label="{{ site.data.language.str_more_blog_entries | default: 'More blog entries' }}" href="/blog"
-		       {% unless site.posts %}style="visibility:hidden"{% endunless %} class="button">
-		        {{ site.data.language.str_more_blog_entries | default: 'More blog entries' }}
-		</a>
+        <a aria-label="{{ site.data.language.str_more_blog_entries | default: 'More blog entries' }}" href="/blog" {%
+            unless site.posts %} style="visibility:hidden" {% endunless %} class="button">
+            {{ site.data.language.str_more_blog_entries | default: 'More blog entries' }}
+        </a>
     </center>
 </div>
