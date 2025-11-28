@@ -7,6 +7,8 @@ tags: [Page]
 hide: true
 show-in-footer: true
 position: 10
+lang: de
+lang_ref: privacy
 ---
 
 # Datenschutzerklärung
