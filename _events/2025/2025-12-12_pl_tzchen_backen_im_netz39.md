@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Plätzchen backen im Netz39
+title: 'Canceled: Plätzchen backen im Netz39'
 author: Netz39 e.V.
 tags:
 - non-recurring
