@@ -14,7 +14,7 @@ author: max2
 
 DIY-Uhren gehören zu den Projekten, die ziemlich gut die Mischung aus Platinendesign, Firmware-Coding und etwas Handwerk aufzeigen. In diesem Beitrag möchte ich euch zwei solche Uhren vorstellen, die ich gebaut habe.
 
-Entstanden ist eine **Nixie-Uhr** mit ihren typischen leuchtenden Ziffern in Neonröhren – und eine **VFD-Uhr**, deren Ziffern mit einem türkisfarbenen Glimmen an alte Geräte aus den 90er erinnert.
+Entstanden ist eine **Nixie-Uhr** mit ihren typischen leuchtenden Ziffern in Neonröhren – und eine **VFD-Uhr**, deren Ziffern mit einem türkisfarbenen Glimmen an alte Geräte aus den 90ern erinnert.
 
 Beide Uhren entstanden von Grund auf: Von der Schaltplanentwicklung über die Platinenfertigung und Bestückung bis hin zur Firmware für den **STM32F1**-Mikrocontroller und dem **Gehäuse** aus Eschenholz.
 
@@ -36,11 +36,11 @@ Mit diesen Röhren habe ich dann mithilfe eines Labornetzteils erste Tests durch
 
 ## 3. Schaltpläne
 
-Beide Uhren brauchen verschiedene Schaltpläne und dementsprechend unterschiedliche Platinendesigns, da die Röhren selbst unterschiedliche Ansteuerungen und Versorgungsspannungen benötigen. Dennoch teilen sich beide den gleichen Mikrocontroller **STMF103**, damit für beide Platinen die gleiche Firmware verwendet werden kann und somit doppelt vorhandene Codeblöcke einsparen kann. Die Firmware erkennt dann, auf welcher Uhr sie läuft und nimmt dementsprechend im Firmwarecode geringfügig andere Wege.
+Beide Uhren brauchen verschiedene Schaltpläne und dementsprechend unterschiedliche Platinendesigns, da die Röhren selbst unterschiedliche Ansteuerungen und Versorgungsspannungen benötigen. Dennoch teilen sich beide den gleichen Mikrocontroller **STMF103**, damit für beide Platinen die gleiche Firmware verwendet werden kann und somit doppelt vorhandene Codeblöcke eingespart werden kann. Die Firmware erkennt dann, auf welcher Uhr sie läuft und nimmt dementsprechend im Firmwarecode geringfügig andere Wege.
 
 ### Schaltplanentwurf
 
-Der Schaltplan wurde in [KiCad](https://www.kicad.org/) entworfen. Für beide Uhren musste die Eingangsspannung (24 Volt DC) auf die passende Versorungsspannung mithilfe eines Boost-Converters hoch konvertiert werden.
+Der Schaltplan wurde in [KiCad](https://www.kicad.org/) entworfen. Für beide Uhren musste die Eingangsspannung (24 Volt DC) auf die passende Versorgungsspannung mithilfe eines Boost-Converters hoch konvertiert werden.
 **Nixie-Röhren** benötigen typischerweise **170 Volt DC**, allerdings beträgt die Stromaufnahme pro Ziffer nur wenige Milliampere.
 **VFD-Röhren** brauchen dagegen nicht so hohe Spannungen (20–30 Volt DC) für die Segmente. Das macht die Schaltung weniger gefährlich.
 
@@ -65,7 +65,7 @@ Wenn ein Schaltplan fertig ist, können im nächsten Schritt die Platinen gelayo
 
 Die Bauteile wurden anschließend per Hand bestückt – von Widerständen bis zu den Treiber-ICs.
 
-Bevor die eigentlichen Röhren auf die Platine gelötet werden, wurden die grundlegenden Funktionen getestet wie  z. B. das korrekte Anliegen/Arbeiten der Versorungsspannungen und des Mikrocontrollers.
+Bevor die eigentlichen Röhren auf die Platine verlötet werden, wurden zuerst die grundlegenden Funktionen wie z. B. das korrekte Anliegen/Arbeiten der Versorgungsspannungen und des Mikrocontrollers getestet.
 Erst danach kam die erste Röhre und ich konnte es kaum erwarten, sie in Aktion zu sehen. Siehe da, sie hat gleich funktioniert! 😍
 
 ![Erste Nixie-Röhre](/assets/img/post-img/2025/nixie-vfd/nixie-test.jpg) | ![Erste VFD-Röhre](/assets/img/post-img/2025/nixie-vfd/vfd-test.jpg)
@@ -88,7 +88,7 @@ Die Firmware für den STM32F1 wurde in C++ geschrieben. Wichtige Funktionen:
 
 ---
 
-## 7. Das Holzgehäuse
+## 7. Holzgehäuse
 
 Für beide Uhren sollte das Gehäuse schlicht, aber elegant wirken – daher fiel die Wahl auf massives Eschenholz. Das Holz wurde zugeschnitten und mit CNC-Fräse bearbeitet und anschließend mit Hartwachsöl versiegelt.
 
