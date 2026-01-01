@@ -5,6 +5,7 @@ author: Netz39 e.V.
 image: cdn.netz39.de/None
 feature-img: cdn.netz39.de/None
 tags:
+- internal
 - non-recurring
 event:
   start: '2026-10-17 10:00:00'
@@ -20,3 +21,5 @@ Boards und nehmen am Ende ein eigenes, funktionsfähiges Stück Hardware mit
 nach Hause.
 
 Schwierigkeit: +++ | Anzahl: 5 Personen
+
+#internal
