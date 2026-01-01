@@ -5,6 +5,7 @@ author: Netz39 e.V.
 image: cdn.netz39.de/None
 feature-img: cdn.netz39.de/None
 tags:
+- internal
 - non-recurring
 event:
   start: '2026-09-12 10:00:00'
@@ -18,3 +19,5 @@ Schaltplan und ein Platinendesign - komplett mit freier Software. Ein idealer
 Einstieg in die Welt der offenen Hardware.
 
 Schwierigkeit: +++ | Anzahl: 10 Personen
+
+#internal
