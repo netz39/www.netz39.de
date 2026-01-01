@@ -5,6 +5,7 @@ author: Netz39 e.V.
 image: cdn.netz39.de/None
 feature-img: cdn.netz39.de/None
 tags:
+- internal
 - non-recurring
 event:
   start: '2026-07-04 10:00:00'
@@ -19,3 +20,5 @@ für Projekte wie Batterie-Packs und Maker-Anwendungen. Ein echter
 Kompetenzgewinn in einem sonst kaum zugänglichen Bereich.
 
 Schwierigkeit: ++ | Anzahl: 10 Personen
+
+#internal
