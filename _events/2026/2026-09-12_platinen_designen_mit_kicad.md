@@ -9,7 +9,7 @@ tags:
 - non-recurring
 event:
   start: '2026-09-12 10:00:00'
-  end: '2026-09-12 16:00:00'
+  end: '2026-09-12 18:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
   discord_event_id: 1456388195808837788
