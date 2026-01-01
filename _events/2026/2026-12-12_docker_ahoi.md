@@ -5,6 +5,7 @@ author: Netz39 e.V.
 image: cdn.netz39.de/None
 feature-img: cdn.netz39.de/None
 tags:
+- internal
 - non-recurring
 event:
   start: '2026-12-12 10:00:00'
@@ -22,3 +23,5 @@ erweiterbarer Mini-Server. Ideal, um später zu Hause eigene Projekte oder
 nützliche Tools weiter auszubauen.
 
 Schwierigkeit: ++ | Anzahl: 5 Personen
+
+#internal
