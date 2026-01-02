@@ -19,7 +19,7 @@ Es ist wieder Vereins-Stammtisch! Wie immer in allen ganzzahlig durch drei teilb
 """
     dirname = os.path.dirname(__file__)
     folder_path = os.path.join(dirname, f"../_events/{year}/")
-    filename = f"{year}-{month:02d}-{day:02d}_n39_stammtisch.md"
+    filename = f"{year}-{month:02d}-{day:02d}_netz39_stammtisch.md"
     file_path = os.path.join(folder_path, filename)
 
     if not os.path.exists(folder_path):
