@@ -8,4 +8,6 @@ event:
 author: softwerke
 ---
 
-Am Freitag dem 9. Januar 2026 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+# Chaos‑Talk: Highlights vom 39C3 im Netz39
+
+Lust auf lockeren Austausch zum letzten (39.) Chaos Communication Congress? Dann komm zu unserem offenen Softwerke-Stammtisch diesen Freitag um 19:30 Uhr im @netz39. Egal, ob du den 39C3 live erlebt oder nur davon gehört hast – alle sind herzlich willkommen, wenn wir über die spannendsten Vorträge plaudern, Eindrücke teilen und diskutieren, welche Ideen und Projekte uns besonders beeindruckt haben. Wir freuen uns auf dich und einen inspirierenden Abend voller Gespräche, Netzwerken und neuer Perspektiven!
