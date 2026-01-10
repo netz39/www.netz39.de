@@ -20,4 +20,6 @@ Elektronik.
 
 Schwierigkeit: + | Anzahl: 20 Personen (gestaffelt)
 
+Auch am [06.06.2026](https://www.netz39.de/events/2026/2026-06-06_blinky_zoo)
+
 #internal
