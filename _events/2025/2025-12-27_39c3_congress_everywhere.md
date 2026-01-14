@@ -2,6 +2,8 @@
 layout: event
 title: 39C3 Congress Everywhere
 author: Netz39 e.V.
+image: cdn.netz39.de/None
+feature-img: cdn.netz39.de/None
 tags:
 - non-recurring
 event:
