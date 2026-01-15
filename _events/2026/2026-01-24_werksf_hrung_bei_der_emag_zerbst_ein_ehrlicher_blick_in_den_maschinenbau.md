@@ -2,6 +2,8 @@
 layout: event
 title: 🏭 Werksführung bei der EMAG Zerbst – Ein ehrlicher Blick in den Maschinenbau
 author: Netz39 e.V.
+image: cdn.netz39.de/None
+feature-img: cdn.netz39.de/None
 tags:
 - non-recurring
 event:
