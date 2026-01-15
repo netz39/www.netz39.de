@@ -1,7 +1,9 @@
 ---
 layout: event
-title: 'Netzwerk-Treffen: Elbe-Saale-Camp'
+title: 'Canceled: Netzwerk-Treffen: Elbe-Saale-Camp'
 author: Netz39 e.V.
+image: cdn.netz39.de/None
+feature-img: cdn.netz39.de/None
 tags:
 - non-recurring
 event:
