@@ -1,6 +1,8 @@
 <footer class="site-footer">
+    {% assign current_lang = page.lang | default: site.lang | default: site.default_lang | default: 'en' %}
+    {% assign footer_i18n = site.data.i18n[current_lang].footer %}
     <p class="text">
-        <i class="fa fa-edit"></i> <a href="{{ site.github.repository_url }}/blob/main/{{ page.path }}">Edit page on GitHub</a>
+        <i class="fa fa-edit"></i> <a href="{{ site.github.repository_url }}/blob/main/{{ page.path }}">{{ footer_i18n.edit_on_github }}</a>
     </p>
 
     {% if site.footer_text %}
@@ -18,7 +20,7 @@
 
     <div class="footer-links">
         <ul>
-            {% assign pages = site.pages | sort: 'position' %}
+            {% assign pages = site.pages | where_exp: 'p', 'p.lang == current_lang' | sort: 'position' %}
             {% for page in pages %}
             {% if page.show-in-footer %}
             <li>

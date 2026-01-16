@@ -1,6 +1,8 @@
 # To add links to the navigation bar.
-- type-on-strap:
-  title: "Wiki"
-  url: https://wiki.netz39.de
+- url: https://wiki.netz39.de
   position: 1
   icon: far fa-book
+  languages: ['de', 'en']
+  labels:
+    de: "Wiki"
+    en: "Wiki"

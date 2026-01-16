@@ -7,6 +7,8 @@ tags: [Page]
 show-in-footer: true
 position: 12
 icon: far fa-comments
+lang: de
+lang_ref: contact
 ---
 
 ## Schnelles Feedback, Talk

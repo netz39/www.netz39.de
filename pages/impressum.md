@@ -7,6 +7,8 @@ tags: [Page]
 hide: true
 show-in-footer: true
 position: 11
+lang: de
+lang_ref: imprint
 ---
 
 # Impressum
@@ -34,7 +36,7 @@ position: 11
 
 ## Spenden
 
-Spenden sind willkommen. Für weitere Infos, siehe [hier]({{ site.url }}/spenden).
+Spenden sind willkommen. Für weitere Infos, siehe [hier]({{ '/spenden/' | relative_url }}).
 
 ## Registergericht
 
