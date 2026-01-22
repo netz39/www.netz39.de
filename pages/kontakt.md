@@ -12,7 +12,6 @@ icon: far fa-comments
 ## Schnelles Feedback, Talk
 
 - Wer eine Frage hat, kann an <kontakt@netz39.de> schreiben
-- Es gibt einen Jabber-Chat unter `lounge@conference.jabber.n39.eu`
 - Wir sind auf Discord ([Invite-Link](https://discord.netz39.de))
 
 ## Allgemeine Informationen für Interessenten
