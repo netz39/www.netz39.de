@@ -13,5 +13,5 @@ event:
   location: Hasselbachplatz, 39104 Magdeburg
   discord_event_id: 1466163466946482219
 ---
-Das extrem rechte Magazin "Compact" will am 31. Januar 2026 seinen 15. Geburtstag feiern. Aus diesem Anlass soll eine Jubiläumsgala in Magdeburg stattfinden mit dem Thüringer AfD-Chef Björn Höcke, Chefredakteur Jürgen Elsässer und anderen Funktionären der Rechtsextremen Szene.
+Vom SOMA: Das extrem rechte Magazin "Compact" will am 31. Januar 2026 seinen 15. Geburtstag feiern. Aus diesem Anlass soll eine Jubiläumsgala in Magdeburg stattfinden mit dem Thüringer AfD-Chef Björn Höcke, Chefredakteur Jürgen Elsässer und anderen Funktionären der Rechtsextremen Szene.
 Wir als Bündnis Solidarische Magdeburg, gemeinsam mit dem CSD Magdeburg, den Omas gegen Rechts sowie der VER.DI Jugend Magdeburg und Wiedersetzen Magdeburg, wollen diese Veranstaltung vom rechtsextremen Compact Magazin nicht einfach hinnehmen.
