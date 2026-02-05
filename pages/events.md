@@ -72,6 +72,7 @@ position: 0
                       {% endif %}
                   </div>
               {% endif %}
+              </div>
           </div>
         {% endif %}
       {% endfor %}
