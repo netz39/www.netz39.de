@@ -23,7 +23,7 @@ in einer freundlichen, unterstützenden Umgebung.
 - [BlinkyZoo](https://www.netz39.de/events/2026/2026-04-18_blinky_zoo)  
 - [Wörter-Uhr](https://www.netz39.de/events/2026/2026-05-16_w_rter_uhr)  
 - [Arduino Basics](https://www.netz39.de/events/2026/2026-06-13_arduino_basics)  
-- [Punktschweißen](https://www.netz39.de/events/2026/2026-07-04_punktschwei_en)  
+- [Punktschweißen](https://www.netz39.de/events/2026/2026-07-11_punktschwei_en)  
 - [Stadt-Land-Hack](https://www.netz39.de/events/2026/2026-08-21_stadt_land_hack)  
 - [Handgemachte Microcontroller](https://www.netz39.de/events/2026/2026-10-17_handgemachte_microcontroller)  
 - [Platinen designen mit KiCad](https://www.netz39.de/events/2026/2026-09-12_platinen_designen_mit_kicad)
