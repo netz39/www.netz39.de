@@ -2,8 +2,6 @@
 layout: event
 title: 'Digital Independence Day im Hackerspace Magdeburg #DIDit'
 author: Netz39 e.V.
-image: cdn.netz39.de/None
-feature-img: cdn.netz39.de/None
 tags:
 - non-recurring
 event:

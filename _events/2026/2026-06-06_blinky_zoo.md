@@ -2,8 +2,6 @@
 layout: event
 title: Blinky Zoo
 author: Netz39 e.V.
-image: cdn.netz39.de/None
-feature-img: cdn.netz39.de/None
 tags:
 - internal
 - non-recurring
