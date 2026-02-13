@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Netz39-Stammtisch
+title: 'Canceled: Netz39-Stammtisch'
 author: Netz39 e.V.
 image: cdn.netz39.de/None
 feature-img: cdn.netz39.de/None
