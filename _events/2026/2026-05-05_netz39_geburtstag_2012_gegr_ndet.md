@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 'Canceled: Netz39 Geburtstag (2012 gegründet)'
+title: Netz39 Geburtstag (2012 gegründet)
 author: Netz39 e.V.
 image: cdn.netz39.de/None
 feature-img: cdn.netz39.de/None
@@ -11,6 +11,6 @@ event:
   end: '2026-05-06 21:45:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39 e.V. - Leibnizstraße 32, 39104 Magdeburg
-  discord_event_id: 1456618654287265938
+  discord_event_id: 1471931464596852911
 ---
 <!-- event imported from discord manual changes may be overwritten -->
