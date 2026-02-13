@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Linux-Stammtisch
+title: 'Canceled: Linux-Stammtisch'
 author: Netz39 e.V.
 image: cdn.netz39.de/None
 feature-img: cdn.netz39.de/None
