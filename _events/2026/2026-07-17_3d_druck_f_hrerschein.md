@@ -12,6 +12,7 @@ event:
   end: '2026-07-17 20:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
+  discord_event_id: 1471930940044480607
 ---
 Wir bieten Magdeburger*innen die Möglichkeit, sich kreativ und nachhaltig
 gegen die Wegwerfgesellschaft einzusetzen. Ein 3D-Drucker steht als langfristige,
