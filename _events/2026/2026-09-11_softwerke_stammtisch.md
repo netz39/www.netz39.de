@@ -11,6 +11,6 @@ event:
   end: '2026-09-11 21:30:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
-  discord_event_id: 1456618210039300173
+  discord_event_id: 1471931094608646286
 ---
 Am Freitag dem 11. September 2026 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
