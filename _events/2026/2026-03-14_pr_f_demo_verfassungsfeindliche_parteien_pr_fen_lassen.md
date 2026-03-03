@@ -20,8 +20,6 @@ event:
 ---
 https://pruef-demos.de
 
-Ort und Uhrzeit stehen für Magdeburg noch nicht fest, wird baldmöglichst nachgereicht
-
 PRÜF steht für „Prüfung Rettet Übrigens Freiheit!“ und wir haben nur eine Forderung:
 
     „Alle Parteien, die vom Verfassungsschutz als rechtsextremer Verdachtsfall oder gesichert rechtsextrem eingestuft werden, sollen durch das Bundesverfassungsgericht überprüft werden.“
