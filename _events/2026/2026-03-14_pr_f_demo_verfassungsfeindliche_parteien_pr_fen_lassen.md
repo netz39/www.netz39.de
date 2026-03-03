@@ -10,7 +10,7 @@ event:
   start: '2026-03-14 13:00:00'
   end: '2026-03-14 18:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
-  location: 'Am BIlauen Bock
+  location: 'Am Blauen Bock
 
     (zwischen dem
 
