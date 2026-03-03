@@ -10,10 +10,16 @@ event:
   start: '2026-03-14 14:00:00'
   end: '2026-03-14 18:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
-  location: https://pruef-demos.de
+  location: 'Am BIlauen Bock
+
+    (zwischen dem
+
+    SWM-Gebäude und Galeria Karstadt)'
   discord_event_id: 1473347023473348721
   rrule: FREQ=MONTHLY;INTERVAL=1;BYDAY=2SA;DTSTART=2026-03-14 14:00:00+01:00
 ---
+https://pruef-demos.de
+
 Ort und Uhrzeit stehen für Magdeburg noch nicht fest, wird baldmöglichst nachgereicht
 
 PRÜF steht für „Prüfung Rettet Übrigens Freiheit!“ und wir haben nur eine Forderung:
