@@ -16,6 +16,8 @@ Kleine Figuren wie Katzen, Oktopusse oder Mini-Geister werden zum Leben
 erweckt! Der Workshop vermittelt Lötsicherheit und ein paar Grundlagen der
 Elektronik.
 
-Schwierigkeit: + | Anzahl: 20 Personen (gestaffelt)
+Schwierigkeit: einfach | Anzahl: 20 Personen (gestaffelt)
+
+Anmeldung unter workshops[at]netz39.de  
 
 #internal

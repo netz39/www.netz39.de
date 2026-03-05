@@ -23,7 +23,9 @@ zaubern und Ersatzteile fertigen. Ganz ohne Frust oder Filament-Spaghetti-Monste
 
 Fragen und Anmeldungen an workshops[at]netz39.de
 
-Schwierigkeit: + | Anzahl: 10 Personen
+Schwierigkeit: einfach | Anzahl: 10 Personen
+
+Anmeldung unter workshops[at]netz39.de  
 
 Auch am [26.09.2026](https://www.netz39.de/events/2026/2026-09-26_3d_druck_f_hrerschein)
 

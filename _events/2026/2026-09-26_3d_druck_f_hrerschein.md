@@ -23,6 +23,8 @@ zaubern und Ersatzteile fertigen. Ganz ohne Frust oder Filament-Spaghetti-Monste
 
 Fragen und Anmeldungen an workshops[at]netz39.de
 
-Schwierigkeit: + | Anzahl: 10 Personen
+Schwierigkeit: einfach | Anzahl: 10 Personen
+
+Anmeldung unter workshops[at]netz39.de  
 
 #internal
