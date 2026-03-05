@@ -19,16 +19,16 @@ Ideen ausprobieren und bestehende Fähigkeiten ausbauen. Vorkenntnisse
 braucht es nicht. Gefragt sind nur Kreativität und Lust auf gemeinsames Lernen
 in einer freundlichen, unterstützenden Umgebung.
 
-- [LaserCutter101](https://www.netz39.de/events/2026/2026-03-27_lasercutter_101)  
-- [BlinkyZoo](https://www.netz39.de/events/2026/2026-04-18_blinky_zoo)  
-- [Wörter-Uhr](https://www.netz39.de/events/2026/2026-05-16_w_rter_uhr)  
-- [Arduino Basics](https://www.netz39.de/events/2026/2026-06-13_arduino_basics)  
-- [Punktschweißen](https://www.netz39.de/events/2026/2026-07-11_punktschwei_en)  
-- [Stadt-Land-Hack](https://www.netz39.de/events/2026/2026-08-21_stadt_land_hack)  
-- [Handgemachte Microcontroller](https://www.netz39.de/events/2026/2026-10-17_handgemachte_microcontroller)  
-- [Platinen designen mit KiCad](https://www.netz39.de/events/2026/2026-09-12_platinen_designen_mit_kicad)
-- [Embedded Linux auf dem Raspberry Pi](https://www.netz39.de/events/2026/2026-11-14_embedded_linux_auf_dem_raspberry_pi)  
-- [Docker Ahoi!](https://www.netz39.de/events/2026/2026-12-12_docker_ahoi)  
+- [LaserCutter101](https://www.netz39.de/events/2026/2026-03-27_lasercutter_101)  (Fr 27.3 & Fr 30.10)
+- [BlinkyZoo](https://www.netz39.de/events/2026/2026-04-18_blinky_zoo)  (Sa 18.4 & Sa 06.06)
+- [Wörter-Uhr](https://www.netz39.de/events/2026/2026-05-16_w_rter_uhr)  (Sa 16.5)
+- [Arduino Basics](https://www.netz39.de/events/2026/2026-06-13_arduino_basics)  (Sa 13.6 - So 14.6) ??????
+- [Punktschweißen](https://www.netz39.de/events/2026/2026-07-11_punktschwei_en)  (Sa 11.7)
+- [Stadt-Land-Hack](https://www.netz39.de/events/2026/2026-08-21_stadt_land_hack)  (Fr 21.8 - So 23.8) ??????
+- [Platinen designen mit KiCad](https://www.netz39.de/events/2026/2026-09-12_platinen_designen_mit_kicad)  (Sa 12.9)
+- [Handgemachte Microcontroller](https://www.netz39.de/events/2026/2026-10-17_handgemachte_microcontroller)  (Sa 17.10 - So 18.10) ??????
+- [Embedded Linux auf dem Raspberry Pi](https://www.netz39.de/events/2026/2026-11-14_embedded_linux_auf_dem_raspberry_pi)  (Sa 14.11)
+- [Docker Ahoi!](https://www.netz39.de/events/2026/2026-12-12_docker_ahoi)  (Sa 12.12 - So 13.12) ??????
 
 Anmeldung ab Februar 2026 unter workshops[at]netz39.de  
 
