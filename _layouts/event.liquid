@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-<article {% if page.feature-img or page.color %}class="feature-image" {% endif %}>
+<article
+  {% assign startDay = page.event.start | date: "%d.%m.%Y" %}
+  {% assign endDay = page.event.end | date: "%d.%m.%Y" %}
+  {% if page.feature-img or page.color %}
+  class="feature-image"
+  {% endif %}>
   <header id="main" style="">
     <div class="title-padder">
       {% if page.hide_title %}
@@ -15,27 +20,45 @@ layout: default
   </header>
 
   <section class="post-content">
-  {% if page.bootstrap %}
-    <div class="bootstrap-iso">
+    {% if page.bootstrap %}
+      <div class="bootstrap-iso">
     {% endif %}
-      {% if page.event.start %}
+    {% if page.event.start %}
       <p>
-        <strong>Wann: {% if page.event.rrule %}{% include blog/rrule.liquid rrule=page.event.rrule %}{% endif %}{{ page.event.start | date: "%H:%M" }}{% if page.event.end %} - {{ page.event.end | date: "%H:%M" }}{% endif %} Uhr</strong><br />
+        <strong>Wann:
+          {% if page.event.rrule %}
+            {% include blog/rrule.liquid rrule=page.event.rrule %} {{ page.event.start | date: "%H:%M" }}
+          {% else %}
+            {% if startDay == endDay %}
+              {{ page.event.start | date: "%d.%m.%Y %H:%M" }}
+            {% else %}
+              {{ page.event.start | date: "%d.%m." }}
+            {% endif %}
+            {% if page.event.end %}
+              -
+              {% if startDay == endDay %}
+                {{ page.event.end | date: "%H:%M" }}
+              {% else %}
+                {{ page.event.end | date: "%d.%m.%Y" }} {{ page.event.start | date: "%H:%M" }} - {{ page.event.end | date: "%H:%M" }}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+          Uhr</strong><br/>
         <strong>Wo: {{ page.event.location | default: "Netz39 e.V." }}</strong>
       </p>
-      {% endif %}
-      {{ content }}
+    {% endif %}
+    {{ content }}
     {% if page.bootstrap %}
-    </div>
-  {% endif %}
+      </div>
+    {% endif %}
   </section>
 
   <!-- Social media shares -->
   {% if site.share_buttons %}
-  {% include social/share_buttons.liquid %}
+    {% include social/share_buttons.liquid %}
   {% endif %}
 
-   <!-- Tag list -->
+  <!-- Tag list -->
   {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
   {% include default/tags_list.liquid tags=tag_list %}
 
