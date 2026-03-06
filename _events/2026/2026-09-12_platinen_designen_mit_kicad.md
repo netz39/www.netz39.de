@@ -16,6 +16,6 @@ Wie entsteht eine richtige Leiterplatte? Wir entwerfen unseren ersten eigenen
 Schaltplan und ein Platinendesign - komplett mit freier Software. Ein idealer
 Einstieg in die Welt der offenen Hardware.
 
-Schwierigkeit: +++ | Anzahl: 10 Personen
+Schwierigkeit: knifflig | Anzahl: 10 Personen
 
 #internal

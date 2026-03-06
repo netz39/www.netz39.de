@@ -18,7 +18,9 @@ Teilnehmenden, wie man Dienste startet, verwaltet und miteinander kombiniert. Am
 Ende läuft ein individuell erweiterbarer Mini-Server mit eigenem Passwort-Manager,
 Filesharing-Cloud oder Minecraft-Server.
 
-Schwierigkeit: ++ | Anzahl: 10 Personen 
+Schwierigkeit: fordernd | Anzahl: 10 Personen 
+
+Anmeldung unter workshops[at]netz39.de  
 
 Auch am [12.12.2026](https://www.netz39.de/events/2026/2026-12-12_docker_ahoi)
 

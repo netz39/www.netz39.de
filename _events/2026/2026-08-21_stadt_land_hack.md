@@ -7,7 +7,7 @@ tags:
 - non-recurring
 event:
   start: '2026-08-21 10:00:00'
-  end: '2026-08-23 16:00:00'
+  end: '2026-08-23 18:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
   discord_event_id: 1456391133755085063
@@ -17,6 +17,8 @@ Webanwendung. Durch die Bank mit der Verwendung von Open-Source-Tools.
 So entsteht ein Einstieg in Statistik, Programmierung, offene Daten und
 Webdesign. Aber vor allem kritisches Denken.
 
-Schwierigkeit: ++ | Anzahl: 10 Personen
+Schwierigkeit: fordernd | Anzahl: 10 Personen
+
+Anmeldung unter workshops[at]netz39.de  
 
 #internal
