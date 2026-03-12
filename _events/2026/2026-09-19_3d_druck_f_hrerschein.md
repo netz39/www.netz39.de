@@ -23,6 +23,6 @@ das Filament reicht!
 
 Fragen und Anmeldungen an workshops[at]netz39.de
 
-Schwierigkeit: + | Anzahl: 10 Personen
+Schwierigkeit: einfach | Anzahl: 10 Personen
 
 #internal
