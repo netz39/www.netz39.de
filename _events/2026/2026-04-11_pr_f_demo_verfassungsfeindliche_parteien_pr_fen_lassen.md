@@ -7,8 +7,8 @@ feature-img: cdn.netz39.de/None
 tags:
 - recurring
 event:
-  start: '2026-04-11 15:00:00'
-  end: '2026-04-11 19:00:00'
+  start: '2026-04-11 14:00:00'
+  end: '2026-04-11 17:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: 'Am Blauen Bock
 
@@ -16,7 +16,7 @@ event:
 
     SWM-Gebäude und Galeria Karstadt)'
   discord_event_id: 1473347023473348721
-  rrule: FREQ=MONTHLY;INTERVAL=1;BYDAY=2SA;DTSTART=2026-04-11 15:00:00+02:00
+  rrule: FREQ=MONTHLY;INTERVAL=1;BYDAY=2SA;DTSTART=2026-04-11 14:00:00+02:00
 ---
 https://pruef-demos.de
 
