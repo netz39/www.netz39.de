@@ -20,7 +20,7 @@ verwaltet und miteinander kombiniert. Am Ende läuft ein individuell
 erweiterbarer Mini-Server. Ideal, um später zu Hause eigene Projekte oder
 nützliche Tools weiter auszubauen.
 
-Schwierigkeit: fordernd | Anzahl: 5 Personen
+Schwierigkeit: fordernd | Anzahl: 10 Personen
 
 Anmeldung unter workshops[at]netz39.de  
 

@@ -24,7 +24,7 @@ in einer freundlichen, unterstützenden Umgebung.
 - [16.05.2026 Wörter-Uhr](https://www.netz39.de/events/2026/2026-05-16_w_rter_uhr)  
 - [28.05.2026 Docker Ahoi!](https://www.netz39.de/events/2026/2026-05-28_docker_ahoi)  
 - [06.06.2026 BlinkyZoo](https://www.netz39.de/events/2026/2026-04-18_blinky_zoo)  
-- [13.06.2026 Arduino Basics](https://www.netz39.de/events/2026/2026-06-13_arduino_basics)  
+- [14.06.2026 Arduino Basics](https://www.netz39.de/events/2026/2026-06-14_arduino_basics)  
 - [11.07.2026 Punktschweißen](https://www.netz39.de/events/2026/2026-07-11_punktschwei_en)  
 - [21.08.2026 Stadt-Land-Hack](https://www.netz39.de/events/2026/2026-08-21_stadt_land_hack)  
 - [12.09.2026 Platinen designen mit KiCad](https://www.netz39.de/events/2026/2026-09-12_platinen_designen_mit_kicad)  
