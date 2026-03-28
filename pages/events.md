@@ -9,60 +9,33 @@ position: 0
 <h2 class="title" style="text-align: center"> <i class="far fa-calendar"></i> Events </h2>
 
 <div class="posts">
-  {%- for event in site.events -%}
-    {%- if event.event.rrule -%}
-      <div class="post-teaser">
-        {%- if event.image %}
-        <a aria-label="{{ event.title }}" href="{{ event.url | relative_url }}">
-            <div class="post-img" style="background-image: url({{ event.image | relative_url }});">
-            </div>
-        </a>
-        <div class="post-text">
-        {%- else %}
-        <div class="post-text-without-thumbnail">
-        {%- endif %}
-        <header>
-          <h1>
-            <a aria-label="{{ event.title }}" class="post-link" href="{{ event.url | relative_url }}">
-              {{ event.title }}
-            </a>
-          </h1>
-          {% include blog/post_info.liquid author=event.author date=event.event.start rrule=event.event.rrule %}
-        </header>
-        {%- if site.excerpt or site.theme_settings.excerpt %}
-            <div class="excerpt">
-                {%- if site.excerpt == "truncate" -%}
-                  {{ event.content | strip_html | truncate: '250' | escape }}
-                {%- else -%}
-                  {{ event.excerpt | strip_html | escape }}
-                {%- endif -%}
-            </div>
-        {%- endif %}
-      </div>
-    {%- endif -%}
-  {%- endfor -%}
+  {% for event in site.events %}
+    {% if event.event.rrule %}
+              {% include events/recurring_event_entry.liquid event=event %}
+    {% endif %}
+  {% endfor %}
 </div>
 <div id='calendar' style="width:95%; margin: auto; margin-top: 50px;"></div>
   <div style="display: flex; align-items: center; margin-top: 50px; width: 100%; padding: 15px;">
     <h3 style="margin: auto; margin-right: 0px">ICal Feeds</h3>
     <div style="display: flex; flex-direction: column; margin: auto; margin-left: 15px">
-      {%- for feed in site.pages -%}
-        {%- assign name = feed.name | downcase -%}
-        {%- if name contains 'ics' and feed.name contains 'events' or feed.name contains 'non-recurring' -%}
+      {% for feed in site.pages %}
+        {% assign name = feed.name | downcase %}
+        {% if name contains 'ics' and feed.name contains 'events' or feed.name contains 'non-recurring' %}
           <div style="display: flex; align-items: center; width: 100%;">
             <p style="margin-bottom: 0px; margin-right: 10px;">
-              {%- if feed.name contains 'events' -%}
+              {% if feed.name contains 'events' %}
                 everything
-              {%- else -%}
+              {% else %}
                 {{ feed.name | replace: '.ics', '' }}
-              {%- endif -%}</p>
+              {% endif %}</p>
             <code id="{{feed.name}}-url" style="box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); font-family: monospace;"></code>
             <a id="{{feed.name}}-cpbtn" style="margin-left: 10px; margin-top: 0px; margin-bottom: 0px;">
                 <i class="fas fa-copy" title="In Zwischenablage kopieren"></i>
             </a>
           </div>
-        {%- endif -%}
-      {%- endfor -%}
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>
@@ -91,12 +64,12 @@ position: 0
   });
 
   const icalFeedUrls = {
-    {%- for feed in site.pages -%}
-      {%- assign name = feed.name | downcase -%}
-      {%- if name contains 'ics' %}
+    {% for feed in site.pages %}
+      {% assign name = feed.name | downcase %}
+      {% if name contains 'ics' %}
         "{{feed.name}}": "{{site.url}}/feed/eo-events/{{feed.name}}",
-      {%- endif -%}
-    {%- endfor %}
+      {% endif %}
+    {% endfor %}
   };
 
   for (const feed in icalFeedUrls) {
