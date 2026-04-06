@@ -8,4 +8,5 @@ event:
 author: softwerke
 ---
 
-Am Freitag dem 10. April 2026 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Am Freitag laden wir wieder ein zum monatlichen offenen Stammtisch der Softwerke Magdeburg e. V. 
+Dieses Mal habt ihr euch als Thema "Android ist offen – oder?!" gewünscht – und Softwerke als Verein, der für freie und quell-offene Software einsteht und sich für Transparenz und Selbstbestimmung im Kontext von Software und Internet einsetzt (und für #keepandroidopen), hat dazu natürlich einiges zu sagen. Du auch? Dann komm dazu am Freitag, 10. April, wie immer ab 19:30 Uhr mit Snacks und Sofa-Ecke im @netz39 !
