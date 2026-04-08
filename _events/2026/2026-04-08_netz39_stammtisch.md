@@ -1,16 +1,15 @@
 ---
-layout: event
-title: Netz39-Stammtisch
 author: Netz39 e.V.
-image: cdn.netz39.de/None
-feature-img: cdn.netz39.de/None
+event:
+  discord_event_id: 1471931585904251003
+  end: '2026-04-08 21:30:00'
+  location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
+  organizer: Netz39 e.V. <kontakt@netz39.de>
+  start: '2026-04-08 19:30:00'
+layout: event
 tags:
 - non-recurring
-event:
-  start: '2026-04-08 19:30:00'
-  end: '2026-04-08 21:30:00'
-  organizer: Netz39 Team <kontakt@netz39.de>
-  location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
-  discord_event_id: 1471931585904251003
+title: Netz39-Stammtisch
 ---
+
 Es ist wieder Vereins-Stammtisch! Wie immer in allen ganzzahlig durch drei teilbaren Kalenderwochen. Das Protokoll dieses Stammtisches findet ihr [hier](https://wiki.netz39.de/stammtisch:2026:2026-04-08).
