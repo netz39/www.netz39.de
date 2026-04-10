@@ -1,16 +1,15 @@
 ---
-layout: event
-title: 'Canceled: Softwerke-Stammtisch'
 author: Netz39 e.V.
-image: cdn.netz39.de/None
-feature-img: cdn.netz39.de/None
+event:
+  discord_event_id: 1456617443157082113
+  end: '2026-04-10 21:30:00'
+  location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
+  organizer: Netz39 e.V. <kontakt@netz39.de>
+  start: '2026-04-10 19:30:00'
+layout: event
 tags:
 - non-recurring
-event:
-  start: '2026-04-10 19:30:00'
-  end: '2026-04-10 21:30:00'
-  organizer: Netz39 Team <kontakt@netz39.de>
-  location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
-  discord_event_id: 1471930571516154027
+title: Softwerke-Stammtisch
 ---
+
 Am Freitag dem 10. April 2026 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
