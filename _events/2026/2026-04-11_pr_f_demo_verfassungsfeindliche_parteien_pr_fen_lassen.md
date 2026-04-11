@@ -1,23 +1,22 @@
 ---
-layout: event
-title: PRÜF Demo - Verfassungsfeindliche Parteien prüfen lassen
 author: Netz39 e.V.
-image: cdn.netz39.de/None
-feature-img: cdn.netz39.de/None
-tags:
-- recurring
 event:
-  start: '2026-04-11 14:00:00'
+  discord_event_id: 1473347023473348721
   end: '2026-04-11 17:00:00'
-  organizer: Netz39 Team <kontakt@netz39.de>
   location: 'Am Blauen Bock
 
     (zwischen dem
 
     SWM-Gebäude und Galeria Karstadt)'
-  discord_event_id: 1473347023473348721
-  rrule: FREQ=MONTHLY;INTERVAL=1;BYDAY=2SA;DTSTART=2026-04-11 14:00:00+02:00
+  organizer: Netz39 e.V. <kontakt@netz39.de>
+  rrule: FREQ=MONTHLY;INTERVAL=1;BYDAY=2SA;DTSTART=20260411T140000
+  start: '2026-04-11 14:00:00'
+layout: event
+tags:
+- recurring
+title: PRÜF Demo - Verfassungsfeindliche Parteien prüfen lassen
 ---
+
 https://pruef-demos.de
 
 PRÜF steht für „Prüfung Rettet Übrigens Freiheit!“ und wir haben nur eine Forderung:
