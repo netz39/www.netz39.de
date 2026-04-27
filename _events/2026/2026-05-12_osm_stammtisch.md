@@ -3,8 +3,8 @@ layout: event
 title: "1. Magdeburger OSM-Stammtisch"
 tags: [non-recurring, external]
 event:
-  start: 2026-05-12 19:30:00
-  end: 2026-05-12 21:30:00
+  start: 2026-05-12 18:00:00
+  end: 2026-05-12 21:00:00
 author: alex
 ---
 
