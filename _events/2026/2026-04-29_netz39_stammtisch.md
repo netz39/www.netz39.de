@@ -1,7 +1,7 @@
 ---
 author: Netz39 e.V.
 event:
-  discord_event_id: 1471931644876165345
+  discord_event_id: 1456617496722538649
   end: '2026-04-29 21:30:00'
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
   organizer: Netz39 e.V. <kontakt@netz39.de>
