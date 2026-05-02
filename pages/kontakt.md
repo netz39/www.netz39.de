@@ -14,6 +14,7 @@ icon: far fa-comments
 - Wer eine Frage hat, kann an <kontakt@netz39.de> schreiben
 - Wir sind auf Discord ([Invite-Link](https://discord.netz39.de))
 - Wir hosten unseren eigenen offenen XMPP multi-user-chat (MUC): [lounge@conference.jabber.n39.eu](xmpp:lounge@conference.jabber.n39.eu?join)
+- Unsere Discord-Channel sind auf Matrix gebrückt ([Matrix-Space](https://matrix.to/#/#netz39:netz39.de))
 
 ## Allgemeine Informationen für Interessenten
 
