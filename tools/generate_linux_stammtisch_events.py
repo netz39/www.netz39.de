@@ -38,15 +38,15 @@ Am {date:%A} dem {date:%-d. %B %Y} findet der Linux-Stammtisch der Softwerke Mag
 # Input year
 input_year = int(input("Enter the year: "))
 
-# Calculate last Thursday of the second month in a quarter
-for month in [2, 5, 8, 11]:
-    for day in range(31, 0, -1):
+# Calculate first Sunday of the third month in a quarter
+for month in [3, 6, 9, 12]:
+    for day in range(0, 31, 1):
         try:
             # Generate a date object
             current_date = datetime.date(input_year, month, day)
 
-            # Check if the date is a Thursday
-            if current_date.weekday() == 3:
+            # Check if the date is a Sunday
+            if current_date.weekday() == 6:
                 generate_markdown_file(current_date)
                 break
 
