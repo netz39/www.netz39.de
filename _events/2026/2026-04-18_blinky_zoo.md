@@ -2,8 +2,6 @@
 layout: event
 title: Blinky Zoo
 author: Netz39 e.V.
-image: cdn.netz39.de/None
-feature-img: cdn.netz39.de/None
 tags:
 - internal
 - non-recurring
@@ -18,7 +16,9 @@ Kleine Figuren wie Katzen, Oktopusse oder Mini-Geister werden zum Leben
 erweckt! Der Workshop vermittelt Lötsicherheit und ein paar Grundlagen der
 Elektronik.
 
-Schwierigkeit: + | Anzahl: 20 Personen (gestaffelt)
+Schwierigkeit: einfach | Anzahl: 20 Personen (gestaffelt)
+
+Anmeldung unter workshops[at]netz39.de  
 
 Auch am [06.06.2026](https://www.netz39.de/events/2026/2026-06-06_blinky_zoo)
 

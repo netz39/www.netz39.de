@@ -2,14 +2,12 @@
 layout: event
 title: Handgemachte Microcontroller
 author: Netz39 e.V.
-image: cdn.netz39.de/None
-feature-img: cdn.netz39.de/None
 tags:
 - internal
 - non-recurring
 event:
   start: '2026-10-17 10:00:00'
-  end: '2026-10-18 16:00:00'
+  end: '2026-10-18 18:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
   discord_event_id: 1456388912673980456
@@ -20,6 +18,8 @@ lernen den sicheren Umgang mit dem Lötkolben, verstehen den Aufbau des
 Boards und nehmen am Ende ein eigenes, funktionsfähiges Stück Hardware mit
 nach Hause.
 
-Schwierigkeit: +++ | Anzahl: 5 Personen
+Schwierigkeit: knifflig | Anzahl: 5 Personen
+
+Anmeldung unter workshops[at]netz39.de  
 
 #internal
