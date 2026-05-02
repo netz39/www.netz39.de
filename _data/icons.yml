@@ -17,7 +17,7 @@ linkedin:
 mail: kontakt@netz39.de # e.g. "sam@mail.com"
 map: ?mlat=52.1195724&mlon=11.6291814 #52.1195724/11.6291814 # e.g. "34.0886/-118.3191"
 mastodon: machteburch.social/@netz39 # e.g. "fostodon.org/@sam"
-matrix:           # e.g. "@sam:matrix.org"
+matrix: "#netz39:netz39.de"
 medium:
 patreon:
 phone:            # e.g. "+11111111111"
