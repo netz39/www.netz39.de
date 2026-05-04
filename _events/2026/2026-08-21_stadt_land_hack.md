@@ -1,21 +1,23 @@
 ---
-layout: event
-title: Stadt-Land-Hack
 author: Netz39 e.V.
+event:
+  discord_event_id: 1456391133755085063
+  end: '2026-08-23 16:00:00'
+  location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
+  organizer: Netz39 e.V. <kontakt@netz39.de>
+  start: '2026-08-21 10:00:00'
+layout: event
 tags:
 - internal
 - non-recurring
-event:
-  start: '2026-08-21 10:00:00'
-  end: '2026-08-23 18:00:00'
-  organizer: Netz39 Team <kontakt@netz39.de>
-  location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
-  discord_event_id: 1456391133755085063
+title: Stadt-Land-Hack
 ---
-Lust auf Deine erste Webseite? In diesem Workshop gestalten und entwickeln wir eine! Als Grundlage bedienen wir uns der offenen Daten der Stadt Magdeburg, mit dem Ziel, diese verständlich und interaktiv abzubilden. So entsteht ein Einstieg in Statistik, offene Daten, Programmierung, Webdesign und kritisches Denken.
 
-Schwierigkeit: fordernd | Anzahl: 10 Personen
+In diesem 2–3-tägigen Workshop stürzen wir uns auf offene Daten der Stadt Magdeburg, analysieren diese und bringen unsere Ergebnisse in eine kleine
+Webanwendung. Durch die Bank mit der Verwendung von Open-Source-Tools.
+So entsteht ein Einstieg in Statistik, Programmierung, offene Daten und
+Webdesign. Aber vor allem kritisches Denken.
 
-Anmeldung unter workshops[at]netz39.de  
+Schwierigkeit: ++ | Anzahl: 10 Personen
 
 #internal
