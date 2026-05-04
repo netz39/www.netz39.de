@@ -18,6 +18,8 @@ Mikrocontrollerprogrammierung. Die Teilnehmenden lernen, wie ein Arduino
 funktioniert, wie man Sensoren und Aktoren ansteuert und wie aus einfachen
 Ideen kleine interaktive Projekte werden.
 
-Schwierigkeit: ++ | Anzahl: 5 Personen
+Schwierigkeit: fordernd | Anzahl: 5 Personen
+
+Anmeldung unter workshops[at]netz39.de  
 
 #internal
