@@ -2,10 +2,10 @@
 author: softwerke
 event:
   discord_event_id: 1501108635919712356
-  end: '2026-07-10 23:30:00'
-  location: unknown
+  end: '2026-07-10 21:30:00'
+  location: Netz39 e.V. - Leibnizstr. 32 39104 Magdeburg
   organizer: Netz39 e.V. <kontakt@netz39.de>
-  start: '2026-07-10 21:30:00'
+  start: '2026-07-10 19:30:00'
 layout: event
 tags:
 - non-recurring
