@@ -2,10 +2,10 @@
 author: null
 event:
   discord_event_id: 1501108356717219920
-  end: '2026-05-12 23:00:00'
-  location: unknown
+  end: '2026-05-12 21:00:00'
+  location: Netz39 e.V. - Leibnizstr. 32 39104 Magdeburg
   organizer: Netz39 e.V. <kontakt@netz39.de>
-  start: '2026-05-12 20:00:00'
+  start: '2026-05-12 18:00:00'
 layout: event
 tags:
 - non-recurring
