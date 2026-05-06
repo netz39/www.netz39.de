@@ -2,7 +2,7 @@
 author: null
 event:
   discord_event_id: 1501613293238878248
-  end: '2026-09-25 17:00:00'
+  end: '2026-09-25 16:00:00'
   location: Elbauenpark, Tessenowstraße 7, 39114 Magdeburg
   organizer: Netz39 e.V. <kontakt@netz39.de>
   start: '2026-09-25 09:00:00'
