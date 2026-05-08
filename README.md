@@ -57,18 +57,34 @@ Unsere Webseite setzt aus folgenden Gründen auf Jekyll, einen statischen Websit
     rrule: "FREQ=MONTHLY;INTERVAL=1;BYDAY=1FR,1TH;DTSTART=20231020T190000" # follows https://icalendar.org/iCalendar-RFC-5545/3-3-10-recurrence-rule.html given order is relevant!
     exdate: "2023-10-20T19:00:00,2023-10-20T19:00:00" # csv seperated values for rrule exceptions
   ---
+
+  Beschreibung und Details des Events.
   ```
 - Unterhalb des Front Matters die Beschreibung des Events in Markdown aufschreiben
 - Bei der Angabe der Zeiten müssen folgende Regeln eingehalten werden:
   - `event.end` darf nicht vor `event.start` liegen
   - Wenn `event.end` angegeben ist, dann muss `event.start` eine Uhrzeit enthalten
   - Wenn `event.end` weggelassen wird, dann wird das Ereignis auf der [Homepage](https://www.netz39.de/events) ganztagig und im ical Feed mit Uhrzeit angezeigt
-  - Wenn keine Uhrzeit in `event.start` angegeben ist, dann wird das Event auch im ical Feed ganztagig angezeigt
+  - Wenn keine Uhrzeit in `event.start` angegeben ist, dann wird das Event auch im ical Feed ganztägig angezeigt 
   - Mehrtägige Events werden nur mit Angabe der Uhrzeiten korrekt dargestellt
+
+### Anmerkungen zum sync mit Posthorn
+
+Sofern [Posthorn](https://git.n39.eu/0Ry5/Posthorn) aktiv ist, werden Events mit unserem Discord Server gesynct. Ein neues Event bei Discord zu erstellen, erstellt automatische einen PR für ein neues Event hier. Sync von der Webseite zu Discord erfolgt über ein slash command (siehe Posthorn README).
+
+- Discord unterstützt keine Tags. Diese werden bei synchronisierten Events automatisch auch an die Beschreibung gehängt  
+- Discord unterstützt keine ganztägigen Events. Ein Sync ist hier z.Z. nicht möglich 
+- Um eine reibungslose Synchronisation mit Discord zu gewährleisten sollte sich der Name der Datei aus dem Datum und dem Titel zusammensetzen. Am Beispiel: 
+
+```
+2023-10-20_titel_des_events.md
+```
+Sonderzeichen, Umlaute und Leerzeichen müssen hier durch ein '_' ersetzt werden.
+
 
 ## Autoren und Sponsoren
 
-Die Dateien für Autoren (authors.yml) und Sponsoren (sponsore.yml) finden sich im '\_data' dir.
+Die Dateien für Autoren (authors.yml) und Sponsoren (sponsors.yml) finden sich im '\_data' dir.
 
 Um einen neuen Autor hinzuzufügen, erweitere die datei um folgende Angaben:
 
