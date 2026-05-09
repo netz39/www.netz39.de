@@ -4,7 +4,8 @@ title: "3D-Druck-Führerschein"
 date: "2026-02-10"
 tags:
   - "workshops"
-author: Netz39 e.V.
+thumbnail: "https://cdn.netz39.de/img/post-img/2026/2026-02-10-workshops_3d_druck_f_hrerschein/Logo_MWG-Stiftung_ohne%20Hintergrund.png"
+author: Oscar/0Ry5
 ---
   Wir bieten Magdeburger*innen die Möglichkeit, sich kreativ und nachhaltig
 gegen die Wegwerfgesellschaft einzusetzen. In diesen Workshops lernst Du alles

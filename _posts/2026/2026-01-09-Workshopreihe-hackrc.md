@@ -4,7 +4,8 @@ title: "'.hackrc' - Workshops für digitale Souveränität"
 date: "2026-01-09"
 tags:
   - "workshops"
-author: Netz39 e.V.
+thumbnail: https://cdn.netz39.de/img/post-img/2026/2026-01-01-workshops_hackrc/LSA_22-0187_Logo_Digital30_4-schwarz_small.png
+author: Oscar/0Ry5
 ---
 Was ist digitale Souveränität? Für uns vor allem eins: selber machen, statt
 passiv zu konsumieren. Die Workshops bieten einen niedrigschwelligen Zugang
