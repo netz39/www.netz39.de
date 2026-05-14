@@ -39,7 +39,6 @@ mastodon:
   pre: "https://"
 matrix:
   pre: "https://matrix.to/#/"
-  icon: "fab fa-connectdevelop"
 medium:
   pre: "https://medium.com/@"
 patreon:
