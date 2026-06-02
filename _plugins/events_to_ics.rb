@@ -35,7 +35,8 @@ module Jekyll
         next unless start_date_raw
 
         start_date = start_date_raw.is_a?(String) ? DateTime.parse(start_date_raw) : start_date_raw
-        next if start_date.to_date < (Date.today - 365)
+        rrule = event.data.dig('event', 'rrule')
+        next if start_date.to_date < (Date.today - 365) && !rrule
 
         
         end_date_raw = event.data.dig('event', 'end') || event.data['event_date']
@@ -47,7 +48,6 @@ module Jekyll
 
         organizer = event.data.dig('event', 'organizer') || default_organizer
         location = event.data.dig('event', 'location') || default_location
-        rrule = event.data.dig('event', 'rrule')
         tags = event.data['tags']
         exdate = event.data.dig('event', 'exdate')
 
