@@ -17,8 +17,8 @@ Kleine Figuren wie Katzen, Oktopusse oder Mini-Geister werden zum Leben
 erweckt! Der Workshop vermittelt Lötsicherheit und ein paar Grundlagen der
 Elektronik. Dieses Mal bei den [Tomorrow Labs](https://tomorrowlabs.magdeburg.de/).
 
-Keine Anmeldung erforderlich, schaut einfach vorbei. Genauere Infos zu unserem Stand folgen!  
-
 Schwierigkeit: einfach | Anzahl: 20 Personen (gestaffelt)
+
+Keine Anmeldung erforderlich, schaut einfach vorbei. Genauere Infos zu unserem Stand folgen!  
 
 #internal
