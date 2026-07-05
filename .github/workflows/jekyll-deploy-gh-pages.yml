@@ -42,7 +42,7 @@ jobs:
           jekyll/jekyll:4.2.2 /bin/bash -c "bundle config set path 'vendor/bundle' && (bundle check || bundle install) && bundle exec jekyll build --future"
 
       - name: "Upload artifact"
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site/
 
