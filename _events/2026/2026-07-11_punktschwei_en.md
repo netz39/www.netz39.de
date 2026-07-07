@@ -13,7 +13,7 @@ tags:
 title: Punktschweißen
 ---
 
-Beim Punktschweißen lernen die Teilnehmende, wie Nickelstreifen und Metallteile dauerhaft miteinander verbunden werden. Die Technik wird z.B. beim Bau von Batterie-Packs verwendet und eröffnet Möglichkeiten für eigene Elektronik- und Maker-Projekte!
+Beim Punktschweißen lernen die Teilnehmenden, wie Nickelstreifen und Metallteile dauerhaft miteinander verbunden werden. Die Technik wird z.B. beim Bau von Batterie-Packs verwendet und eröffnet Möglichkeiten für eigene Elektronik- und Maker-Projekte!
 
 Schwierigkeit: fordernd | Anzahl: 10 Personen
 
