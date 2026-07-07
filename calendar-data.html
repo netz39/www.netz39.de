@@ -30,7 +30,7 @@ permalink: /calendar-data/
     "allDay": {% if event.event.start == event.event.end %}true{% else %}false{% endif %},
     "url": {{ event.url | jsonify }},
     "display": "block",
-    {% if event.tags.size > 0 %}
+    {% if event.tags.size > 0 or event.event.rrule %}
         {% for tag in event.tags %}
             {% if tag == "internal" %}
                 {% assign backgroundColor = gradientBlueOrange6 %}
@@ -38,7 +38,7 @@ permalink: /calendar-data/
             {% elsif tag == "external" %}
                 {% assign backgroundColor = dark %}
                 {% assign textColor = gradientBlueOrange2 %}
-            {% elsif tag == "recurring" %}
+            {% elsif event.event.rrule %}
                 {% assign backgroundColor = gradientBlueOrange2 %}
                 {% assign textColor = dark %}
             {% endif  %}
