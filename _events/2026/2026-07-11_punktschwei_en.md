@@ -7,15 +7,12 @@ tags:
 - non-recurring
 event:
   start: '2026-07-11 10:00:00'
-  end: '2026-07-11 18:00:00'
+  end: '2026-07-11 14:00:00'
   organizer: Netz39 Team <kontakt@netz39.de>
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
   discord_event_id: 1456387604298727505
 ---
-Ein seltener Blick in die Welt des Metallhandwerks: Jugendliche lernen, wie
-Nickelstreifen und Metallteile sicher und zuverlässig verschweißt werden. Ideal
-für Projekte wie Batterie-Packs und Maker-Anwendungen. Ein echter
-Kompetenzgewinn in einem sonst kaum zugänglichen Bereich.
+Beim Punktschweißen lernen die Teilnehmenden, wie Nickelstreifen und Metallteile dauerhaft miteinander verbunden werden. Die Technik wird z.B. beim Bau von Batterie-Packs verwendet und eröffnet Möglichkeiten für eigene Elektronik- und Maker-Projekte!
 
 Schwierigkeit: fordernd | Anzahl: 10 Personen
 
