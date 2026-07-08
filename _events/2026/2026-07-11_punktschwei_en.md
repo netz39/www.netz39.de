@@ -1,5 +1,6 @@
 ---
 author: Netz39 e.V.
+feature-img: "/assets/img/post-img/2026/Punktschweißen-Illustration.png"
 event:
   discord_event_id: 1456387604298727505
   end: '2026-07-11 14:00:00'
