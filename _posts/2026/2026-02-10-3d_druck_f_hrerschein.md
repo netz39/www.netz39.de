@@ -27,5 +27,5 @@ Anmeldung und Fragen an workshops[at]netz39.de
 
 <h2 style="margin-top: 50px; text-align: center">Gefördert durch</h2>
 <div style="width: 100%; height: fit-content; display: flex; margin: 15px 0px 70px 0px; background-color: white; border: 1px solid #00000080; border-radius: 5px">
-<img style="width: 50%; height: auto; margin: auto; padding: 0;" src="https://cdn.netz39.de/img/post-img/2026/2026-02-10-workshops_3d_druck_f_hrerschein/Logo_MWG-Stiftung_ohne Hintergrund.png" />
+<img style="width: 50%; height: auto; margin: auto; padding: 0;" src="https://cdn.netz39.de/img/post-img/2026/2026-02-10-workshops_3d_druck_f_hrerschein/Logo_MWG-Stiftung_ohne%20Hintergrund.png" />
 </div>
