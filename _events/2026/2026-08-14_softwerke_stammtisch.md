@@ -12,4 +12,4 @@ tags:
 title: Softwerke-Stammtisch
 ---
 
-Am Freitag dem 14. August 2026 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Am Freitag laden wir wieder ein zum monatlichen offenen Softwerke-Stammtisch. Wir haben beschlossen, das Ergebnis der Themen-Umfrage in den September zu schieben und stattdessen mit euch zu FOSS, IT und der Landtagswahl zu quatschen. In den vergangenen Wochen haben wir allen antretenden Parteien Fragen zu diesem Schwerpunkt gestellt und viele Antworten bekommen. Neugierig darauf? Dann komm dazu zum Snacken und Schnacken am Freitag, 14. August, wie immer ab 19:30 Uhr in der Sofa-Ecke im Netz39!
