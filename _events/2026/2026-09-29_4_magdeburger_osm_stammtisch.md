@@ -13,7 +13,6 @@ tags:
 title: 4. Magdeburger OSM-Stammtisch
 ---
 
-Vierter Magdeburg OpenStreetMap-Stammtisch.
-Themen, die euch interessieren oder über die ihr berichten wollt, bitte im [OSM-Wiki](https://wiki.openstreetmap.org/wiki/Stammtisch_Magdeburg) eintragen oder einfach vorbei kommen.
+Vierter Magdeburg OpenStreetMap-Stammtisch. Themen, die euch interessieren oder über die ihr berichten wollt, bitte im [OSM-Wiki](https://wiki.openstreetmap.org/wiki/Stammtisch_Magdeburg) eintragen oder einfach vorbei kommen.
 
 #external
