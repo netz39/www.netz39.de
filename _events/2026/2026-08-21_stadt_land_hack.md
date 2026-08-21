@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Stadt-Land-Hack
+title: 'Canceled: Stadt-Land-Hack'
 author: Netz39 e.V.
 tags:
 - internal
@@ -17,5 +17,7 @@ Lust auf Deine erste Webseite? In diesem Workshop gestalten und entwickeln wir e
 Schwierigkeit: fordernd | Anzahl: 10 Personen
 
 Anmeldung unter workshops[at]netz39.de  
+
+Findet stattdessen während der [Code-Week](2026-10-10_code_week) statt: [Hackathon BNE Angebotskatalog](2026-10-23_hackathon_bne_angebotskatalog)
 
 #internal
