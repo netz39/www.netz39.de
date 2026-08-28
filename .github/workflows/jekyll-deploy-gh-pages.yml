@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Cached checkout
-        uses: netz39/action-cached-lfs-checkout@main
+        uses: nschloe/action-cached-lfs-checkout@v1
         
       - name: Build the site in the jekyll/builder container
         run: |
