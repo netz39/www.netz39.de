@@ -12,10 +12,12 @@ event:
   location: Netz39 e.V., Leibnizstr. 32, 39104 Magdeburg
   discord_event_id: 1456388195808837788
 ---
-Wie entsteht eine richtige Leiterplatte? Wir entwerfen unseren ersten eigenen
-Schaltplan und ein Platinendesign - komplett mit freier Software. Ein idealer
-Einstieg in die Welt der offenen Hardware.
+Wie entsteht aus einer Schaltung eine echte Platine? 
+In diesem KiCad-Workshop entwerfen wir unseren ersten eigenen Schaltplan und daraus ein passendes Platinendesign.
+Du lernst die Grundlagen, um anschließend eigene Elektronikprojekte als Leiterplatte umzusetzen.
 
 Schwierigkeit: knifflig | Anzahl: 10 Personen
+
+Anmeldung unter workshops[at]netz39.de
 
 #internal
