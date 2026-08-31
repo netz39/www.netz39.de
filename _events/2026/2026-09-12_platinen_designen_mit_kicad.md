@@ -1,5 +1,6 @@
 ---
 layout: event
+feature-img: "/assets/img/post-img/2026/KiCad-Workshop-Illustration.png"
 title: Platinen designen mit KiCad
 author: Netz39 e.V.
 tags:
