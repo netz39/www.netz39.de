@@ -12,10 +12,6 @@ tags:
 title: Park(ing)Day
 ---
 
-Warum bekommen Autos eigentlich so viel Platz im öffentlichen Raum? Der weltweite Park(ing) Day stellt diese Praxis in Frage und zeigt, wie sich der Platz stattdessen nutzen ließe. Das Netz39 besetzt ebenfalls eine Parklücke.
+Warum bekommen Autos eigentlich so viel Platz im öffentlichen Raum? Der weltweite Park(ing) Day stellt diese Praxis in Frage und zeigt, wie sich der Platz stattdessen nutzen ließe. ~~Das Netz39 besetzt ebenfalls eine Parklücke.~~
 
 https://www.adfc.de/artikel/aktion-parking-day
-
-Genaue Zeiten folgen noch.
-
-Wer sich beteiligen möchte melde sich bei 0ry5
