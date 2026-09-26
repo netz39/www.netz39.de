@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Handgemachte Microcontroller
+title: 'Canceled: Handgemachte Microcontroller'
 author: Netz39 e.V.
 tags:
 - internal
@@ -17,6 +17,8 @@ selbst gelöteter Arduino-kompatibler Mikrocontroller. Die Teilnehmenden
 lernen den sicheren Umgang mit dem Lötkolben, verstehen den Aufbau des
 Boards und nehmen am Ende ein eigenes, funktionsfähiges Stück Hardware mit
 nach Hause.
+
+Dieser Workshop musste leider abgesagt werden. Stattdessen findet [Arduino Deepdive](2026-10-17_arduino_deepdive) statt.
 
 Schwierigkeit: knifflig | Anzahl: 5 Personen
 
