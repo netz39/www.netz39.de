@@ -12,4 +12,4 @@ tags:
 title: Softwerke-Stammtisch
 ---
 
-Am Freitag dem 9. Oktober 2026 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+Am Freitag laden wir wieder ein zum monatlichen offenen Softwerke-Stammtisch. Dieses Mal habt ihr euch den Schutz vor Ransomware und Malware als großes Thema gewünscht. Wir als Verein, der sich für Daten-Sicherheit und -Souveränität einsetzt, haben dazu natürlich einiges zu sagen. Du auch? Dann komm dazu zum Snacken und Schnacken am Freitag, 9. Oktober, wie immer ab 19:30 Uhr in der Sofa-Ecke im [@Netz39](https://machteburch.social/@Netz39)!
