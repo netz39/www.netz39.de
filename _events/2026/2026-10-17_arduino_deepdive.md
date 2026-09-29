@@ -19,6 +19,6 @@ Teil der [Code-Week](2026-10-10_code_week) in Madgeburg
 
 Schwierigkeit: knifflig | Anzahl: 5 Personen
 
-Anmeldung unter workshops[at]netz39.de  
+Anmeldung über die [Softwerke Cloud](https://kurzlinks.de/arduino26).
 
 #internal
