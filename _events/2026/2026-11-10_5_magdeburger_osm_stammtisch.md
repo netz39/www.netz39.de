@@ -1,5 +1,5 @@
 ---
-author: null
+author: lespocky
 event:
   discord_event_id: 1555248914611839016
   end: '2026-11-10 20:00:00'
