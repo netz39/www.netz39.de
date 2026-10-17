@@ -13,7 +13,7 @@ event:
 ---
 Du hast schon mal einen Arduino programmiert und suchst eine Herausforderung? In diesem Workshop wird's chaotisch. Ob schreiende Zimmerpflanze, Peppers-Ghost oder Laser-Eieruhr. Deiner kreativität sind keine Grenzen gesetzt.
 
-Vorkenntnisse im Umgang mit der Arduino-IDE sind zur Teilnahme notwendig. Die Code-Beispiele zum Workshop auf Codeberg: https://codeberg.org/subDesTagesMitExtraKaese/Arduino-Workshop
+Vorkenntnisse im Umgang mit der Arduino-IDE sind zur Teilnahme notwendig. Die Code-Beispiele zum Workshop auf Codeberg: [https://codeberg.org/subDesTagesMitExtraKaese/Arduino-Workshop](https://codeberg.org/subDesTagesMitExtraKaese/Arduino-Workshop)
 
 Teil der [Code-Week](2026-10-10_code_week) in Madgeburg
 
