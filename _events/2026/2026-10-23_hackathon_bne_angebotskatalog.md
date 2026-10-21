@@ -27,7 +27,7 @@ Du hast noch nie programmiert? Perfekt. Du hast schon Erfahrung? Noch besser. Ko
 
 Teil der [Code-Week](2026-10-10_code_week) in Madgeburg 
 
-Anmeldung über die [Softwerke Cloud](https://sl.n39.eu/hackathon).
+Anmeldung über die [Softwerke Cloud](https://sl.n39.eu/hackathon) oder per Mail an workshops@netz39.de 
 
 Anzahl: 10 Personen
 
