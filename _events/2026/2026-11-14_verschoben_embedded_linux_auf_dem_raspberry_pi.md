@@ -13,7 +13,7 @@ tags:
 title: 'Verschoben: Embedded Linux auf dem Raspberry Pi'
 ---
 
-**Wegen Krankheit verschoben. Neuer Termin wird noch bekannt gegeben.**
+**Wegen Krankheit verschoben. Neuer Termin: [28.11.](https://www.netz39.de/events/2026/2026-11-14_embedded_linux_auf_dem_raspberry_pi)**
 
 Was steckt hinter einem Betriebssystem? Wie entsteht ein eigenes
 Embedded-Linux? Dieser Workshop richtet sich an alle, die lernen möchten, wie
