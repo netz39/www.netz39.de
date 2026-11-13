@@ -12,4 +12,6 @@ tags:
 title: Softwerke-Stammtisch
 ---
 
-Am Freitag dem 13. November 2026 findet der Stammtisch der Softwerke Magdeburg e. V. bei uns im Space statt!
+# Wozu eigentlich dieser DI-Day?!
+
+Am kommenden Freitag lädt der Softwerke Magdeburg e. V. wieder ein zum monatlichen offenen Stammtisch. Dieses Mal habt ihr euch gewünscht, dass wir uns der Frage widmen, warum es für Digitale Unabhängigkeit einen eigenen monatlichen Tag gibt. Sicher weißt du schon: Wir sind auch regelmäßig auf dem [#DIDay](https://machteburch.social/tags/DIDay) vertreten und setzen uns für Souveränität im Internet ein. Du auch? Dann komm dazu zum Snacken und Schnacken am Freitag, 13. November, wie immer ab 19:30 Uhr in der Sofa-Ecke im [@Netz39](https://machteburch.social/@Netz39)!
